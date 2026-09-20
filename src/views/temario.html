@@ -1,13 +1,397 @@
-<!-- Vista: Temario -->
-<section id="view-temario" class="space-y-4">
-  <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-200">
-    <h2 class="text-lg font-bold text-slate-900">Temario / 课程大纲</h2>
-    <p class="text-xs text-slate-500 mt-1">Módulos de estudio y señales de tráfico.</p>
-  </div>
+<!-- Vista: Temario (专题 - Pre-rendered Instant Test List) -->
+<div class="min-h-full max-w-md mx-auto relative flex flex-col bg-surface">
+  <header class="sticky top-0 max-w-md w-full z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+    <div class="h-16 px-margin flex items-center justify-between">
+      <div class="flex items-center gap-space-sm">
+        <div class="w-9 h-9 rounded-xl bg-primary-container flex items-center justify-center shadow-[0_2px_8px_rgba(37,99,235,0.25)]">
+          <span class="material-symbols-outlined text-white text-[20px]">directions_car</span>
+        </div>
+        <div class="flex flex-col">
+          <h1 class="font-headline-md text-headline-md text-on-surface leading-tight">专题</h1>
+          <span class="font-label-sm text-label-sm text-on-surface-variant leading-none">西班牙驾照 · DGT官方题库</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-space-xs">
+        <button class="w-11 h-11 flex items-center justify-center rounded-full hover:bg-surface-container-high/60 transition-colors text-on-surface-variant">
+          <span class="material-symbols-outlined text-[22px]">translate</span>
+        </button>
+        <a href="#ajustes" data-path="ajustes" class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm">
+          <span class="material-symbols-outlined text-on-primary text-[18px]">person</span>
+        </a>
+      </div>
+    </div>
+  </header>
 
-  <div class="border-2 border-dashed border-slate-300 rounded-xl p-6 text-center text-slate-400">
-    <i data-lucide="book-open" class="w-8 h-8 mx-auto mb-2 text-slate-400"></i>
-    <p class="text-sm font-medium">Contenido de Temario</p>
-    <p class="text-xs text-slate-400 mt-1">Pega aquí el código HTML / Tailwind final de la vista de Temario.</p>
-  </div>
-</section>
+  <main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen">
+    <div class="flex flex-col w-full px-margin space-y-space-md">
+      <!-- Search & Filter Area -->
+      <div class="pt-space-xs">
+        <div class="relative flex items-center">
+          <div class="absolute left-3.5 flex items-center pointer-events-none text-outline">
+            <span class="material-symbols-outlined text-[20px]">search</span>
+          </div>
+          <input type="text" id="topic-search-input" placeholder="搜索主题或关键词... / Buscar tema..." class="w-full h-12 pl-11 pr-10 rounded-xl bg-surface-container-lowest text-on-surface placeholder:text-outline font-body-md text-body-md shadow-sm focus:outline-none focus:bg-surface-container-low transition-colors" />
+          <button id="search-clear-btn" onclick="document.getElementById('topic-search-input').value=''; this.classList.add('hidden'); document.getElementById('topic-search-input').dispatchEvent(new Event('input'));" class="hidden absolute right-3 w-6 h-6 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center transition-transform active:scale-90">
+            <span class="material-symbols-outlined text-[16px]">close</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Global Progress Card -->
+      <section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-sm relative overflow-hidden">
+        <div class="absolute right-0 top-0 -mr-6 -mt-6 w-24 h-24 rounded-full bg-surface-container-low opacity-70 pointer-events-none"></div>
+        <div class="flex items-start justify-between relative z-10">
+          <div class="flex items-center gap-space-sm">
+            <div class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center text-primary">
+              <span class="material-symbols-outlined text-[24px]">donut_large</span>
+            </div>
+            <div>
+              <div class="flex items-center gap-1.5">
+                <span class="font-headline-md text-headline-md text-on-surface">总体进度</span>
+                <span class="font-label-sm text-label-sm text-on-surface-variant">Progreso Global</span>
+              </div>
+              <p class="font-body-translation text-body-translation text-on-surface-variant" id="total-questions-stat">
+                共 180 道全真试题
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col items-end">
+            <span class="font-headline-lg text-headline-lg text-primary font-bold">100%</span>
+            <span class="font-label-sm text-label-sm text-secondary font-medium flex items-center gap-0.5">
+              <span class="material-symbols-outlined text-[13px]">trending_up</span>
+              6套题库
+            </span>
+          </div>
+        </div>
+        <!-- Progress Track -->
+        <div class="relative w-full h-3 bg-surface-container-highest rounded-full overflow-hidden">
+          <div class="h-full bg-primary rounded-full transition-all duration-700 ease-out flex items-center justify-end pr-0.5" style="width: 100%;">
+            <div class="w-1.5 h-1.5 rounded-full bg-surface-container-lowest opacity-80"></div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center pt-0.5 text-on-surface-variant font-label-sm text-label-sm">
+          <span class="flex items-center gap-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+            已就绪 6 套官方复习测试
+          </span>
+          <span>DGT 2025</span>
+        </div>
+      </section>
+
+      <!-- Section Title -->
+      <div class="flex items-center justify-between pt-space-xs">
+        <div class="flex items-baseline gap-1.5">
+          <h2 class="font-headline-md text-headline-md text-on-surface">DGT 官方全真套题</h2>
+          <span class="font-body-translation text-body-translation text-on-surface-variant">Tests de Reciclaje</span>
+        </div>
+        <span id="tests-count-badge" class="font-label-sm text-label-sm bg-surface-container px-2 py-0.5 rounded-full text-on-surface-variant">
+          6 套测试
+        </span>
+      </div>
+
+      <!-- Topic / Test Cards List (Pre-rendered for Instant Visibility) -->
+      <div class="flex flex-col space-y-3" id="topics-list">
+        <!-- Test 1 Card -->
+        <a href="#test?id=test_01" data-test-id="test_01" class="topic-card bg-surface-container-lowest rounded-xl p-space-md shadow-sm transition-all duration-200 active:scale-[0.98] cursor-pointer hover:shadow-md block" data-title="复习测试 1 test 01 道路安全 行人 被动安全 急救 法规">
+          <div class="flex items-start justify-between gap-space-sm mb-3">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-tertiary-fixed text-tertiary flex items-center justify-center shadow-sm flex-shrink-0">
+                <span class="material-symbols-outlined text-[26px]">assignment</span>
+              </div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-1.5">
+                  <span class="font-label-sm text-label-sm text-primary font-bold tracking-wider uppercase">TEST 01</span>
+                  <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+                  <span class="font-label-sm text-label-sm text-secondary font-semibold">DGT 官方</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface truncate">复习测试 1 (Test de Reciclaje 1)</h3>
+                <p class="font-body-translation text-body-translation text-on-surface-variant line-clamp-1">道路安全、行人、被动安全、急救与法规。</p>
+              </div>
+            </div>
+            <div class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant self-center flex-shrink-0">
+              <span class="material-symbols-outlined text-[20px]">chevron_right</span>
+            </div>
+          </div>
+          <div class="space-y-1.5">
+            <div class="flex justify-between items-center font-label-sm text-label-sm">
+              <span class="text-on-surface-variant flex items-center gap-1">
+                <span class="material-symbols-outlined text-[15px] text-secondary">check_circle</span>
+                30 道全真模拟题
+              </span>
+              <span class="text-primary font-bold">点击开始测试 / Empezar</span>
+            </div>
+            <div class="w-full h-2 bg-surface-container rounded-full overflow-hidden">
+              <div class="h-full bg-primary rounded-full transition-all duration-500" style="width: 100%;"></div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Test 2 Card -->
+        <a href="#test?id=test_02" data-test-id="test_02" class="topic-card bg-surface-container-lowest rounded-xl p-space-md shadow-sm transition-all duration-200 active:scale-[0.98] cursor-pointer hover:shadow-md block" data-title="复习测试 2 test 02 弱势群体 骑行者 摩托车 心肺复苏 碰撞类型">
+          <div class="flex items-start justify-between gap-space-sm mb-3">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-surface-container-high text-primary flex items-center justify-center shadow-sm flex-shrink-0">
+                <span class="material-symbols-outlined text-[26px]">quiz</span>
+              </div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-1.5">
+                  <span class="font-label-sm text-label-sm text-primary font-bold tracking-wider uppercase">TEST 02</span>
+                  <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+                  <span class="font-label-sm text-label-sm text-secondary font-semibold">DGT 官方</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface truncate">复习测试 2 (Test de Reciclaje 2)</h3>
+                <p class="font-body-translation text-body-translation text-on-surface-variant line-clamp-1">弱势群体、骑行者、摩托车、心肺复苏及碰撞类型。</p>
+              </div>
+            </div>
+            <div class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant self-center flex-shrink-0">
+              <span class="material-symbols-outlined text-[20px]">chevron_right</span>
+            </div>
+          </div>
+          <div class="space-y-1.5">
+            <div class="flex justify-between items-center font-label-sm text-label-sm">
+              <span class="text-on-surface-variant flex items-center gap-1">
+                <span class="material-symbols-outlined text-[15px] text-secondary">check_circle</span>
+                30 道全真模拟题
+              </span>
+              <span class="text-primary font-bold">点击开始测试 / Empezar</span>
+            </div>
+            <div class="w-full h-2 bg-surface-container rounded-full overflow-hidden">
+              <div class="h-full bg-primary rounded-full transition-all duration-500" style="width: 100%;"></div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Test 3 Card -->
+        <a href="#test?id=test_03" data-test-id="test_03" class="topic-card bg-surface-container-lowest rounded-xl p-space-md shadow-sm transition-all duration-200 active:scale-[0.98] cursor-pointer hover:shadow-md block" data-title="复习测试 3 test 03 事故率 脊柱损伤 民事 刑事 行政责任">
+          <div class="flex items-start justify-between gap-space-sm mb-3">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-secondary-fixed text-secondary flex items-center justify-center shadow-sm flex-shrink-0">
+                <span class="material-symbols-outlined text-[26px]">verified_user</span>
+              </div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-1.5">
+                  <span class="font-label-sm text-label-sm text-primary font-bold tracking-wider uppercase">TEST 03</span>
+                  <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+                  <span class="font-label-sm text-label-sm text-secondary font-semibold">DGT 官方</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface truncate">复习测试 3 (Test de Reciclaje 3)</h3>
+                <p class="font-body-translation text-body-translation text-on-surface-variant line-clamp-1">事故率、脊柱损伤、民事、刑事与行政责任。</p>
+              </div>
+            </div>
+            <div class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant self-center flex-shrink-0">
+              <span class="material-symbols-outlined text-[20px]">chevron_right</span>
+            </div>
+          </div>
+          <div class="space-y-1.5">
+            <div class="flex justify-between items-center font-label-sm text-label-sm">
+              <span class="text-on-surface-variant flex items-center gap-1">
+                <span class="material-symbols-outlined text-[15px] text-secondary">check_circle</span>
+                30 道全真模拟题
+              </span>
+              <span class="text-primary font-bold">点击开始测试 / Empezar</span>
+            </div>
+            <div class="w-full h-2 bg-surface-container rounded-full overflow-hidden">
+              <div class="h-full bg-primary rounded-full transition-all duration-500" style="width: 100%;"></div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Test 4 Card -->
+        <a href="#test?id=test_04" data-test-id="test_04" class="topic-card bg-surface-container-lowest rounded-xl p-space-md shadow-sm transition-all duration-200 active:scale-[0.98] cursor-pointer hover:shadow-md block" data-title="复习测试 4 test 04 人为因素 物质消耗 疲劳 速度 身体状况">
+          <div class="flex items-start justify-between gap-space-sm mb-3">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center shadow-sm flex-shrink-0">
+                <span class="material-symbols-outlined text-[26px]">psychology</span>
+              </div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-1.5">
+                  <span class="font-label-sm text-label-sm text-primary font-bold tracking-wider uppercase">TEST 04</span>
+                  <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+                  <span class="font-label-sm text-label-sm text-secondary font-semibold">DGT 官方</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface truncate">复习测试 4 (Test de Reciclaje 4)</h3>
+                <p class="font-body-translation text-body-translation text-on-surface-variant line-clamp-1">人为因素、物质消耗、疲劳、速度与身体状况。</p>
+              </div>
+            </div>
+            <div class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant self-center flex-shrink-0">
+              <span class="material-symbols-outlined text-[20px]">chevron_right</span>
+            </div>
+          </div>
+          <div class="space-y-1.5">
+            <div class="flex justify-between items-center font-label-sm text-label-sm">
+              <span class="text-on-surface-variant flex items-center gap-1">
+                <span class="material-symbols-outlined text-[15px] text-secondary">check_circle</span>
+                30 道全真模拟题
+              </span>
+              <span class="text-primary font-bold">点击开始测试 / Empezar</span>
+            </div>
+            <div class="w-full h-2 bg-surface-container rounded-full overflow-hidden">
+              <div class="h-full bg-primary rounded-full transition-all duration-500" style="width: 100%;"></div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Test 5 Card -->
+        <a href="#test?id=test_05" data-test-id="test_05" class="topic-card bg-surface-container-lowest rounded-xl p-space-md shadow-sm transition-all duration-200 active:scale-[0.98] cursor-pointer hover:shadow-md block" data-title="复习测试 5 test 05 车辆维护 损伤机制 碰撞 机械保养">
+          <div class="flex items-start justify-between gap-space-sm mb-3">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-purple-100 text-purple-800 flex items-center justify-center shadow-sm flex-shrink-0">
+                <span class="material-symbols-outlined text-[26px]">build</span>
+              </div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-1.5">
+                  <span class="font-label-sm text-label-sm text-primary font-bold tracking-wider uppercase">TEST 05</span>
+                  <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+                  <span class="font-label-sm text-label-sm text-secondary font-semibold">DGT 官方</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface truncate">复习测试 5 (Test de Reciclaje 5)</h3>
+                <p class="font-body-translation text-body-translation text-on-surface-variant line-clamp-1">车辆维护、损伤机制与碰撞事故预防。</p>
+              </div>
+            </div>
+            <div class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant self-center flex-shrink-0">
+              <span class="material-symbols-outlined text-[20px]">chevron_right</span>
+            </div>
+          </div>
+          <div class="space-y-1.5">
+            <div class="flex justify-between items-center font-label-sm text-label-sm">
+              <span class="text-on-surface-variant flex items-center gap-1">
+                <span class="material-symbols-outlined text-[15px] text-secondary">check_circle</span>
+                30 道全真模拟题
+              </span>
+              <span class="text-primary font-bold">点击开始测试 / Empezar</span>
+            </div>
+            <div class="w-full h-2 bg-surface-container rounded-full overflow-hidden">
+              <div class="h-full bg-primary rounded-full transition-all duration-500" style="width: 100%;"></div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Test 6 Card -->
+        <a href="#test?id=test_06" data-test-id="test_06" class="topic-card bg-surface-container-lowest rounded-xl p-space-md shadow-sm transition-all duration-200 active:scale-[0.98] cursor-pointer hover:shadow-md block" data-title="复习测试 6 test 06 交通犯罪 急救 被动安全 交通法规">
+          <div class="flex items-start justify-between gap-space-sm mb-3">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-rose-100 text-rose-800 flex items-center justify-center shadow-sm flex-shrink-0">
+                <span class="material-symbols-outlined text-[26px]">gavel</span>
+              </div>
+              <div class="min-w-0">
+                <div class="flex items-center gap-1.5">
+                  <span class="font-label-sm text-label-sm text-primary font-bold tracking-wider uppercase">TEST 06</span>
+                  <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+                  <span class="font-label-sm text-label-sm text-secondary font-semibold">DGT 官方</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface truncate">复习测试 6 (Test de Reciclaje 6)</h3>
+                <p class="font-body-translation text-body-translation text-on-surface-variant line-clamp-1">交通犯罪、急救、被动安全与交通法规。</p>
+              </div>
+            </div>
+            <div class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant self-center flex-shrink-0">
+              <span class="material-symbols-outlined text-[20px]">chevron_right</span>
+            </div>
+          </div>
+          <div class="space-y-1.5">
+            <div class="flex justify-between items-center font-label-sm text-label-sm">
+              <span class="text-on-surface-variant flex items-center gap-1">
+                <span class="material-symbols-outlined text-[15px] text-secondary">check_circle</span>
+                30 道全真模拟题
+              </span>
+              <span class="text-primary font-bold">点击开始测试 / Empezar</span>
+            </div>
+            <div class="w-full h-2 bg-surface-container rounded-full overflow-hidden">
+              <div class="h-full bg-primary rounded-full transition-all duration-500" style="width: 100%;"></div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Mini-Card: Flashcard Prompt -->
+      <div class="bg-surface-container rounded-xl p-space-md flex items-center gap-space-sm shadow-sm">
+        <div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-on-primary flex-shrink-0">
+          <span class="material-symbols-outlined text-[22px]">lightbulb</span>
+        </div>
+        <div class="min-w-0 flex-1">
+          <h4 class="font-label-md text-label-md text-on-surface">专业术语理解有困难？</h4>
+          <p class="font-body-translation text-body-translation text-on-surface-variant line-clamp-1">可在每个模块中查阅 DGT 中西双语词汇表</p>
+        </div>
+        <span class="material-symbols-outlined text-primary text-[20px]">arrow_forward</span>
+      </div>
+
+      <!-- Empty state for search filtering -->
+      <div id="no-results-state" class="hidden flex-col items-center justify-center py-12 text-center space-y-2">
+        <div class="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center text-outline">
+          <span class="material-symbols-outlined text-[32px]">search_off</span>
+        </div>
+        <p class="font-headline-md text-headline-md text-on-surface">未找到相关主题</p>
+        <p class="font-body-translation text-body-translation text-on-surface-variant">请更换搜索关键词 / Sin resultados</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Bottom Navigation Bar -->
+  <nav class="sticky bottom-0 max-w-md w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(15,23,42,0.05)]">
+    <div class="flex items-center justify-around h-16 px-space-xs">
+      <a href="#inicio" data-path="inicio" class="flex flex-col items-center justify-center min-w-[64px] h-12 gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors">
+        <span class="material-symbols-outlined text-[24px]">home</span>
+        <div class="flex items-center gap-0.5">
+          <span class="font-label-sm text-label-sm leading-none">首页</span>
+        </div>
+      </a>
+      <a href="#temario" data-path="temario" aria-current="page" class="flex flex-col items-center justify-center min-w-[64px] h-12 gap-0.5 transition-colors text-primary font-bold">
+        <span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">menu_book</span>
+        <div class="flex items-center gap-0.5">
+          <span class="font-label-sm text-label-sm leading-none">专题</span>
+        </div>
+      </a>
+      <a href="#fallos" data-path="fallos" class="flex flex-col items-center justify-center min-w-[64px] h-12 gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors">
+        <span class="material-symbols-outlined text-[24px]">error</span>
+        <div class="flex items-center gap-0.5">
+          <span class="font-label-sm text-label-sm leading-none">错题</span>
+        </div>
+      </a>
+      <a href="#ajustes" data-path="ajustes" class="flex flex-col items-center justify-center min-w-[64px] h-12 gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors">
+        <span class="material-symbols-outlined text-[24px]">settings</span>
+        <div class="flex items-center gap-0.5">
+          <span class="font-label-sm text-label-sm leading-none">设置</span>
+        </div>
+      </a>
+    </div>
+  </nav>
+</div>
+
+<script>
+  (function initTemarioSearch() {
+    const searchInput = document.getElementById('topic-search-input');
+    const clearBtn = document.getElementById('search-clear-btn');
+    const topicCards = document.querySelectorAll('.topic-card');
+    const noResults = document.getElementById('no-results-state');
+
+    if (searchInput) {
+      searchInput.addEventListener('input', function(e) {
+        const query = e.target.value.toLowerCase().trim();
+        let matches = 0;
+
+        if (query.length > 0) {
+          clearBtn.classList.remove('hidden');
+        } else {
+          clearBtn.classList.add('hidden');
+        }
+
+        topicCards.forEach(card => {
+          const titleData = card.getAttribute('data-title') || '';
+          if (titleData.toLowerCase().includes(query)) {
+            card.classList.remove('hidden');
+            matches++;
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+
+        if (matches === 0 && query.length > 0) {
+          noResults.classList.remove('hidden');
+          noResults.classList.add('flex');
+        } else {
+          noResults.classList.add('hidden');
+          noResults.classList.remove('flex');
+        }
+      });
+    }
+  })();
+</script>

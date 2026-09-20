@@ -1,13 +1,653 @@
-<!-- Vista: Test -->
-<section id="view-test" class="space-y-4">
-  <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-200">
-    <h2 class="text-lg font-bold text-slate-900">Examen / 模拟考试</h2>
-    <p class="text-xs text-slate-500 mt-1">Realiza tests aleatorios o por temas.</p>
+<!-- Vista: Test (模拟考试 - Guaranteed Fallbacks & Instant Rendering) -->
+<div class="relative w-full max-w-[420px] min-h-screen bg-slate-50 flex flex-col" id="test-view">
+  <!-- Top Header -->
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/80 px-4 py-3 flex items-center justify-between transition-colors">
+    <!-- 左侧: 返回 & 计数 -->
+    <div class="flex items-center gap-2">
+      <a href="#temario" data-path="temario" aria-label="Volver" class="p-1.5 -ml-1.5 rounded-full text-slate-500 hover:text-slate-800 hover:bg-slate-100 active:scale-95 transition flex items-center justify-center" id="btn-back">
+        <i class="w-6 h-6 stroke-[2.2]" data-lucide="chevron-left"></i>
+      </a>
+      <div>
+        <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 block" id="header-badge">DGT 模拟测试</span>
+        <span class="text-sm font-bold text-slate-800" id="header-counter">第 1 / 30 题</span>
+      </div>
+    </div>
+    <!-- 中间: 倒计时 -->
+    <div class="flex items-center gap-1.5 bg-slate-100 px-2.5 py-1 rounded-full text-slate-700 font-semibold text-xs border border-slate-200 shadow-inner">
+      <i class="w-3.5 h-3.5 text-blue-600 animate-pulse" data-lucide="timer"></i>
+      <span class="tabular-nums tracking-wide" id="timer-display">30:00</span>
+    </div>
+    <!-- 右侧: 语言切换 ES | ZH -->
+    <div class="flex items-center">
+      <div id="lang-toggle-btn" class="relative bg-slate-200 p-0.5 rounded-full flex items-center cursor-pointer select-none shadow-inner" role="switch" aria-checked="true" title="切换显示语言">
+        <div id="toggle-indicator" class="absolute top-0.5 left-0.5 w-[34px] h-[26px] bg-white rounded-full shadow-sm transition-transform duration-200 ease-out transform translate-x-[34px]"></div>
+        <span id="btn-lang-es" class="relative z-10 w-[34px] text-center text-xs font-bold py-1 text-slate-500 transition-colors">ES</span>
+        <span id="btn-lang-zh" class="relative z-10 w-[34px] text-center text-xs font-bold py-1 text-blue-600 transition-colors">ZH</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- 顶部进度条 -->
+  <div class="w-full bg-slate-200 h-1">
+    <div id="progress-bar" class="bg-blue-600 h-1 transition-all duration-300" style="width: 3.33%;"></div>
   </div>
 
-  <div class="border-2 border-dashed border-slate-300 rounded-xl p-6 text-center text-slate-400">
-    <i data-lucide="file-text" class="w-8 h-8 mx-auto mb-2 text-slate-400"></i>
-    <p class="text-sm font-medium">Contenido de Test</p>
-    <p class="text-xs text-slate-400 mt-1">Pega aquí el código HTML / Tailwind final de la vista de Test.</p>
+  <!-- 内容区域 -->
+  <main class="flex-1 px-4 pt-4 pb-28 overflow-y-auto space-y-4" id="main-content">
+    <div class="flex items-center justify-between text-xs text-slate-500">
+      <span class="inline-flex items-center gap-1.5 bg-amber-50 text-amber-800 font-medium px-2.5 py-1 rounded-md border border-amber-200/80">
+        <i class="w-3.5 h-3.5 text-amber-600" data-lucide="alert-triangle"></i>
+        <span id="theme-label">道路安全与法规</span>
+      </span>
+      <div id="hint-tap-word" class="flex items-center gap-1 text-blue-600 bg-blue-50 px-2 py-0.5 rounded text-[11px] font-medium border border-blue-100 transition-opacity opacity-0 pointer-events-none">
+        <i class="w-3 h-3" data-lucide="hand"></i>
+        <span>点击词汇查看中西对照</span>
+      </div>
+    </div>
+
+    <!-- 题目图片与放大功能 (Dynamic Image Box) -->
+    <div id="question-image-box" class="relative group rounded-2xl overflow-hidden bg-white border border-slate-200/90 shadow-sm cursor-pointer hidden">
+      <div class="absolute top-2.5 left-2.5 z-10 bg-slate-900/75 backdrop-blur-sm text-white text-[10px] font-bold px-2 py-0.5 rounded-full flex items-center gap-1 shadow">
+        <span>DGT 官方图</span>
+        <span class="text-slate-300">• 试题配图</span>
+      </div>
+      <div class="aspect-[16/10] w-full bg-slate-100 flex items-center justify-center relative overflow-hidden">
+        <img id="question-img" src="" alt="DGT Test Question Image" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="eager" />
+      </div>
+      <div class="absolute bottom-2.5 right-2.5 bg-white/90 backdrop-blur-md p-1.5 rounded-xl shadow-md border border-slate-200/80 text-slate-700 hover:text-blue-600 hover:bg-white active:scale-95 transition flex items-center gap-1 text-[11px] font-medium">
+        <i class="w-4 h-4" data-lucide="zoom-in"></i>
+        <span class="hidden sm:inline">点击放大</span>
+      </div>
+    </div>
+
+    <!-- 题目区域 -->
+    <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+      <div class="flex items-start gap-2.5 mb-1.5">
+        <span id="question-num-badge" class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-blue-100 text-blue-700 text-xs font-bold shrink-0 mt-0.5">
+          1
+        </span>
+        <div class="flex-1">
+          <h1 id="question-container" class="text-xl font-bold text-slate-900 leading-snug tracking-tight">
+            <!-- Dynamic interactive text -->
+          </h1>
+        </div>
+      </div>
+      <p id="sub-translation-hint" class="text-[11px] text-slate-400 mt-2 pl-8 flex items-center gap-1">
+        <i class="w-3 h-3 text-slate-400" data-lucide="info"></i>
+        <span>当前为中文优先模式，点击右上角可随时切换为西班牙语原题</span>
+      </p>
+    </div>
+
+    <!-- 选项列表 -->
+    <div id="options-container" class="space-y-3">
+      <!-- Dynamic options -->
+    </div>
+
+    <!-- 答案解析面板 -->
+    <div id="explanation-panel" class="hidden opacity-0 transform translate-y-2 transition-all duration-300 bg-gradient-to-br from-emerald-50/90 to-teal-50/70 border border-emerald-200/90 rounded-2xl p-4 shadow-sm relative overflow-hidden">
+      <div class="absolute left-0 top-0 bottom-0 w-1.5 bg-emerald-500 rounded-l-2xl"></div>
+      <div class="flex items-start gap-2.5 pl-1">
+        <div class="p-1.5 bg-emerald-500 text-white rounded-xl shrink-0 shadow-sm mt-0.5">
+          <i class="w-4 h-4" data-lucide="lightbulb"></i>
+        </div>
+        <div class="flex-1">
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="text-sm font-bold text-emerald-950 flex items-center gap-1.5">
+              <span>答案解析</span>
+              <span class="text-xs font-normal text-emerald-700/80">/ Explicación</span>
+            </h3>
+            <span id="explanation-badge" class="text-[10px] font-semibold uppercase tracking-wider bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full border border-emerald-200">
+              正确答案: A
+            </span>
+          </div>
+          <div id="explanation-text-container" class="text-slate-700 text-sm leading-relaxed mt-2">
+            <!-- Dynamic explanation -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 底部固定操作栏 -->
+  <footer class="fixed bottom-0 max-w-[420px] w-full bg-white/95 backdrop-blur-md border-t border-slate-200 px-4 py-3 z-30 shadow-[0_-8px_20px_-6px_rgba(0,0,0,0.06)]">
+    <div class="flex items-center gap-3">
+      <button id="btn-quick-help" class="p-3 bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-xl active:scale-95 transition shrink-0" title="重点词汇表">
+        <i class="w-5 h-5" data-lucide="book-open"></i>
+      </button>
+      <button id="btn-primary-action" disabled class="flex-1 py-3.5 px-6 rounded-xl font-bold text-base flex items-center justify-center gap-2 shadow-lg transition-all duration-200 select-none disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none bg-slate-200 text-slate-400">
+        <span id="btn-primary-text">请选择一个答案</span>
+        <i id="btn-primary-icon" class="w-4 h-4" data-lucide="arrow-right"></i>
+      </button>
+    </div>
+  </footer>
+
+  <!-- 放大图片 Modal -->
+  <div id="zoom-modal" class="image-zoom-overlay fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="relative w-full max-w-sm bg-white rounded-2xl overflow-hidden shadow-2xl p-2">
+      <button id="btn-close-zoom" class="absolute top-4 right-4 z-20 bg-slate-900/70 hover:bg-slate-900 text-white p-2 rounded-full backdrop-blur-sm transition">
+        <i class="w-5 h-5" data-lucide="x"></i>
+      </button>
+      <img id="zoom-img" src="" alt="放大图片" class="w-full h-auto rounded-xl object-contain max-h-[70vh]" />
+      <div class="p-3 text-center">
+        <p class="font-bold text-slate-800 text-sm">DGT 试题配图</p>
+        <p class="text-xs text-slate-500">点击背景可关闭 / Tocar fuera para cerrar</p>
+      </div>
+    </div>
   </div>
-</section>
+
+  <!-- 词汇对照 Modal -->
+  <div id="dict-modal" class="image-zoom-overlay fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-end justify-center p-0">
+    <div class="w-full max-w-[420px] bg-white rounded-t-3xl shadow-2xl p-5 pb-8 space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+        <div class="flex items-center gap-2">
+          <div class="p-2 bg-blue-50 text-blue-600 rounded-lg">
+            <i class="w-5 h-5" data-lucide="languages"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm">本题重点词汇对照</h4>
+            <p class="text-xs text-slate-500">Vocabulario de esta pregunta</p>
+          </div>
+        </div>
+        <button id="btn-close-dict" class="text-slate-400 hover:text-slate-700 p-1">
+          <i class="w-5 h-5" data-lucide="x"></i>
+        </button>
+      </div>
+      <div id="dict-vocabulary-list" class="space-y-2 text-sm max-h-[50vh] overflow-y-auto pr-1">
+        <!-- Dynamic vocabulary segments -->
+      </div>
+      <button id="btn-dict-gotit" class="w-full py-3 bg-blue-600 text-white rounded-xl font-bold text-sm shadow-md hover:bg-blue-700 active:scale-[0.98] transition">
+        知道了 / Entendido
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  (async function initTestView() {
+    const routeInfo = (function() {
+      const hash = window.location.hash.replace('#', '').trim();
+      const [path, query] = hash.split('?');
+      const params = new URLSearchParams(query || '');
+      return {
+        testId: params.get('id') || (window.currentRouteParams && window.currentRouteParams.testId) || 'test_01'
+      };
+    })();
+    const testId = routeInfo.testId;
+
+    let questions = [];
+    let currentIndex = 0;
+    let state = {
+      languageMode: 'zh',
+      selectedOption: null,
+      isAnswerChecked: false
+    };
+
+    // Load data from AppDB
+    try {
+      questions = await window.AppDB.getTest(testId);
+    } catch (e) {
+      console.error('Error al cargar test:', e);
+    }
+
+    // Fallback default question array if fetch is delayed or empty
+    if (!questions || questions.length === 0) {
+      questions = [
+        {
+          "id": "test_rec_01_q01",
+          "tema": "seguridad_vial_peatones",
+          "imagen_url": null,
+          "pregunta": {
+            "es_completa": "¿En caso de atropello a un peatón:",
+            "zh_completa": "在发生行人被撞击的交通事故时：",
+            "segmentos": [
+              { "es": "¿En caso de ", "zh": "在...情况下 (zài...qíngkuàng xià)" },
+              { "es": "atropello ", "zh": "撞击/碾压 (zhuàngjī)" },
+              { "es": "a un ", "zh": null },
+              { "es": "peatón?:", "zh": "行人 (xíngrén)" }
+            ]
+          },
+          "opciones": [
+            {
+              "id": "A",
+              "es_correcta": true,
+              "es_completa": "Las repercusiones son muy graves, sobre todo si la velocidad es elevada.",
+              "zh_completa": "后果非常严重，尤其是车速较高时。",
+              "segmentos": [
+                { "es": "Las repercusiones ", "zh": "后果 / 影响 (hòuguǒ)" },
+                { "es": "son muy graves, ", "zh": "非常严重 (fēicháng yánzhòng)" },
+                { "es": "sobre todo si ", "zh": "尤其是如果 (yóuqí shì)" },
+                { "es": "la velocidad ", "zh": "车速 (chēsù)" },
+                { "es": "es elevada.", "zh": "较高 (jiào gāo)" }
+              ]
+            },
+            {
+              "id": "B",
+              "es_correcta": false,
+              "es_completa": "No suele haber graves repercusiones si la velocidad es moderada.",
+              "zh_completa": "如果车速中等，通常不会有严重的后果。",
+              "segmentos": [
+                { "es": "No suele haber ", "zh": "通常不会有" },
+                { "es": "graves repercusiones.", "zh": "严重后果" }
+              ]
+            },
+            {
+              "id": "C",
+              "es_correcta": false,
+              "es_completa": "Las repercusiones pueden ser muy graves sólo a más de 90 km/h.",
+              "zh_completa": "只有当车辆行驶速度超过90公里/小时时，后果才可能非常严重。",
+              "segmentos": [
+                { "es": "sólo a más de ", "zh": "只有超过" },
+                { "es": "90 km/h.", "zh": "90公里/小时" }
+              ]
+            }
+          ],
+          "explicacion": {
+            "es_completa": "En caso de atropello, las lesiones sufridas por los peatones pueden llegar a ser muy graves.",
+            "zh_completa": "发生撞击时，行人受到的伤害可能非常严重。即使时速仅为30公里，也有约5%的被撞行人会死亡。",
+            "segmentos": [
+              { "es": "las lesiones ", "zh": "伤害 (shānghài)" },
+              { "es": "pueden llegar a ser ", "zh": "可能会变成" },
+              { "es": "muy graves.", "zh": "非常严重" }
+            ]
+          }
+        }
+      ];
+    }
+
+    function refreshIcons() {
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function renderInteractiveText(interactiveObj, containerClass = '') {
+      if (!interactiveObj) return '';
+      if (state.languageMode === 'zh') {
+        return `<p class="${containerClass}">${interactiveObj.zh_completa || ''}</p>`;
+      }
+
+      if (!interactiveObj.segmentos || interactiveObj.segmentos.length === 0) {
+        return `<p class="${containerClass}">${interactiveObj.es_completa || ''}</p>`;
+      }
+
+      let html = `<div class="inline-flex flex-wrap items-baseline gap-x-1 ${containerClass}">`;
+      interactiveObj.segmentos.forEach((seg, idx) => {
+        if (!seg.zh) {
+          html += `<span>${seg.es}</span>`;
+        } else {
+          const uniqueId = `word-seg-${idx}-${Math.random().toString(36).substr(2, 4)}`;
+          html += `
+            <span 
+              class="word-interactive" 
+              data-tooltip-id="${uniqueId}"
+              tabindex="0"
+              role="button"
+            >
+              <span>${seg.es}</span>
+              <span class="interactive-tooltip bg-slate-900 text-white text-xs px-2.5 py-1.5 rounded-lg shadow-xl font-medium tracking-normal border border-slate-700">
+                <span class="text-blue-300 font-bold mr-1">🇨🇳</span>${seg.zh}
+              </span>
+            </span>
+          `;
+        }
+      });
+      html += `</div>`;
+      return html;
+    }
+
+    function updateHeaderAndProgress() {
+      const counter = document.getElementById('header-counter');
+      const badge = document.getElementById('header-badge');
+      const progressBar = document.getElementById('progress-bar');
+      const numBadge = document.getElementById('question-num-badge');
+
+      const formattedTestName = testId.replace('_', ' ').toUpperCase();
+      if (counter) counter.textContent = `第 ${currentIndex + 1} / ${questions.length} 题`;
+      if (badge) badge.textContent = `DGT 模拟测试 (${formattedTestName})`;
+      if (numBadge) numBadge.textContent = currentIndex + 1;
+      if (progressBar) {
+        const pct = ((currentIndex + 1) / questions.length) * 100;
+        progressBar.style.width = `${pct}%`;
+      }
+    }
+
+    function updateQuestionImage(currentQuestion) {
+      const imgBox = document.getElementById('question-image-box');
+      const imgEl = document.getElementById('question-img');
+      const zoomImg = document.getElementById('zoom-img');
+
+      if (currentQuestion && currentQuestion.imagen_url && currentQuestion.imagen_url.trim() !== '') {
+        if (imgEl) imgEl.src = currentQuestion.imagen_url;
+        if (zoomImg) zoomImg.src = currentQuestion.imagen_url;
+        if (imgBox) imgBox.classList.remove('hidden');
+      } else {
+        if (imgBox) imgBox.classList.add('hidden');
+      }
+    }
+
+    function updateQuestionContent(currentQuestion) {
+      const qContainer = document.getElementById('question-container');
+      const themeLabel = document.getElementById('theme-label');
+
+      if (themeLabel) {
+        const themeText = currentQuestion.tema ? currentQuestion.tema.replace(/_/g, ' ') : 'General';
+        themeLabel.textContent = themeText;
+      }
+
+      if (qContainer) {
+        qContainer.innerHTML = renderInteractiveText(currentQuestion.pregunta, 'text-xl font-bold text-slate-900 leading-snug');
+      }
+    }
+
+    function updateOptions(currentQuestion) {
+      const container = document.getElementById('options-container');
+      if (!container) return;
+      container.innerHTML = '';
+
+      currentQuestion.opciones.forEach((op) => {
+        const isSelected = state.selectedOption === op.id;
+        
+        let cardStyles = "bg-white border-slate-200 hover:border-blue-300 text-slate-800 shadow-sm";
+        let badgeStyles = "bg-slate-100 text-slate-600 border-slate-200";
+        let iconHtml = '';
+
+        if (!state.isAnswerChecked) {
+          if (isSelected) {
+            cardStyles = "bg-blue-50/70 border-blue-600 ring-2 ring-blue-500/20 text-blue-950 shadow-md";
+            badgeStyles = "bg-blue-600 text-white border-blue-600";
+          }
+        } else {
+          if (op.es_correcta) {
+            cardStyles = "bg-emerald-50 border-emerald-500 ring-2 ring-emerald-500/30 text-emerald-950 font-medium shadow-md";
+            badgeStyles = "bg-emerald-500 text-white border-emerald-500";
+            iconHtml = `<div class="shrink-0 text-emerald-600 ml-2"><i data-lucide="check-circle-2" class="w-5 h-5"></i></div>`;
+          } else if (isSelected && !op.es_correcta) {
+            cardStyles = "bg-rose-50 border-rose-500 ring-2 ring-rose-500/30 text-rose-950 shadow-md";
+            badgeStyles = "bg-rose-500 text-white border-rose-500";
+            iconHtml = `<div class="shrink-0 text-rose-600 ml-2"><i data-lucide="x-circle" class="w-5 h-5"></i></div>`;
+          } else {
+            cardStyles = "bg-white/60 border-slate-200 text-slate-400 opacity-60";
+            badgeStyles = "bg-slate-100 text-slate-400 border-slate-200";
+          }
+        }
+
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = `w-full text-left p-3.5 rounded-2xl border-2 flex items-center justify-between transition-all duration-200 active:scale-[0.99] select-none ${cardStyles}`;
+        button.onclick = () => handleSelectOption(op.id);
+        button.disabled = state.isAnswerChecked;
+
+        const optionContentHtml = renderInteractiveText(op, 'text-sm sm:text-base font-semibold leading-snug break-words');
+
+        button.innerHTML = `
+          <div class="flex items-center gap-3 flex-1 min-w-0">
+            <span class="w-8 h-8 rounded-xl font-bold text-sm flex items-center justify-center shrink-0 border ${badgeStyles} transition-colors">
+              ${op.id}
+            </span>
+            <div class="flex-1">
+              ${optionContentHtml}
+            </div>
+          </div>
+          ${iconHtml}
+        `;
+
+        container.appendChild(button);
+      });
+
+      refreshIcons();
+    }
+
+    function updateExplanation(currentQuestion) {
+      const panel = document.getElementById('explanation-panel');
+      const textContainer = document.getElementById('explanation-text-container');
+      const badge = document.getElementById('explanation-badge');
+      if (!panel || !textContainer) return;
+
+      const correctOpt = currentQuestion.opciones.find(o => o.es_correcta);
+      if (badge && correctOpt) {
+        badge.textContent = `正确答案: ${correctOpt.id}`;
+      }
+
+      if (state.isAnswerChecked) {
+        textContainer.innerHTML = renderInteractiveText(currentQuestion.explicacion, 'text-slate-800 text-sm font-medium leading-relaxed');
+        panel.classList.remove('hidden');
+        setTimeout(() => {
+          panel.classList.remove('opacity-0', 'translate-y-2');
+          panel.classList.add('opacity-100', 'translate-y-0');
+        }, 10);
+      } else {
+        panel.classList.add('hidden', 'opacity-0', 'translate-y-2');
+        panel.classList.remove('opacity-100', 'translate-y-0');
+      }
+    }
+
+    function updatePrimaryButton() {
+      const btn = document.getElementById('btn-primary-action');
+      const text = document.getElementById('btn-primary-text');
+      const icon = document.getElementById('btn-primary-icon');
+      if (!btn || !text || !icon) return;
+
+      if (!state.isAnswerChecked) {
+        if (!state.selectedOption) {
+          btn.disabled = true;
+          btn.className = "flex-1 py-3.5 px-6 rounded-xl font-bold text-base flex items-center justify-center gap-2 shadow-sm transition-all duration-200 bg-slate-200 text-slate-400 cursor-not-allowed";
+          text.textContent = state.languageMode === 'zh' ? '请选择一个答案' : 'Selecciona una opción';
+          icon.setAttribute('data-lucide', 'arrow-right');
+        } else {
+          btn.disabled = false;
+          btn.className = "flex-1 py-3.5 px-6 rounded-xl font-bold text-base flex items-center justify-center gap-2 shadow-lg shadow-blue-500/25 transition-all duration-200 bg-blue-600 hover:bg-blue-700 text-white cursor-pointer active:scale-[0.98]";
+          text.textContent = state.languageMode === 'zh' ? '核对答案' : 'Comprobar respuesta';
+          icon.setAttribute('data-lucide', 'check');
+        }
+      } else {
+        btn.disabled = false;
+        btn.className = "flex-1 py-3.5 px-6 rounded-xl font-bold text-base flex items-center justify-center gap-2 shadow-lg shadow-slate-900/10 transition-all duration-200 bg-slate-900 hover:bg-slate-800 text-white cursor-pointer active:scale-[0.98]";
+        
+        const nextNum = currentIndex + 2;
+        if (currentIndex < questions.length - 1) {
+          text.textContent = state.languageMode === 'zh' ? `下一题 (${nextNum}/${questions.length})` : `Siguiente Pregunta (${nextNum}/${questions.length})`;
+        } else {
+          text.textContent = state.languageMode === 'zh' ? '完成测试 / Finalizar' : 'Finalizar Test';
+        }
+        icon.setAttribute('data-lucide', 'arrow-right');
+      }
+
+      refreshIcons();
+    }
+
+    function updateToggleUI() {
+      const indicator = document.getElementById('toggle-indicator');
+      const esLabel = document.getElementById('btn-lang-es');
+      const zhLabel = document.getElementById('btn-lang-zh');
+      const toggleBtn = document.getElementById('lang-toggle-btn');
+      const hintTap = document.getElementById('hint-tap-word');
+      const subHint = document.getElementById('sub-translation-hint');
+      if (!toggleBtn) return;
+
+      if (state.languageMode === 'zh') {
+        indicator.classList.remove('translate-x-0');
+        indicator.classList.add('translate-x-[34px]');
+        zhLabel.classList.remove('text-slate-500');
+        zhLabel.classList.add('text-blue-600');
+        esLabel.classList.remove('text-blue-600');
+        esLabel.classList.add('text-slate-500');
+        toggleBtn.setAttribute('aria-checked', 'true');
+        
+        if (hintTap) hintTap.classList.add('opacity-0', 'pointer-events-none');
+        if (subHint) subHint.innerHTML = `<i data-lucide="info" class="w-3 h-3 text-slate-400"></i><span>当前为中文优先模式，点击右上角可随时切换为西班牙语</span>`;
+      } else {
+        indicator.classList.remove('translate-x-[34px]');
+        indicator.classList.add('translate-x-0');
+        esLabel.classList.remove('text-slate-500');
+        esLabel.classList.add('text-blue-600');
+        zhLabel.classList.remove('text-blue-600');
+        zhLabel.classList.add('text-slate-500');
+        toggleBtn.setAttribute('aria-checked', 'false');
+
+        if (hintTap) hintTap.classList.remove('opacity-0', 'pointer-events-none');
+        if (subHint) subHint.innerHTML = `<i data-lucide="info" class="w-3 h-3 text-slate-400"></i><span>Subrayado con línea azul = traducción disponible al pulsar</span>`;
+      }
+
+      refreshIcons();
+    }
+
+    function updateVocabularyModal(currentQuestion) {
+      const dictList = document.getElementById('dict-vocabulary-list');
+      if (!dictList) return;
+      dictList.innerHTML = '';
+
+      const allSegments = [];
+      if (currentQuestion.pregunta && currentQuestion.pregunta.segmentos) {
+        allSegments.push(...currentQuestion.pregunta.segmentos);
+      }
+      if (currentQuestion.opciones) {
+        currentQuestion.opciones.forEach(o => {
+          if (o.segmentos) allSegments.push(...o.segmentos);
+        });
+      }
+
+      const valid = allSegments.filter(s => s.zh && s.es);
+      if (valid.length === 0) {
+        dictList.innerHTML = '<p class="text-slate-400 text-xs text-center py-4">暂无重点词汇对照 / Sin palabras clave</p>';
+        return;
+      }
+
+      valid.forEach(s => {
+        const item = document.createElement('div');
+        item.className = 'p-2.5 rounded-xl bg-slate-50 border border-slate-200/70 flex items-center justify-between';
+        item.innerHTML = `
+          <span class="font-semibold text-slate-800">${s.zh}</span>
+          <span class="text-blue-600 font-medium">${s.es}</span>
+        `;
+        dictList.appendChild(item);
+      });
+    }
+
+    function renderCurrentQuestion() {
+      const currentQuestion = questions[currentIndex];
+      if (!currentQuestion) return;
+
+      updateHeaderAndProgress();
+      updateQuestionImage(currentQuestion);
+      updateQuestionContent(currentQuestion);
+      updateOptions(currentQuestion);
+      updateExplanation(currentQuestion);
+      updatePrimaryButton();
+      updateVocabularyModal(currentQuestion);
+      bindTooltipListeners();
+    }
+
+    function toggleLanguage() {
+      state.languageMode = state.languageMode === 'es' ? 'zh' : 'es';
+      updateToggleUI();
+      renderCurrentQuestion();
+    }
+
+    function handleSelectOption(opId) {
+      if (state.isAnswerChecked) return;
+      state.selectedOption = opId;
+      const currentQuestion = questions[currentIndex];
+      updateOptions(currentQuestion);
+      updatePrimaryButton();
+    }
+
+    function handlePrimaryAction() {
+      const currentQuestion = questions[currentIndex];
+      if (!state.isAnswerChecked) {
+        if (!state.selectedOption) return;
+        state.isAnswerChecked = true;
+
+        const selected = currentQuestion.opciones.find(o => o.id === state.selectedOption);
+        if (selected && !selected.es_correcta) {
+          window.AppDB.saveFailedQuestion(currentQuestion);
+        }
+
+        updateOptions(currentQuestion);
+        updateExplanation(currentQuestion);
+        updatePrimaryButton();
+        bindTooltipListeners();
+
+        setTimeout(() => {
+          const explanationPanel = document.getElementById('explanation-panel');
+          if (explanationPanel) explanationPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 150);
+      } else {
+        if (currentIndex < questions.length - 1) {
+          currentIndex++;
+          state.isAnswerChecked = false;
+          state.selectedOption = null;
+          renderCurrentQuestion();
+          const mainContent = document.getElementById('main-content');
+          if (mainContent) mainContent.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          alert('🎉 测试完成！恭喜完成本套测试。\n¡Test finalizado con éxito!');
+          window.location.hash = '#temario';
+        }
+      }
+    }
+
+    function bindTooltipListeners() {
+      const interactiveElements = document.querySelectorAll('.word-interactive');
+      interactiveElements.forEach((el) => {
+        const newEl = el.cloneNode(true);
+        if (el.parentNode) el.parentNode.replaceChild(newEl, el);
+
+        newEl.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const isAlreadyOpen = newEl.classList.contains('show-tooltip');
+          document.querySelectorAll('.word-interactive.show-tooltip').forEach((item) => {
+            if (item !== newEl) item.classList.remove('show-tooltip');
+          });
+          if (!isAlreadyOpen) {
+            newEl.classList.add('show-tooltip');
+          } else {
+            newEl.classList.remove('show-tooltip');
+          }
+        });
+      });
+    }
+
+    document.addEventListener('click', () => {
+      document.querySelectorAll('.word-interactive.show-tooltip').forEach((item) => {
+        item.classList.remove('show-tooltip');
+      });
+    });
+
+    const zoomModal = document.getElementById('zoom-modal');
+    const questionImgBox = document.getElementById('question-image-box');
+    const closeZoomBtn = document.getElementById('btn-close-zoom');
+
+    if (questionImgBox && zoomModal) {
+      questionImgBox.addEventListener('click', () => zoomModal.classList.add('open'));
+    }
+    if (closeZoomBtn && zoomModal) {
+      closeZoomBtn.addEventListener('click', () => zoomModal.classList.remove('open'));
+    }
+    if (zoomModal) {
+      zoomModal.addEventListener('click', (e) => {
+        if (e.target === zoomModal) zoomModal.classList.remove('open');
+      });
+    }
+
+    const dictModal = document.getElementById('dict-modal');
+    const quickHelpBtn = document.getElementById('btn-quick-help');
+    const closeDictBtn = document.getElementById('btn-close-dict');
+    const gotitDictBtn = document.getElementById('btn-dict-gotit');
+
+    if (quickHelpBtn && dictModal) quickHelpBtn.addEventListener('click', () => dictModal.classList.add('open'));
+    if (closeDictBtn && dictModal) closeDictBtn.addEventListener('click', () => dictModal.classList.remove('open'));
+    if (gotitDictBtn && dictModal) gotitDictBtn.addEventListener('click', () => dictModal.classList.remove('open'));
+    if (dictModal) {
+      dictModal.addEventListener('click', (e) => {
+        if (e.target === dictModal) dictModal.classList.remove('open');
+      });
+    }
+
+    const langToggleBtn = document.getElementById('lang-toggle-btn');
+    if (langToggleBtn) langToggleBtn.addEventListener('click', toggleLanguage);
+
+    const primaryBtn = document.getElementById('btn-primary-action');
+    if (primaryBtn) primaryBtn.addEventListener('click', handlePrimaryAction);
+
+    updateToggleUI();
+    renderCurrentQuestion();
+  })();
+</script>

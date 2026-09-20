@@ -1,0 +1,3252 @@
+[
+  {
+    "id": "test_rec_02_q01",
+    "tema": "seguridad_pasiva",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Si tras un impacto frontal, el conductor se escurre por debajo del cinturón de seguridad y se desplaza por debajo del volante:",
+      "zh_completa": "如果在正面碰撞后，驾驶员从安全带下方滑落并移动到方向盘下方：",
+      "segmentos": [
+        {
+          "es": "Si tras un impacto frontal, ",
+          "zh": "如果在正面碰撞后， (rúguǒ zài zhèngmiàn pèngzhuàng hòu)"
+        },
+        {
+          "es": "el conductor se escurre ",
+          "zh": "驾驶员滑落 (jiàshǐyuán huáluò)"
+        },
+        {
+          "es": "por debajo del cinturón de seguridad ",
+          "zh": "在安全带下方 (zài ānquándài xiàfāng)"
+        },
+        {
+          "es": "y se desplaza por debajo del volante:",
+          "zh": "并移动到方向盘下方： (bìng yídòng dào fāngxiàngpán xiàfāng:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "Hubiera sido mejor no llevar puesto el cinturón de seguridad.",
+        "zh_completa": "不系安全带会更好。",
+        "segmentos": [
+          {
+            "es": "Hubiera sido mejor ",
+            "zh": "本来会更好 (běnlái huì gèng hǎo)"
+          },
+          {
+            "es": "no llevar puesto ",
+            "zh": "不佩戴 (bù pèidài)"
+          },
+          {
+            "es": "el cinturón de seguridad.",
+            "zh": "安全带。 (ānquándài.)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": true,
+        "es_completa": "Se produce el llamado efecto submarino, que puede traer como consecuencia lesiones en la zona lumbar de la columna vertebral, entre otras graves lesiones.",
+        "zh_completa": "会产生所谓的“潜水艇效应”，这可能导致脊椎腰部受伤以及其他严重伤害。",
+        "segmentos": [
+          {
+            "es": "Se produce ",
+            "zh": "产生 (chǎnshēng)"
+          },
+          {
+            "es": "el llamado efecto submarino, ",
+            "zh": "所谓的潜水艇效应， (suǒwèi de qiánshuǐtǐng xiàoyìng)"
+          },
+          {
+            "es": "que puede traer como consecuencia ",
+            "zh": "这可能导致 (zhè kěnéng dǎozhì)"
+          },
+          {
+            "es": "lesiones en la zona lumbar ",
+            "zh": "腰部损伤 (yāobù sǔnshāng)"
+          },
+          {
+            "es": "de la columna vertebral, ",
+            "zh": "脊柱的， (jǐzhù de)"
+          },
+          {
+            "es": "entre otras graves lesiones.",
+            "zh": "以及其他严重伤害。 (yǐjí qítā yánzhòng shānghài.)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Quedará a salvo de cualquier tipo de lesión, al ocupar el espacio de seguridad que hay bajo el salpicadero.",
+        "zh_completa": "通过占据仪表板下方的安全空间，他将免受任何类型的伤害。",
+        "segmentos": [
+          {
+            "es": "Quedará a salvo ",
+            "zh": "将安然无恙 / 免受 (jiāng ānrán wúyàng)"
+          },
+          {
+            "es": "de cualquier tipo de lesión, ",
+            "zh": "任何类型的伤害， (rènhé lèixíng de shānghài)"
+          },
+          {
+            "es": "al ocupar el espacio ",
+            "zh": "通过占据空间 (tōngguò zhànjù kōngjiān)"
+          },
+          {
+            "es": "de seguridad que hay bajo el salpicadero.",
+            "zh": "仪表板下方的安全。 (yíbiǎobǎn xiàfāng de ānquán.)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Este fenómeno es el efecto submarino. Al escurrirse por debajo del cinturón, las piernas impactan contra el salpicadero y el cuerpo sufre lesiones graves, incluyendo traumatismos y daños en la zona lumbar. (Ref: RP 2-3.1)",
+      "zh_completa": "这种现象被称为潜水艇效应。通过安全带下方滑落时，腿部会撞击仪表板，身体会遭受严重伤害，包括创伤和腰部损伤。(参考: RP 2-3.1)",
+      "segmentos": [
+        {
+          "es": "Este fenómeno es ",
+          "zh": "这一现象是 (zhè yī xiànxiàng shì)"
+        },
+        {
+          "es": "el efecto submarino. ",
+          "zh": "潜水艇效应。 (qiánshuǐtǐng xiàoyìng.)"
+        },
+        {
+          "es": "Al escurrirse por debajo, ",
+          "zh": "通过下方滑落时， (tōngguò xiàfāng huáluò shí)"
+        },
+        {
+          "es": "las piernas impactan ",
+          "zh": "腿部撞击 (tuǐbù zhuàngjī)"
+        },
+        {
+          "es": "contra el salpicadero ",
+          "zh": "仪表板 (yíbiǎobǎn)"
+        },
+        {
+          "es": "y se producen lesiones graves ",
+          "zh": "并造成严重损伤 (bìng zàochéng yánzhòng sǔnshāng)"
+        },
+        {
+          "es": "en la zona lumbar.",
+          "zh": "在腰部。 (zài yāobù.)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q02",
+    "tema": "seguridad_vial_grupos_vulnerables",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Según diferentes estudios de siniestralidad en mayores:",
+      "zh_completa": "根据关于老年人事故率的不同研究：",
+      "segmentos": [
+        {
+          "es": "Según diferentes estudios ",
+          "zh": "根据不同的研究 (gēnjù bùtóng de yánjiū)"
+        },
+        {
+          "es": "de siniestralidad ",
+          "zh": "事故率 (shìgù lǜ)"
+        },
+        {
+          "es": "en mayores:",
+          "zh": "关于老年人： (guānyú lǎoniánrén:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "Las causas de estos siniestros suelen ser por no respetar las normas de prioridad.",
+        "zh_completa": "这些事故的原因通常是因为不遵守优先通行规则。",
+        "segmentos": [
+          {
+            "es": "Las causas ",
+            "zh": "原因 (yuányīn)"
+          },
+          {
+            "es": "de estos siniestros ",
+            "zh": "这些事故的 (zhèxiē shìgù de)"
+          },
+          {
+            "es": "suelen ser ",
+            "zh": "通常是 (tōngcháng shì)"
+          },
+          {
+            "es": "por no respetar ",
+            "zh": "因为不遵守 (yīnwèi bù zūnshǒu)"
+          },
+          {
+            "es": "las normas de prioridad.",
+            "zh": "优先通行规则。 (yōuxiān tōngxíng guīzé.)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Los siniestros ocurren en autovías",
+        "zh_completa": "事故发生在高速公路上",
+        "segmentos": [
+          {
+            "es": "Los siniestros ",
+            "zh": "事故 (shìgù)"
+          },
+          {
+            "es": "ocurren ",
+            "zh": "发生 (fāshēng)"
+          },
+          {
+            "es": "en autovías",
+            "zh": "在高速公路上 (zài gāosù gōnglù shàng)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Las mujeres tienen más siniestros",
+        "zh_completa": "女性发生更多事故",
+        "segmentos": [
+          {
+            "es": "Las mujeres ",
+            "zh": "女性 (nǚxìng)"
+          },
+          {
+            "es": "tienen ",
+            "zh": "拥有 / 发生 (yǒuyǒu / fāshēng)"
+          },
+          {
+            "es": "más siniestros",
+            "zh": "更多事故 (gèng duō shìgù)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Según los estudios de INTRAS y la DGT, los accidentes en personas mayores ocurren mayoritariamente en carreteras convencionales e intersecciones, y sus causas suelen deberse a despistes, giros incorrectos o por no respetar las normas de prioridad. (Ref: RP 5-3)",
+      "zh_completa": "根据INTRAS和DGT的研究，老年人的事故多发生在常规公路和交叉口，其原因通常是由于疏忽、转弯不当或未遵守优先通行规则。(参考: RP 5-3)",
+      "segmentos": [
+        {
+          "es": "Según los estudios, ",
+          "zh": "根据研究， (gēnjù yánjiū)"
+        },
+        {
+          "es": "los accidentes en mayores ",
+          "zh": "老年人的事故 (lǎoniánrén de shìgù)"
+        },
+        {
+          "es": "se deben a menudo ",
+          "zh": "通常由于 (tōngcháng yóuyú)"
+        },
+        {
+          "es": "a despistes ",
+          "zh": "疏忽 / 分心 (shūhū / fēnxīn)"
+        },
+        {
+          "es": "o por no respetar ",
+          "zh": "或不遵守 (huò bù zūnshǒu)"
+        },
+        {
+          "es": "las normas de prioridad.",
+          "zh": "优先通行规则。 (yōuxiān tōngxíng guīzé.)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q03",
+    "tema": "seguridad_vial_factores",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Gracias a las investigaciones en el mundo del tráfico y la seguridad vial:",
+      "zh_completa": "多亏了交通和道路安全领域的研究：",
+      "segmentos": [
+        {
+          "es": "Gracias a ",
+          "zh": "多亏了 / 归功于 (duōkuī le)"
+        },
+        {
+          "es": "las investigaciones ",
+          "zh": "研究 (yánjiū)"
+        },
+        {
+          "es": "en el mundo del tráfico ",
+          "zh": "在交通领域 (zài jiāotōng lǐngyù)"
+        },
+        {
+          "es": "y la seguridad vial:",
+          "zh": "和道路安全： (hé dàolù ānquán:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "No podemos hacer nada para evitar o minimizar las consecuencias de los accidentes de tráfico.",
+        "zh_completa": "我们无法采取任何措施来避免或减轻交通事故的后果。",
+        "segmentos": [
+          {
+            "es": "No podemos hacer nada ",
+            "zh": "我们什么也做不了 (wǒmen shénme yě zuò bù liǎo)"
+          },
+          {
+            "es": "para evitar o minimizar ",
+            "zh": "来避免或减少 (lái bìmiǎn huò jiǎnshǎo)"
+          },
+          {
+            "es": "las consecuencias ",
+            "zh": "后果 (hòuguǒ)"
+          },
+          {
+            "es": "de los accidentes de tráfico.",
+            "zh": "交通事故的。 (jiāotōng shìgù de.)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Se ha llegado a la conclusión de que los accidentes son fortuitos, debidos al azar y a la casualidad.",
+        "zh_completa": "得出的结论是，事故是偶然的、由运气和巧合造成的。",
+        "segmentos": [
+          {
+            "es": "Se ha llegado a la conclusión ",
+            "zh": "得出了结论 (déchū le jiélùn)"
+          },
+          {
+            "es": "de que los accidentes ",
+            "zh": "事故 (shìgù)"
+          },
+          {
+            "es": "son fortuitos, ",
+            "zh": "是偶然的， (shì ǒurán de)"
+          },
+          {
+            "es": "debidos al azar ",
+            "zh": "由于运气 (yóuyú yùnqì)"
+          },
+          {
+            "es": "y a la casualidad.",
+            "zh": "和巧合。 (hé qiǎohé.)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": true,
+        "es_completa": "Se sabe que tras cada accidente existen factores de riesgo que se relacionan directamente con su ocurrencia.",
+        "zh_completa": "众所周知，每起事故背后都存在与其实际发生直接相关的风险因素。",
+        "segmentos": [
+          {
+            "es": "Se sabe que ",
+            "zh": "众所周知 / 据悉 (zhòng suǒ zhōu zhī)"
+          },
+          {
+            "es": "tras cada accidente ",
+            "zh": "在每起事故背后 (zài měi qǐ shìgù bèihòu)"
+          },
+          {
+            "es": "existen factores de riesgo ",
+            "zh": "存在风险因素 (cúnzài fēngxiǎn yīnsù)"
+          },
+          {
+            "es": "que se relacionan directamente ",
+            "zh": "直接相关的 (zhíjiē xiāngguān de)"
+          },
+          {
+            "es": "con su ocurrencia.",
+            "zh": "与其发生的。 (yǔ qí fāshēng de.)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Los accidentes no son fruto del azar o la casualidad. Las investigaciones demuestran que detrás de cada siniestro existen factores de riesgo que se relacionan directamente con su ocurrencia y que se pueden prevenir. (Ref: RP 1-2)",
+      "zh_completa": "事故并不是运气或巧合的产物。研究表明，每起事故背后都存在与其实际发生直接相关的风险因素，并且是可以预防的。(参考: RP 1-2)",
+      "segmentos": [
+        {
+          "es": "Los accidentes ",
+          "zh": "事故 (shìgù)"
+        },
+        {
+          "es": "no son fruto del azar. ",
+          "zh": "不是偶然的产物。 (bú shì ǒurán de chǎnwù.)"
+        },
+        {
+          "es": "Las investigaciones demuestran ",
+          "zh": "研究表明 (yánjiū biǎomíng)"
+        },
+        {
+          "es": "que detrás de cada siniestro ",
+          "zh": "在每起事故背后 (zài měi qǐ shìgù bèihòu)"
+        },
+        {
+          "es": "existen factores de riesgo ",
+          "zh": "存在风险因素 (cúnzài fēngxiǎn yīnsù)"
+        },
+        {
+          "es": "relacionados directamente ",
+          "zh": "直接相关的 (zhíjiē xiāngguān de)"
+        },
+        {
+          "es": "con su ocurrencia.",
+          "zh": "与其发生的。 (yǔ qí fāshēng de.)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q04",
+    "tema": "seguridad_vial_ciclistas",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "¿Dónde se producen más accidentes de ciclistas?",
+      "zh_completa": "骑自行车者的事故大多发生在什么地方？",
+      "segmentos": [
+        {
+          "es": "¿Dónde se producen ",
+          "zh": "哪里发生 (nǎlǐ fāshēng)"
+        },
+        {
+          "es": "más accidentes ",
+          "zh": "更多的事故 (gèng duō de shìgù)"
+        },
+        {
+          "es": "de ciclistas?",
+          "zh": "骑自行车者的？ (qí zìxíngchē zhě de?)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "En las carreteras convencionales, sobre todo en las rectas y en las intersecciones.",
+        "zh_completa": "在常规公路上，尤其是直道和交叉口。",
+        "segmentos": [
+          {
+            "es": "En las carreteras convencionales, ",
+            "zh": "在常规公路上， (zài chángguī gōnglù shàng)"
+          },
+          {
+            "es": "sobre todo ",
+            "zh": "尤其是 (yóuqí shì)"
+          },
+          {
+            "es": "en las rectas ",
+            "zh": "在直道 (zài zhídào)"
+          },
+          {
+            "es": "y en las intersecciones.",
+            "zh": "和交叉口。 (hé jiāochākǒu)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "En las autopistas, sobre todo en las curvas.",
+        "zh_completa": "在高速公路上，尤其是弯道。",
+        "segmentos": [
+          {
+            "es": "En las autopistas, ",
+            "zh": "在高速公路上， (zài gāosù gōnglù shàng)"
+          },
+          {
+            "es": "sobre todo ",
+            "zh": "尤其是 (yóuqí shì)"
+          },
+          {
+            "es": "en las curvas.",
+            "zh": "在弯道。 (zài wāndào)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "En las carreteras convencionales, sobre todo en las curvas.",
+        "zh_completa": "在常规公路上，尤其是弯道。",
+        "segmentos": [
+          {
+            "es": "En las carreteras convencionales, ",
+            "zh": "在常规公路上， (zài chángguī gōnglù shàng)"
+          },
+          {
+            "es": "sobre todo ",
+            "zh": "尤其是 (yóuqí shì)"
+          },
+          {
+            "es": "en las curvas.",
+            "zh": "在弯道。 (zài wāndào)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "La mayoría de los accidentes de ciclistas se producen en las carreteras convencionales, principalmente en los tramos rectos y en las intersecciones debido al choque con otros vehículos. (Ref: RP 5-5)",
+      "zh_completa": "大多数骑自行车者的事故都发生在常规公路上，主要是在直道和交叉口，原因是与其它车辆发生碰撞。(参考: RP 5-5)",
+      "segmentos": [
+        {
+          "es": "La mayoría de los accidentes ",
+          "zh": "大多数事故 (dà duōshù shìgù)"
+        },
+        {
+          "es": "de ciclistas ",
+          "zh": "骑自行车者的 (qí zìxíngchē zhě de)"
+        },
+        {
+          "es": "se producen ",
+          "zh": "发生 (fāshēng)"
+        },
+        {
+          "es": "en las carreteras convencionales, ",
+          "zh": "在常规公路上， (zài chángguī gōnglù shàng)"
+        },
+        {
+          "es": "sobre todo en las rectas ",
+          "zh": "尤其是直道 (yóuqí shì zhídào)"
+        },
+        {
+          "es": "y en las intersecciones.",
+          "zh": "和交叉口。 (hé jiāochākǒu)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q05",
+    "tema": "seguridad_vial_grupos_vulnerables",
+    "imagen_url": "assets/images/test_rec_02_q05.jpg",
+    "pregunta": {
+      "es_completa": "Con frecuencia los conductores mayores están implicados en accidentes de tráfico. ¿A qué puede deberse?",
+      "zh_completa": "老年驾驶员经常卷入交通事故。这可能是什么原因造成的？",
+      "segmentos": [
+        {
+          "es": "Con frecuencia ",
+          "zh": "经常 (jīngcháng)"
+        },
+        {
+          "es": "los conductores mayores ",
+          "zh": "老年驾驶员 (lǎonián jiàshǐyuán)"
+        },
+        {
+          "es": "están implicados ",
+          "zh": "卷入 / 涉及 (juǎnrù)"
+        },
+        {
+          "es": "en accidentes de tráfico. ",
+          "zh": "交通事故。 (jiāotōng shìgù)"
+        },
+        {
+          "es": "¿A qué puede deberse?",
+          "zh": "这可能是什么原因？ (zhè kěnéng shì shénme yuányīn?)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "A una menor concentración en el tráfico.",
+        "zh_completa": "由于对交通的注意力不集中。",
+        "segmentos": [
+          {
+            "es": "A una menor concentración ",
+            "zh": "由于较低的注意力 (yóuyú jiào dī de zhùyì lì)"
+          },
+          {
+            "es": "en el tráfico.",
+            "zh": "在交通中。 (zài jiāotōng zhōng)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Al incumplimiento continuo de las normas de tráfico.",
+        "zh_completa": "由于不断违反交通规则。",
+        "segmentos": [
+          {
+            "es": "Al incumplimiento continuo ",
+            "zh": "由于不断不遵守 (yóuyú búduàn bù zūnshǒu)"
+          },
+          {
+            "es": "de las normas de tráfico.",
+            "zh": "交通规则。 (jiāotōng guīzé)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "A una mayor capacidad de reacción para evitar cualquier imprevisto.",
+        "zh_completa": "由于具备应对任何突发事件的更强反应能力。",
+        "segmentos": [
+          {
+            "es": "A una mayor capacidad ",
+            "zh": "由于更强的能力 (yóuyú gèng qiáng de nénglì)"
+          },
+          {
+            "es": "de reacción ",
+            "zh": "反应 (fǎnyìng)"
+          },
+          {
+            "es": "para evitar imprevistos.",
+            "zh": "以避免突发情况。 (yǐ bìmiǎn tūfā qíngkuàng)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Los accidentes en conductores mayores suelen deberse a despistes, giros incorrectos o problemas derivados del deterioro psicofísico y la menor concentración, lo que se relaciona con factores como el despiste en la vía. (Ref: RP 5-3)",
+      "zh_completa": "老年驾驶员的事故通常由于疏忽、转弯不当或身心机能退化及注意力下降等问题引起，这与道路上的分心等因素有关。(参考: RP 5-3)",
+      "segmentos": [
+        {
+          "es": "Los accidentes ",
+          "zh": "事故 (shìgù)"
+        },
+        {
+          "es": "en conductores mayores ",
+          "zh": "老年驾驶员的 (lǎonián jiàshǐyuán de)"
+        },
+        {
+          "es": "suelen deberse a despistes ",
+          "zh": "通常由于疏忽 (tōngcháng yóuyú shūhū)"
+        },
+        {
+          "es": "o deterioro psicofísico ",
+          "zh": "或身心机能退化 (huò shēnxīn jīnéng tuìhuà)"
+        },
+        {
+          "es": "y menor concentración.",
+          "zh": "以及注意力下降。 (yǐjí zhùyì lì xiàjiàng)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q06",
+    "tema": "primeros_auxilios_y_seguridad_en_accidente",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Producido un accidente, el auxiliador debe garantizar la seguridad de la zona del siniestro para evitar nuevos accidentes. Una medida de seguridad es...",
+      "zh_completa": "发生事故后，救援人员必须确保事故区域的安全，以避免发生新的事故。一项安全措施是……",
+      "segmentos": [
+        {
+          "es": "Producido un accidente, ",
+          "zh": "发生事故后， (fāshēng shìgù hòu)"
+        },
+        {
+          "es": "el auxiliador debe garantizar ",
+          "zh": "救援人员必须确保 (jiùyuán rényuán bìxū quèbǎo)"
+        },
+        {
+          "es": "la seguridad de la zona ",
+          "zh": "区域的安全 (qūyù de ānquán)"
+        },
+        {
+          "es": "para evitar nuevos accidentes. ",
+          "zh": "以避免新事故。 (yǐ bìmiǎn xīn shìgù)"
+        },
+        {
+          "es": "Una medida de seguridad es...",
+          "zh": "一项安全措施是... (yī xiàng ānquán cuōshī shì...)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "atender a las víctimas.",
+        "zh_completa": "照顾伤员。",
+        "segmentos": [
+          {
+            "es": "atender ",
+            "zh": "照顾 / 救助 (zhàogù / jiùzhù)"
+          },
+          {
+            "es": "a las víctimas.",
+            "zh": "受害者 / 伤员。 (shòuhàizhě / shāngyuán)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "avisar a la grúa.",
+        "zh_completa": "通知清障车（拖车）。",
+        "segmentos": [
+          {
+            "es": "avisar ",
+            "zh": "通知 (tōngzhī)"
+          },
+          {
+            "es": "a la grúa.",
+            "zh": "拖车。 (tuōchē)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": true,
+        "es_completa": "no fumar en el lugar.",
+        "zh_completa": "在现场禁止吸烟。",
+        "segmentos": [
+          {
+            "es": "no fumar ",
+            "zh": "不吸烟 (bù xīyān)"
+          },
+          {
+            "es": "en el lugar.",
+            "zh": "在现场。 (zài xiànchǎng)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Para proteger la zona del accidente y evitar nuevos riesgos como incendios, se deben seguir medidas de seguridad fundamentales, entre las cuales destaca no fumar ni permitir que se fume en las proximidades del siniestro. (Ref: RP 15-3.1)",
+      "zh_completa": "为了保护事故区域并避免诸如火灾等新的风险，必须采取基本的安全措施，其中最突出的是在事故现场附近严禁吸烟。(参考: RP 15-3.1)",
+      "segmentos": [
+        {
+          "es": "Para proteger la zona ",
+          "zh": "为了保护区域 (wèile bǎohù qūyù)"
+        },
+        {
+          "es": "y evitar nuevos riesgos, ",
+          "zh": "并避免新的风险， (bìng bìmiǎn xīn de fēngxiǎn)"
+        },
+        {
+          "es": "se deben seguir medidas ",
+          "zh": "必须遵循措施 (bìxū zūnxún cuōshī)"
+        },
+        {
+          "es": "como no fumar ",
+          "zh": "如不吸烟 (rú bù xīyān)"
+        },
+        {
+          "es": "en las proximidades del siniestro.",
+          "zh": "在事故附近。 (zài shìgù fùjìn)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q07",
+    "tema": "seguridad_pasiva_motocicletas",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Respecto a las principales lesiones en caso de accidente en motocicletas (a partir 125 cc):",
+      "zh_completa": "关于摩托车（125毫升及以上）事故中的主要伤害：",
+      "segmentos": [
+        {
+          "es": "Respecto a las principales lesiones ",
+          "zh": "关于主要伤害 (guānyú zhǔyào shānghài)"
+        },
+        {
+          "es": "en caso de accidente ",
+          "zh": "在事故情况下 (zài shìgù qíngkuàng xià)"
+        },
+        {
+          "es": "en motocicletas (a partir 125 cc):",
+          "zh": "摩托车（125cc及以上）： (mótuōchē (125cc jí yǐshàng):)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "No se producen casi lesiones en la columna vertebral en este tipo de vehículos.",
+        "zh_completa": "在这类车辆中几乎不会发生脊柱损伤。",
+        "segmentos": [
+          {
+            "es": "No se producen ",
+            "zh": "不产生 / 没有 (bù chǎnshēng)"
+          },
+          {
+            "es": "casi lesiones ",
+            "zh": "几乎没有损伤 (jīhū méiyǒu sǔnshāng)"
+          },
+          {
+            "es": "en la columna vertebral.",
+            "zh": "脊柱的。 (jǐzhù de)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": true,
+        "es_completa": "Las lesiones en la columna vertebral son bastantes frecuentes, en ocasiones muy graves.",
+        "zh_completa": "脊柱损伤相当频繁，有时非常严重。",
+        "segmentos": [
+          {
+            "es": "Las lesiones en la columna vertebral ",
+            "zh": "脊柱损伤 (jǐzhù sǔnshāng)"
+          },
+          {
+            "es": "son bastantes frecuentes, ",
+            "zh": "相当频繁， (xiāngdāng pínfán)"
+          },
+          {
+            "es": "en ocasiones muy graves.",
+            "zh": "有时非常严重。 (yǒushí fēicháng yánzhòng)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Las lesiones más frecuentes en este tipo de accidentes son en la cabeza, por el menor uso de casco que en otros vehículos de dos ruedas.",
+        "zh_completa": "这类事故中最常见的伤害是头部，因为头盔的使用率比其他两轮车低。",
+        "segmentos": [
+          {
+            "es": "Las lesiones más frecuentes ",
+            "zh": "最常见的损伤 (zuì chángjiàn de sǔnshāng)"
+          },
+          {
+            "es": "son en la cabeza, ",
+            "zh": "在头部， (zài tóubù)"
+          },
+          {
+            "es": "por el menor uso de casco.",
+            "zh": "由于较少使用头盔。 (yóuyú jiào shǎo shǐyòng tóukuī)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "En los accidentes de motocicletas de gran cilindrada (a partir de 125 cc), las lesiones en la columna vertebral son bastante frecuentes y, en ocasiones, pueden llegar a ser muy graves. (Ref: RP 2-4)",
+      "zh_completa": "在大排量摩托车（125cc及以上）事故中，脊柱损伤相当常见，有时甚至会非常严重。(参考: RP 2-4)",
+      "segmentos": [
+        {
+          "es": "En los accidentes de motocicletas ",
+          "zh": "在摩托车事故中 (zài mótuōchē shìgù zhōng)"
+        },
+        {
+          "es": "(a partir de 125 cc), ",
+          "zh": "（125cc及以上）， ((125cc jí yǐshàng))"
+        },
+        {
+          "es": "las lesiones en la columna ",
+          "zh": "脊柱损伤 (jǐzhù sǔnshāng)"
+        },
+        {
+          "es": "son bastante frecuentes ",
+          "zh": "相当频繁 (xiāngdāng pínfán)"
+        },
+        {
+          "es": "y muy graves.",
+          "zh": "且非常严重。 (qiě fēicháng yánzhòng)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q08",
+    "tema": "seguridad_pasiva",
+    "imagen_url": "assets/images/test_rec_02_q08.jpg",
+    "pregunta": {
+      "es_completa": "Si conduce un vehículo con airbag, en caso de accidente, ¿qué tipo de daños sufrirá con mayor probabilidad si no lleva abrochado el cinturón de seguridad?",
+      "zh_completa": "如果你驾驶一辆配备安全气囊的车辆，在发生事故时，如果不系安全带，最有可能遭受哪种类型的伤害？",
+      "segmentos": [
+        {
+          "es": "Si conduce un vehículo con airbag, ",
+          "zh": "如果你驾驶配备安全气囊的车辆， (rúguǒ nǐ jiàshǐ pèibèi ānquán qìg囊 de chēliàng)"
+        },
+        {
+          "es": "en caso de accidente, ",
+          "zh": "在发生事故时， (zài fāshēng shìgù shí)"
+        },
+        {
+          "es": "¿qué tipo de daños sufrirá ",
+          "zh": "你会遭受哪种类型的伤害 (nǐ huì zāoshòu nǎ zhǒng lèixíng de shānghài)"
+        },
+        {
+          "es": "con mayor probabilidad ",
+          "zh": "最有可能是 (zuì yǒu kěnéng shì)"
+        },
+        {
+          "es": "si no lleva abrochado el cinturón de seguridad?",
+          "zh": "如果不系安全带？ (rúguǒ bù jì ānquándài?)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "Leves; el airbag es más eficaz si no se lleva abrochado el cinturón de seguridad.",
+        "zh_completa": "轻微的；如果不系安全带，安全气囊会更有效。",
+        "segmentos": [
+          {
+            "es": "Leves; ",
+            "zh": "轻微的； (qīngwēi de)"
+          },
+          {
+            "es": "el airbag es más eficaz ",
+            "zh": "安全气囊更有效 (ānquán qìg囊 gèng yǒuxiào)"
+          },
+          {
+            "es": "si no se lleva abrochado el cinturón.",
+            "zh": "如果不系安全带。 (rúguǒ bù jì ānquándài)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Quemaduras leves en los brazos, pero es poco probable que el resto del cuerpo resulte dañado.",
+        "zh_completa": "手臂轻微烧伤，但身体其余部分不太可能受损。",
+        "segmentos": [
+          {
+            "es": "Quemaduras leves ",
+            "zh": "轻微烧伤 (qīngwēi shāoshāng)"
+          },
+          {
+            "es": "en los brazos, ",
+            "zh": "在手臂上， (zài shǒubì shàng)"
+          },
+          {
+            "es": "pero es poco probable ",
+            "zh": "但不太可能 (dàn bù tài kěnéng)"
+          },
+          {
+            "es": "que el resto del cuerpo resulte dañado.",
+            "zh": "身体其他部位受损。 (shēntǐ qítā bùwèi shòusǔn)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": true,
+        "es_completa": "Graves; la cabeza impactará bruscamente contra el airbag antes de que se extienda por completo.",
+        "zh_completa": "严重的；头部会在安全气囊完全展开之前猛烈撞击气囊。",
+        "segmentos": [
+          {
+            "es": "Graves; ",
+            "zh": "严重的； (yánzhòng de)"
+          },
+          {
+            "es": "la cabeza impactará bruscamente ",
+            "zh": "头部将猛烈撞击 (tóubù jiāng měngliè zhuàngjī)"
+          },
+          {
+            "es": "contra el airbag ",
+            "zh": "安全气囊 (ānquán qìg囊)"
+          },
+          {
+            "es": "antes de que se extienda por completo.",
+            "zh": "在其完全展开之前。 (zài qí wánquán zhǎnkāi zhīqián)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "El airbag no es eficaz por sí solo. Si no se lleva el cinturón, el cuerpo se desplaza e impacta contra la bolsa antes de que se extienda por completo, provocando daños graves debido a la enorme fuerza del despliegue. (Ref: RP 2-1.1)",
+      "zh_completa": "安全气囊本身并不是万能的。如果不系安全带，身体会在气囊完全展开之前向前冲并撞击气囊，由于气囊展开的巨大冲击力而造成严重伤害。(参考: RP 2-1.1)",
+      "segmentos": [
+        {
+          "es": "El airbag no es eficaz ",
+          "zh": "安全气囊并非有效 (ānquán qìg囊 bìngfēi yǒuxiào)"
+        },
+        {
+          "es": "sin el cinturón. ",
+          "zh": "如果没有安全带。 (rúguǒ méiyǒu ānquándài)"
+        },
+        {
+          "es": "Si no se lleva puesto, ",
+          "zh": "如果不佩戴， (rúguǒ bù pèidài)"
+        },
+        {
+          "es": "la cabeza impactará bruscamente ",
+          "zh": "头部会猛烈撞击 (tóubù huì měngliè zhuàngjī)"
+        },
+        {
+          "es": "antes de que se extienda por completo, ",
+          "zh": "在其完全展开之前， (zài qí wánquán zhǎnkāi zhīqián)"
+        },
+        {
+          "es": "causando lesiones graves.",
+          "zh": "造成严重伤害。 (zàochéng yánzhòng shānghài)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q09",
+    "tema": "seguridad_pasiva_peatones",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "En caso de atropello a un peatón, el diseño exterior de los vehículos:",
+      "zh_completa": "在发生撞击行人的事故时，车辆的外部设计：",
+      "segmentos": [
+        {
+          "es": "En caso de atropello ",
+          "zh": "在发生撞击事故时 (zài fāshēng zhuàngjī shìgù shí)"
+        },
+        {
+          "es": "a un peatón, ",
+          "zh": "对行人， (duì xíngrén)"
+        },
+        {
+          "es": "el diseño exterior ",
+          "zh": "外部设计 (wàibù shèjì)"
+        },
+        {
+          "es": "de los vehículos:",
+          "zh": "车辆的： (chēliàng de:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "Siempre garantiza la máxima seguridad y protección de los peatones en todos los modelos de vehículos existentes en el mercado.",
+        "zh_completa": "始终保证市场上所有现有车型的最大安全和保护行人。",
+        "segmentos": [
+          {
+            "es": "Siempre garantiza ",
+            "zh": "始终保证 (shǐzhōng bǎozhèng)"
+          },
+          {
+            "es": "la máxima seguridad ",
+            "zh": "最大安全 (zuìdà ānquán)"
+          },
+          {
+            "es": "y protección de los peatones.",
+            "zh": "和对行人的保护。 (hé duì xíngrén de bǎohù)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "No tiene ninguna relación con las lesiones de los peatones, salvo que el conductor haya realizado modificaciones importantes en el frontal del vehículo.",
+        "zh_completa": "与行人的受伤情况没有任何关系，除非驾驶员对车辆前部进行了重大修改。",
+        "segmentos": [
+          {
+            "es": "No tiene ninguna relación ",
+            "zh": "没有任何关系 (méiyǒu rènhé guānxi)"
+          },
+          {
+            "es": "con las lesiones de los peatones, ",
+            "zh": "与行人损伤， (yǔ xíngrén sǔnshāng)"
+          },
+          {
+            "es": "salvo que el conductor haya realizado modificaciones.",
+            "zh": "除非驾驶员进行了修改。 (chúfēi jiàshǐyuán jìn𝑥íng le xiǎogǎi)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": true,
+        "es_completa": "Es factor muy importante para determinar las lesiones que sufren los peatones, por lo que deberíamos tener en cuenta esta información a la hora de comprar un vehículo nuevo.",
+        "zh_completa": "是决定行人所受伤害的重要因素，因此在购买新车时我们应考虑这一信息。",
+        "segmentos": [
+          {
+            "es": "Es factor muy importante ",
+            "zh": "是非常重要的因素 (shì fēicháng zhòngyào de yīnsù)"
+          },
+          {
+            "es": "para determinar las lesiones ",
+            "zh": "以确定损伤 (yǐ quèdìng sǔnshāng)"
+          },
+          {
+            "es": "que sufren los peatones,",
+            "zh": "行人遭受的， (xíngrén zāoshòu de)"
+          },
+          {
+            "es": "por lo que deberíamos tenerlo en cuenta.",
+            "zh": "因此我们应该予以考虑。 (yīncǐ wǒmen yīnggāi yǔ yǐ kǎolǜ)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "El diseño exterior de los automóviles influye directamente en la gravedad de las lesiones de los peatones en caso de atropello, motivo por el cual los fabricantes desarrollan nuevos diseños para minimizarlas. (Ref: RP 2-5)",
+      "zh_completa": "汽车的外部设计直接影响撞击事故中行人受伤的严重程度，这也是制造商开发新设计以将其降至最低的原因。(参考: RP 2-5)",
+      "segmentos": [
+        {
+          "es": "El diseño exterior ",
+          "zh": "外部设计 (wàibù shèjì)"
+        },
+        {
+          "es": "influye directamente ",
+          "zh": "直接影响 (zhíjiē yǐngxiǎng)"
+        },
+        {
+          "es": "en la gravedad de las lesiones ",
+          "zh": "损伤的严重程度 (sǔnshāng de yánzhòng chéngdù)"
+        },
+        {
+          "es": "de los peatones en caso de atropello.",
+          "zh": "在撞击行人事故中。 (zài zhuàngjī xíngrén shìgù zhōng)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q10",
+    "tema": "tipos_de_colisiones",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "¿Qué es una colisión por alcance?",
+      "zh_completa": "什么是追尾碰撞（追尾事故）？",
+      "segmentos": [
+        {
+          "es": "¿Qué es ",
+          "zh": "什么是 (shénme shì)"
+        },
+        {
+          "es": "una colisión por alcance?",
+          "zh": "追尾碰撞？ (zhuīwěi pèngzhuàng?)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "Cuando dos vehículos colisionan frontalmente.",
+        "zh_completa": "当两辆车正面相撞时。",
+        "segmentos": [
+          {
+            "es": "Cuando dos vehículos ",
+            "zh": "当两辆车 (dāng liǎng liàng chē)"
+          },
+          {
+            "es": "colisionan frontalmente.",
+            "zh": "正面相撞。 (zhèngmiàn xiāngzhuàng)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": true,
+        "es_completa": "Cuando un vehículo detenido o circulando más lento es golpeado por detrás por otro vehículo.",
+        "zh_completa": "当一辆停驶或行驶较慢的车辆被后方另一辆车撞击时。",
+        "segmentos": [
+          {
+            "es": "Cuando un vehículo detenido ",
+            "zh": "当一辆停驶的车辆 (dāng yī liàng tíngshǐ de chēliàng)"
+          },
+          {
+            "es": "o circulando más lento ",
+            "zh": "或行驶较慢 (huò xíngshǐ jiào màn)"
+          },
+          {
+            "es": "es golpeado por detrás ",
+            "zh": "被从后面撞击 (bèi cóng hòumiàn zhuàngjī)"
+          },
+          {
+            "es": "por otro vehículo.",
+            "zh": "被另一辆车。 (bèi lìng yī liàng chē)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Cuando un vehículo golpea el lateral de otro vehículo atravesado en medio de la vía.",
+        "zh_completa": "当一辆车撞击横在路中央的另一辆车的侧面时。",
+        "segmentos": [
+          {
+            "es": "Cuando un vehículo golpea ",
+            "zh": "当一辆车撞击 (dāng yī liàng chē zhuàngjī)"
+          },
+          {
+            "es": "el lateral de otro vehículo ",
+            "zh": "另一辆车的侧面 (lìng yī liàng chē de cèmiàn)"
+          },
+          {
+            "es": "atravesado en medio de la vía.",
+            "zh": "横在路中间。 (héng zài lù zhōngjiān)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Una colisión por alcance ocurre cuando un vehículo que está detenido o circula más despacio recibe un impacto por la parte trasera de otro, siendo la causa principal del habitual esguince o latigazo cervical. (Ref: RP 2-3.2)",
+      "zh_completa": "追尾碰撞发生在一辆停驶或行驶较慢的车辆被后方车辆撞击时，这也是导致常见颈椎扭伤或挥鞭样损伤的主要原因。(参考: RP 2-3.2)",
+      "segmentos": [
+        {
+          "es": "Una colisión por alcance ",
+          "zh": "追尾碰撞 (zhuīwěi pèngzhuàng)"
+        },
+        {
+          "es": "ocurre cuando un vehículo detenido ",
+          "zh": "发生于一辆停驶的车辆 (fāshēng yú yī liàng tíngshǐ de chēliàng)"
+        },
+        {
+          "es": "o más lento es golpeado por detrás,",
+          "zh": "或慢速车被从后面撞击， (huò mànsù chē bèi cóng hòumiàn zhuàngjī)"
+        },
+        {
+          "es": "provocando el latigazo cervical.",
+          "zh": "从而导致颈部挥鞭样损伤。 (cóng'ér dǎozhì jǐngbù huībiān yàng sǔnshāng)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q11",
+    "tema": "seguridad_pasiva",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "En una colisión frontal a tan sólo 50 km/h contra un objeto indeformable, la energía implicada en el siniestro...",
+      "zh_completa": "在仅以50公里/小时的速度与不可变形物体发生正面碰撞时，事故中所涉及的能量...",
+      "segmentos": [
+        {
+          "es": "En una colisión frontal ",
+          "zh": "在正面碰撞中 (zài zhèngmiàn pèngzhuàng zhōng)"
+        },
+        {
+          "es": "a tan sólo 50 km/h ",
+          "zh": "仅以50公里/小时的速度 (jǐn yǐ 50 gōnglǐ/xiǎoshí de sùdù)"
+        },
+        {
+          "es": "contra un objeto indeformable, ",
+          "zh": "与不可变形的物体撞击时， (yǔ bù kě biànxíng de wùtǐ zhuàngjī shí)"
+        },
+        {
+          "es": "la energía implicada en el siniestro...",
+          "zh": "事故中所涉及的能量... (shìgù zhōng suǒ shèjí de néngliàng...)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "será suficiente para deformar el vehículo, pero no para producir lesiones en los ocupantes.",
+        "zh_completa": "足以使车辆变形，但不足以对乘员造成伤害。",
+        "segmentos": [
+          {
+            "es": "será suficiente ",
+            "zh": "将足以 (jiāng zúyǐ)"
+          },
+          {
+            "es": "para deformar el vehículo, ",
+            "zh": "使车辆变形， (shǐ chēliàng biànxíng)"
+          },
+          {
+            "es": "pero no para producir lesiones.",
+            "zh": "但不足以造成伤害。 (dàn bù zúyǐ zàochéng shānghài)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "es mínima, por lo que es improbable que el vehículo se deforme o que los ocupantes resulten lesionados.",
+        "zh_completa": "微乎其微，因此车辆不太可能变形，乘员也不太可能受伤。",
+        "segmentos": [
+          {
+            "es": "es mínima, ",
+            "zh": "微乎其微， (wēi hū qí wēi)"
+          },
+          {
+            "es": "por lo que es improbable ",
+            "zh": "因此不可能 (yīncǐ bù kěnéng)"
+          },
+          {
+            "es": "que resulte lesionados.",
+            "zh": "导致受伤。 (dǎozhì shōushāng)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": true,
+        "es_completa": "es más que suficiente para dar lugar a lesiones muy graves en los ocupantes.",
+        "zh_completa": "足以导致乘员受到非常严重的伤害。",
+        "segmentos": [
+          {
+            "es": "es más que suficiente ",
+            "zh": "绰绰有余 / 足够 (chuòchuò-yǒuyú / zúgòu)"
+          },
+          {
+            "es": "para dar lugar ",
+            "zh": "导致 (dǎozhì)"
+          },
+          {
+            "es": "a lesiones muy graves ",
+            "zh": "非常严重的伤害 (fēicháng yánzhòng de shānghài)"
+          },
+          {
+            "es": "en los ocupantes.",
+            "zh": "在乘员身上。 (zài chéngyuán shēnshang)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Las fuerzas desarrolladas en un accidente son descomunales. Incluso a una velocidad moderada de 50 km/h contra un objeto indeformable, la energía implicada es más que suficiente para provocar lesiones muy graves o mortales. (Ref: RP 2-1)",
+      "zh_completa": "事故中产生的力量是巨大的。即使在以50公里/小时的适度速度撞击不可变形物体时，所涉及的能量也足以导致非常严重甚至致命的伤害。(参考: RP 2-1)",
+      "segmentos": [
+        {
+          "es": "Las fuerzas implicadas ",
+          "zh": "涉及的力量 (shèjí de lìliàng)"
+        },
+        {
+          "es": "en un accidente son descomunales, ",
+          "zh": "在事故中是巨大的， (zài shìgù zhōng shì jùdà de)"
+        },
+        {
+          "es": "capaces de provocar ",
+          "zh": "能够引起 (nénggòu yǐnqǐ)"
+        },
+        {
+          "es": "lesiones muy graves ",
+          "zh": "非常严重的伤害 (fēicháng yánzhòng de shānghài)"
+        },
+        {
+          "es": "incluso a baja velocidad.",
+          "zh": "甚至在低速时。 (shènzhì zài dīsù shí)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q12",
+    "tema": "seguridad_vial_grupos_vulnerables",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "En el tráfico, las personas discapacitadas:",
+      "zh_completa": "在交通中，残疾人：",
+      "segmentos": [
+        {
+          "es": "En el tráfico, ",
+          "zh": "在交通中， (zài jiāotōng zhōng)"
+        },
+        {
+          "es": "las personas discapacitadas:",
+          "zh": "残疾人： (cánjí rén:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "Son generalmente peatones, caminando entre el tráfico con o sin ayuda de mecanismos de apoyo o utilizando una silla de ruedas.",
+        "zh_completa": "通常是行人，在交通中借助或不借助辅助机制行走，或者使用轮椅。",
+        "segmentos": [
+          {
+            "es": "Son generalmente peatones, ",
+            "zh": "通常是行人， (tōngcháng shì xíngrén)"
+          },
+          {
+            "es": "caminando entre el tráfico ",
+            "zh": "在车流中行走 (zài chēliú zhōng xíngzǒu)"
+          },
+          {
+            "es": "con o sin ayuda ",
+            "zh": "有或没有帮助 (yǒu huò méiyǒu bāngzhù)"
+          },
+          {
+            "es": "de mecanismos de apoyo o utilizando una silla de ruedas.",
+            "zh": "辅助机制或使用轮椅。 (fùzhù jīzhì huò shǐyòng lúnyǐ)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "No sufren demasiados accidentes, por lo que no se los suele considerar un grupo de riesgo.",
+        "zh_completa": "他们遭遇的事故不多，因此通常不被视为风险群体。",
+        "segmentos": [
+          {
+            "es": "No sufren demasiados accidentes, ",
+            "zh": "没有遭受太多事故， (méiyǒu zāoshòu tài duō shìgù)"
+          },
+          {
+            "es": "por lo que no se los considera ",
+            "zh": "因此不被认为 (yīncǐ bú bèi rènwéi)"
+          },
+          {
+            "es": "un grupo de riesgo.",
+            "zh": "是风险群体。 (shì fēngxiǎn qúntǐ)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Tienen el mismo riesgo que el resto de usuarios de las vías públicas.",
+        "zh_completa": "他们与公共道路上的其他用户承担相同的风险。",
+        "segmentos": [
+          {
+            "es": "Tienen el mismo riesgo ",
+            "zh": "承担相同的风险 (chéngdān xiāngtóng de fēngxiǎn)"
+          },
+          {
+            "es": "que el resto de usuarios ",
+            "zh": "与其他用户相比 (yǔ qítā yònghù xiāngbǐ)"
+          },
+          {
+            "es": "de las vías públicas.",
+            "zh": "在公共道路上。 (zài gōnggòng dàolù shàng)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Dentro de los grupos de riesgo, las personas con discapacidad actúan generalmente como peatones que circulan entre el tráfico con o sin mecanismos de apoyo, o en silla de ruedas, presentando mayor riesgo en situaciones difíciles. (Ref: RP 5-4.4)",
+      "zh_completa": "在风险群体中，残疾人通常作为行人在交通中通行，借助或不借助辅助机制，或者使用轮椅，在复杂情况下具有更高风险。(参考: RP 5-4.4)",
+      "segmentos": [
+        {
+          "es": "Las personas discapacitadas ",
+          "zh": "残疾人 (cánjí rén)"
+        },
+        {
+          "es": "son generalmente peatones ",
+          "zh": "通常是行人 (tōngcháng shì xíngrén)"
+        },
+        {
+          "es": "que circulan entre el tráfico ",
+          "zh": "在交通中通行 (zài jiāotōng zhōng tōngxíng)"
+        },
+        {
+          "es": "con o sin ayuda de mecanismos de apoyo ",
+          "zh": "借助或不借助辅助机制 (jièzhù huò bù jièzhù fùzhù jīzhì)"
+        },
+        {
+          "es": "o utilizando una silla de ruedas.",
+          "zh": "或使用轮椅。 (huò shǐyòng lúnyǐ)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q13",
+    "tema": "seguridad_pasiva_motocicletas",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Respecto a las principales lesiones en caso de accidente en ciclomotores y motocicletas (hasta 125 cc):",
+      "zh_completa": "关于轻便摩托车和摩托车（125毫升及以下）事故中的主要伤害：",
+      "segmentos": [
+        {
+          "es": "Respecto a las principales lesiones ",
+          "zh": "关于主要伤害 (guānyú zhǔyào shānghài)"
+        },
+        {
+          "es": "en caso de accidente ",
+          "zh": "在事故情况下 (zài shìgù qíngkuàng xià)"
+        },
+        {
+          "es": "en ciclomotores y motocicletas (hasta 125 cc):",
+          "zh": "轻便摩托车和摩托车（最高125cc）： (qīngbiàn mótuōchē hé mótuōchē (zuìgāo 125cc):)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "Las lesiones en la columna vertebral son poco frecuentes en estos vehículos.",
+        "zh_completa": "在这类车辆中，脊柱损伤并不常见。",
+        "segmentos": [
+          {
+            "es": "Las lesiones en la columna vertebral ",
+            "zh": "脊柱损伤 (jǐzhù sǔnshāng)"
+          },
+          {
+            "es": "son poco frecuentes ",
+            "zh": "不太常见 (bù tài chángjiàn)"
+          },
+          {
+            "es": "en estos vehículos.",
+            "zh": "在这类车辆中。 (zài zhè lèi chēliàng zhōng)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Las lesiones en el tórax son frecuentes y muy graves.",
+        "zh_completa": "胸部损伤很常见且非常严重。",
+        "segmentos": [
+          {
+            "es": "Las lesiones en el tórax ",
+            "zh": "胸部损伤 (xiōngbù sǔnshāng)"
+          },
+          {
+            "es": "son frecuentes ",
+            "zh": "很常见 (hěn chángjiàn)"
+          },
+          {
+            "es": "y muy graves.",
+            "zh": "且非常严重。 (qiě fēicháng yánzhòng)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Las lesiones en la columna vertebral son muy frecuentes en estos vehículos.",
+        "zh_completa": "在这类车辆中，脊柱损伤非常常见。",
+        "segmentos": [
+          {
+            "es": "Las lesiones en la columna vertebral ",
+            "zh": "脊柱损伤 (jǐzhù sǔnshāng)"
+          },
+          {
+            "es": "son muy frecuentes ",
+            "zh": "非常常见 (fēicháng chángjiàn)"
+          },
+          {
+            "es": "en estos vehículos.",
+            "zh": "在这类车辆中。 (zài zhè lèi chēliàng zhōng)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "A diferencia de las motocicletas de gran cilindrada, en los ciclomotores y motocicletas de hasta 125 cc las lesiones en la columna vertebral son poco frecuentes. (Ref: RP 2-4)",
+      "zh_completa": "与大排量摩托车不同，在轻便摩托车和125cc及以下的摩托车中，脊柱损伤并不常见。(参考: RP 2-4)",
+      "segmentos": [
+        {
+          "es": "En los ciclomotores ",
+          "zh": "在轻便摩托车中 (zài qīngbiàn mótuōchē zhōng)"
+        },
+        {
+          "es": "y motocicletas hasta 125 cc, ",
+          "zh": "和最高125cc的摩托车中， (hé zuìgāo 125cc de mótuōchē zhōng)"
+        },
+        {
+          "es": "las lesiones en la columna ",
+          "zh": "脊柱损伤 (jǐzhù sǔnshāng)"
+        },
+        {
+          "es": "son poco frecuentes.",
+          "zh": "并不常见。 (bìng bú chángjiàn)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q14",
+    "tema": "prevencion_atropellos",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "¿Qué puedes hacer para evitar el atropello de peatones?",
+      "zh_completa": "你可以采取什么措施来避免撞到行人？",
+      "segmentos": [
+        {
+          "es": "¿Qué puedes hacer ",
+          "zh": "你能做什么 (nǐ néng zuò shénme)"
+        },
+        {
+          "es": "para evitar el atropello ",
+          "zh": "以避免撞击 (yǐ bìmiǎn zhuàngjī)"
+        },
+        {
+          "es": "de peatones?",
+          "zh": "行人？ (xíngrén?)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "Presta atención cuando un vehículo se detenga delante de ti, ya que es posible que sus ocupantes abran la puerta y bajen sin fijarse.",
+        "zh_completa": "当一辆车在你前方停下时要留心，因为其乘员可能会不看路就开车门下车。",
+        "segmentos": [
+          {
+            "es": "Presta atención ",
+            "zh": "注意 (zhùyì)"
+          },
+          {
+            "es": "cuando un vehículo se detenga ",
+            "zh": "当一辆车停下时 (dāng yī liàng chē tíngxià shí)"
+          },
+          {
+            "es": "delante de ti, ",
+            "zh": "在你前方， (zài nǐ qiánfāng)"
+          },
+          {
+            "es": "por si abren la puerta sin fijarse.",
+            "zh": "以防他们不看清就开车门。 (yǐ fáng tāmen bù kànqīng jiù kāi chērmén)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Procura que los pasajeros de tu vehículo se bajen siempre por el lado de la calzada.",
+        "zh_completa": "设法让车上的乘客总是从靠近车行道的一侧下车。",
+        "segmentos": [
+          {
+            "es": "Procura que los pasajeros ",
+            "zh": "设法让乘客 (shèfǎ ràng chéngkè)"
+          },
+          {
+            "es": "se bajen siempre ",
+            "zh": "总是下车 (zǒngshì xiàchē)"
+          },
+          {
+            "es": "por el lado de la calzada.",
+            "zh": "从车行道一侧。 (cóng chēhángdào yīcè)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Llama la atención mediante el claxon a los peatones que van hablando por el móvil por la acera.",
+        "zh_completa": "通过鸣笛提醒在人行道上边走边打手机的行人。",
+        "segmentos": [
+          {
+            "es": "Llama la atención ",
+            "zh": "引起注意 (yǐnqǐ zhùyì)"
+          },
+          {
+            "es": "mediante el claxon ",
+            "zh": "通过鸣笛 (tōngguò míngdí)"
+          },
+          {
+            "es": "a los peatones por la acera.",
+            "zh": "给在人行道上的行人。 (gěi zài rénxíngdào shàng de xíngrén)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Para evitar atropellos, debes prestar atención cuando un vehículo se detenga delante de ti ante la posibilidad de que abran las puertas sin mirar, y asegurarte de que tus pasajeros bajen por el lado de la acera. (Ref: RP 5-4.3)",
+      "zh_completa": "为了避免撞人，当有车辆在你前方停下时必须保持警惕，防范其不看路开车门，并确保你的乘客从人行道一侧下车。(参考: RP 5-4.3)",
+      "segmentos": [
+        {
+          "es": "Presta atención ",
+          "zh": "注意 (zhùyì)"
+        },
+        {
+          "es": "si un vehículo se detiene delante, ",
+          "zh": "如果车辆在前方停下， (rúguǒ chēliàng zài qiánfāng tíngxià)"
+        },
+        {
+          "es": "ya que pueden abrir la puerta, ",
+          "zh": "因为他们可能会开车门， (yīnwèi tāmen kěnéng huì kāi chērmén)"
+        },
+        {
+          "es": "y procura que tus pasajeros bajen por la acera.",
+          "zh": "并确保乘客从人行道下车。 (bìng quèbǎo chéngkè cóng rénxíngdào xiàchē)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q15",
+    "tema": "trafico_como_fenomeno_fisico",
+    "imagen_url": "assets/images/test_rec_02_q15.jpg",
+    "pregunta": {
+      "es_completa": "Entendiendo al tráfico como un fenómeno físico, los desplazamientos de personas y vehículos por las vías públicas se someten a las leyes del movimiento, implicando aspectos tales como...",
+      "zh_completa": "将交通理解为一个物理现象，人员和车辆在公共道路上的移动受制于运动定律，涉及诸如……之类的方面。",
+      "segmentos": [
+        {
+          "es": "Entendiendo al tráfico ",
+          "zh": "将交通理解为 (jiāng jiāotōng lǐjiě wéi)"
+        },
+        {
+          "es": "como un fenómeno físico, ",
+          "zh": "一个物理现象， (yīgè wùlǐ xiànxiàng)"
+        },
+        {
+          "es": "los desplazamientos ",
+          "zh": "移动 / 出行 (yídòng / chūxíng)"
+        },
+        {
+          "es": "se someten a las leyes del movimiento, ",
+          "zh": "服从运动定律， (fúcóng yùndìng dìnglǜ)"
+        },
+        {
+          "es": "implicando aspectos tales como...",
+          "zh": "涉及诸如...的方面... (shèjí zhūrú...de fāngmiàn...)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "la masa del vehículo.",
+        "zh_completa": "车辆的质量。",
+        "segmentos": [
+          {
+            "es": "la masa ",
+            "zh": "质量 (zhìliàng)"
+          },
+          {
+            "es": "del vehículo.",
+            "zh": "车辆的。 (chēliàng de)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "la tecnología aplicada a las vías.",
+        "zh_completa": "应用于道路的技术。",
+        "segmentos": [
+          {
+            "es": "la tecnología ",
+            "zh": "技术 (jìshù)"
+          },
+          {
+            "es": "aplicada a las vías.",
+            "zh": "应用于道路的。 (yīngyòng yú dàolù de)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "las normas sociales.",
+        "zh_completa": "社会规范。",
+        "segmentos": [
+          {
+            "es": "las normas ",
+            "zh": "规范 (guīfàn)"
+          },
+          {
+            "es": "sociales.",
+            "zh": "社会的。 (shèhuì de)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Desde el punto de vista físico, el tráfico implica desplazamientos sometidos a las leyes del movimiento, abarcando aspectos como la masa del vehículo, la velocidad, la energía y el rozamiento del asfalto. (Ref: RP 16-1)",
+      "zh_completa": "从物理角度来看，交通涉及服从运动定律的移动，涵盖车辆质量、速度、能量和沥青摩擦力等各方面。(参考: RP 16-1)",
+      "segmentos": [
+        {
+          "es": "Desde el punto de vista físico, ",
+          "zh": "从物理角度， (cóng wùlǐ jiǎodù)"
+        },
+        {
+          "es": "el tráfico implica",
+          "zh": "交通涉及 (jiāotōng shèjí)"
+        },
+        {
+          "es": "aspectos de las leyes del movimiento ",
+          "zh": "运动定律的方面 (yùndìng dìnglǜ de fāngmiàn)"
+        },
+        {
+          "es": "como la masa del vehículo.",
+          "zh": "如车辆质量。 (rú chēliàng zhìliàng)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q16",
+    "tema": "primeros_auxilios_cadena_supervivencia",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Actuación en caso de accidente de tráfico. ¿Cuál es el orden correcto de las fases de la cadena de supervivencia?",
+      "zh_completa": "交通事故中的行动指南。生存链各个阶段的正确顺序是什么？",
+      "segmentos": [
+        {
+          "es": "Actuación en caso de accidente de tráfico. ",
+          "zh": "交通事故中的行动指南。 (jiāotōng shìgù zhōng de xíngdòng zhǐnán.)"
+        },
+        {
+          "es": "¿Cuál es el orden correcto ",
+          "zh": "什么是正确的顺序 (shénme shì zhèngquè de shùnxù)"
+        },
+        {
+          "es": "de las fases ",
+          "zh": "各个阶段的 (gègè jiēduàn de)"
+        },
+        {
+          "es": "de la cadena de supervivencia?",
+          "zh": "生存链？ (shēngcún liàn?)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "Protección de lugar del accidente, activación del sistema de emergencias, actuaciones prioritarias sobre las víctimas, transporte sanitario e ingreso y tratamiento hospitalario.",
+        "zh_completa": "保护事故现场、启动紧急救援系统、对伤员的优先救护措施、医疗转运以及入院与医院治疗。",
+        "segmentos": [
+          {
+            "es": "Protección de lugar del accidente, ",
+            "zh": "保护事故现场， (bǎohù shìgù xiànchǎng,)"
+          },
+          {
+            "es": "activación del sistema de emergencias, ",
+            "zh": "启动紧急系统， (qǐdòng jǐnjí xìtǒng,)"
+          },
+          {
+            "es": "actuaciones prioritarias sobre las víctimas, ",
+            "zh": "对伤员的优先救护措施， (duì shāngyuán de yōuxiān jiùhù cuōshī,)"
+          },
+          {
+            "es": "transporte sanitario ",
+            "zh": "医疗转运 (yīliáo zhuǎnyùn)"
+          },
+          {
+            "es": "e ingreso y tratamiento hospitalario.",
+            "zh": "以及入院和医院治疗。 (yǐjí rùyuàn hé yīyuàn zhìliáo.)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Activación del sistema de emergencias, protección de lugar del accidente, actuaciones prioritarias sobre las víctimas, transporte sanitario e ingreso y tratamiento hospitalario.",
+        "zh_completa": "启动紧急系统、保护事故现场、对伤员的优先救护措施、医疗转运以及入院和医院治疗。",
+        "segmentos": [
+          {
+            "es": "Activación del sistema de emergencias, ",
+            "zh": "启动紧急系统， (qǐdòng jǐnjí xìtǒng,)"
+          },
+          {
+            "es": "protección de lugar del accidente, ",
+            "zh": "保护事故现场， (bǎohù shìgù xiànchǎng,)"
+          },
+          {
+            "es": "actuaciones prioritarias sobre las víctimas, ",
+            "zh": "对伤员的优先救护措施， (duì shāngyuán de yōuxiān jiùhù cuōshī,)"
+          },
+          {
+            "es": "transporte sanitario e ingreso hospitalario.",
+            "zh": "医疗转运及入院治疗。 (yīliáo zhuǎnyùn jí rùyuàn zhìliáo.)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Actuaciones prioritarias sobre las víctimas, activación del sistema de emergencias, protección de lugar del accidente, transporte sanitario e ingreso y tratamiento hospitalario.",
+        "zh_completa": "对伤员的优先救护措施、启动紧急系统、保护事故现场、医疗转运以及入院和医院治疗。",
+        "segmentos": [
+          {
+            "es": "Actuaciones prioritarias sobre las víctimas, ",
+            "zh": "对伤员的优先救护措施， (duì shāngyuán de yōuxiān jiùhù cuōshī,)"
+          },
+          {
+            "es": "activación del sistema de emergencias, ",
+            "zh": "启动紧急系统， (qǐdòng jǐnjí xìtǒng,)"
+          },
+          {
+            "es": "protección de lugar del accidente, ",
+            "zh": "保护事故现场， (bǎohù shìgù xiànchǎng,)"
+          },
+          {
+            "es": "transporte sanitario e ingreso hospitalario.",
+            "zh": "医疗转运及入院治疗。 (yīliáo zhuǎnyùn jí rùyuàn zhìliáo.)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "El orden correcto de la cadena de supervivencia sigue el protocolo PAS (Proteger, Alertar, Socorrer): primero proteger el lugar, luego activar el sistema de emergencias, realizar las actuaciones prioritarias sobre las víctimas, el transporte sanitario y finalmente el tratamiento hospitalario. (Ref: RP 15-2)",
+      "zh_completa": "生存链的正确顺序遵循PAS原则（保护、报警、救助）：首先保护现场，然后启动紧急系统（报警），接着对伤员进行优先救护，再进行医疗转运，最后是入院和医院治疗。(参考: RP 15-2)",
+      "segmentos": [
+        {
+          "es": "El orden correcto ",
+          "zh": "正确的顺序 (zhèngquè de shùnxù)"
+        },
+        {
+          "es": "sigue el protocolo PAS: ",
+          "zh": "遵循PAS原则： (zūnxún PAS yuánzé:)"
+        },
+        {
+          "es": "proteger el lugar, ",
+          "zh": "保护现场， (bǎohù xiànchǎng,)"
+        },
+        {
+          "es": "activar emergencias, ",
+          "zh": "启动紧急系统， (qǐdòng jǐnjí xìtǒng,)"
+        },
+        {
+          "es": "atender a las víctimas, ",
+          "zh": "救助伤员， (jiùzhù shāngyuán,)"
+        },
+        {
+          "es": "transporte sanitario e ingreso hospitalario.",
+          "zh": "医疗转运及入院治疗。 (yīliáo zhuǎnyùn jí rùyuàn zhìliáo.)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q17",
+    "tema": "siniestralidad_carretera_vs_ciudad",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "La mayor mortalidad en los accidentes que se producen en carretera, respecto a los que se producen en ciudad:",
+      "zh_completa": "与在城市中发生的事故相比，公路上发生的事故死亡率更高：",
+      "segmentos": [
+        {
+          "es": "La mayor mortalidad ",
+          "zh": "更高的死亡率 (gèng gāo de sǐwáng lǜ)"
+        },
+        {
+          "es": "en los accidentes en carretera, ",
+          "zh": "在公路上的事故中， (zài gōnglù shàng de shìgù zhōng)"
+        },
+        {
+          "es": "respecto a los de ciudad:",
+          "zh": "相比于城市中的事故： (xiāngbǐ yú chéngshì zhōng de shìgù:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "Se debe únicamente a las peores condiciones climatológicas que suelen sufrir estas vías.",
+        "zh_completa": "完全由于这些道路通常遭遇较差的气候条件。",
+        "segmentos": [
+          {
+            "es": "Se debe únicamente ",
+            "zh": "完全由于 (wánquán yóuyú)"
+          },
+          {
+            "es": "a las peores condiciones climatológicas ",
+            "zh": "更糟糕的气候条件 (gèng zāogāo de qìhòu tiáojiàn)"
+          },
+          {
+            "es": "que suelen sufrir estas vías.",
+            "zh": "这些道路通常承受的。 (zhèxiē dàolù tōngcháng chéngshòu de)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Se debe únicamente a la casualidad.",
+        "zh_completa": "完全是由于巧合。",
+        "segmentos": [
+          {
+            "es": "Se debe únicamente ",
+            "zh": "完全由于 (wánquán yóuyú)"
+          },
+          {
+            "es": "a la casualidad.",
+            "zh": "巧合。 (qiǎohé)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": true,
+        "es_completa": "Se debe normalmente a la mayor velocidad que se alcanza en estas vías, entre otros factores de riesgo que también suelen estar implicados.",
+        "zh_completa": "通常由于在这些道路上达到的更高速度，以及通常涉及的其他风险因素。",
+        "segmentos": [
+          {
+            "es": "Se debe normalmente ",
+            "zh": "通常由于 (tōngcháng yóuyú)"
+          },
+          {
+            "es": "a la mayor velocidad ",
+            "zh": "更高的速度 (gèng gāo de sùdù)"
+          },
+          {
+            "es": "que se alcanza en estas vías, ",
+            "zh": "在这些道路上达到的， (zài zhèxiē dàolù shàng dádào de)"
+          },
+          {
+            "es": "entre otros factores de riesgo.",
+            "zh": "以及其他风险因素。 (yǐjí qítā fēngxiǎn yīnsù)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "La mayor mortalidad en los accidentes de carretera se debe principalmente a la mayor velocidad con la que se circula por las vías interurbanas, sumada a otros factores de riesgo habituales. (Ref: RP 1-5.1)",
+      "zh_completa": "公路事故死亡率更高，主要归因于城际道路上行驶速度更快，以及伴随的其他常见风险因素。(参考: RP 1-5.1)",
+      "segmentos": [
+        {
+          "es": "La mayor mortalidad en carretera ",
+          "zh": "公路上的更高死亡率 (gōnglù shàng de gèng gāo sǐwáng lǜ)"
+        },
+        {
+          "es": "se debe principalmente ",
+          "zh": "主要由于 (zhǔyào yóuyú)"
+        },
+        {
+          "es": "a la mayor velocidad ",
+          "zh": "更高的速度 (gèng gāo de sùdù)"
+        },
+        {
+          "es": "y a otros factores de riesgo.",
+          "zh": "和其他风险因素。 (hé qítā fēngxiǎn yīnsù)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q18",
+    "tema": "primeros_auxilios_rcp",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Se debe abandonar la resucitación o reanimación cardiopulmonar, de un herido:",
+      "zh_completa": "在什么情况下应该停止对伤员的心肺复苏？",
+      "segmentos": [
+        {
+          "es": "Se debe abandonar ",
+          "zh": "应该停止 (yīnggāi tíngzhǐ)"
+        },
+        {
+          "es": "la resucitación cardiopulmonar ",
+          "zh": "心肺复苏 (xīnfèi fùsū)"
+        },
+        {
+          "es": "de un herido:",
+          "zh": "对伤员的： (duì shāngyuán de:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "3 minutos después de haber comenzado.",
+        "zh_completa": "开始后3分钟。",
+        "segmentos": [
+          {
+            "es": "3 minutos después ",
+            "zh": "3分钟后 (3 fēnzhōng hòu)"
+          },
+          {
+            "es": "de haber comenzado.",
+            "zh": "开始之后。 (kāishǐ zhīhòu)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": true,
+        "es_completa": "Si llega ayuda cualificada y se hace cargo de la situación.",
+        "zh_completa": "如果有专业救援人员到达并接管情况。",
+        "segmentos": [
+          {
+            "es": "Si llega ayuda cualificada ",
+            "zh": "如果有专业救援到达 (rúguǒ yǒu zhuānyè jiùyuán dàodá)"
+          },
+          {
+            "es": "y se hace cargo de la situación.",
+            "zh": "并接管局势。 (bìng jiēguǎn júshì)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "10 minutos después de haber comenzado.",
+        "zh_completa": "开始后10分钟。",
+        "segmentos": [
+          {
+            "es": "10 minutos después ",
+            "zh": "10分钟后 (10 fēnzhōng hòu)"
+          },
+          {
+            "es": "de haber comenzado.",
+            "zh": "开始之后。 (kāishǐ zhīhòu)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Se debe continuar con la reanimación cardiopulmonar hasta que la víctima comience a respirar con normalidad o hasta que llegue ayuda cualificada que releve al auxiliador. (Ref: RP 15-3.3)",
+      "zh_completa": "心肺复苏必须一直持续，直到伤员开始正常呼吸，或者直到专业救援人员到达并接替救援人员。(参考: RP 15-3.3)",
+      "segmentos": [
+        {
+          "es": "Se debe continuar ",
+          "zh": "必须继续 (bìxū jìxù)"
+        },
+        {
+          "es": "hasta que llegue ayuda cualificada ",
+          "zh": "直到专业救援到达 (zhídào zhuānyè jiùyuán dàodá)"
+        },
+        {
+          "es": "o la víctima respire con normalidad.",
+          "zh": "或伤员正常呼吸。 (huò shāngyuán zhèngcháng hūxī)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q19",
+    "tema": "delitos_contra_la_seguridad_vial",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Se considera un delito contra la seguridad vial:",
+      "zh_completa": "以下哪项被视为危害道路交通安全的犯罪：",
+      "segmentos": [
+        {
+          "es": "Se considera ",
+          "zh": "被视为 (bèi shìwéi)"
+        },
+        {
+          "es": "un delito ",
+          "zh": "一项犯罪 (yī xiàng fànzuì)"
+        },
+        {
+          "es": "contra la seguridad vial:",
+          "zh": "危害道路交通安全： (wēihài dàolù jiāotōng ānquán:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "Superar en más de 20 km/h la velocidad reglamentaria en zona urbana.",
+        "zh_completa": "在市区内超过规定时速20公里/小时以上。",
+        "segmentos": [
+          {
+            "es": "Superar en más de 20 km/h ",
+            "zh": "超过20公里/小时以上 (chāoguò 20 gōnglǐ/xiǎoshí yǐshàng)"
+          },
+          {
+            "es": "la velocidad en zona urbana.",
+            "zh": "市区内的速度。 (shìqū nèi de sùdù)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": true,
+        "es_completa": "Conducir estando privado cautelar o definitivamente del permiso o licencia de conducción por decisión judicial.",
+        "zh_completa": "因司法判决被临时或永久剥夺驾驶执照而驾驶车辆。",
+        "segmentos": [
+          {
+            "es": "Conducir estando privado ",
+            "zh": "在被剥夺的情况下驾驶 (zài bèi bōduó de qíngkuàng xià jiàshǐ)"
+          },
+          {
+            "es": "del permiso o licencia de conducción ",
+            "zh": "驾驶许可或执照 (jiàshǐ xǔkě huò zhízhào)"
+          },
+          {
+            "es": "por decisión judicial.",
+            "zh": "通过司法裁决。 (tōngguò sīfǎ cáijué)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Conducir con menores, sin el sistema de retención infantil adecuado a su talla y peso.",
+        "zh_completa": "搭载未成年人时，未使用与其身高和体重相适应的儿童约束系统。",
+        "segmentos": [
+          {
+            "es": "Conducir con menores, ",
+            "zh": "载有未成年人驾驶， (zǎi yǒu wèi chéngnián rén jiàshǐ)"
+          },
+          {
+            "es": "sin el sistema de retención infantil ",
+            "zh": "没有儿童约束系统 (méiyǒu értóng yuēshù xìtǒng)"
+          },
+          {
+            "es": "adecuado a su talla y peso.",
+            "zh": "适合其身高和体重。 (shìhé qí shēnGāo hé tǐzhòng)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Según el artículo 384 del Código Penal, constituye un delito contra la seguridad vial conducir un vehículo tras haber sido privado cautelar o definitivamente del permiso o licencia por decisión judicial. (Ref: RP 16-7.2)",
+      "zh_completa": "根据《刑法》第384条，因司法判决被临时或永久剥夺驾驶证而驾驶车辆的行为构成危害道路交通安全罪。(参考: RP 16-7.2)",
+      "segmentos": [
+        {
+          "es": "Constituye un delito ",
+          "zh": "构成犯罪 (gòuchéng fànzuì)"
+        },
+        {
+          "es": "conducir tras haber sido privado ",
+          "zh": "在被剥夺后驾驶 (zài bèi bōduó hòu jiàshǐ)"
+        },
+        {
+          "es": "del permiso por decisión judicial.",
+          "zh": "因法院判决的驾照。 (yīn fǎyuàn pànjué de jiàzhào)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q20",
+    "tema": "seguridad_vial_jovenes",
+    "imagen_url": "assets/images/test_rec_02_q20.jpg",
+    "pregunta": {
+      "es_completa": "En general, los jóvenes constituyen un grupo de personas con elevada accidentalidad porque...",
+      "zh_completa": "总的来说，年轻人是一个事故率较高的群体，因为……",
+      "segmentos": [
+        {
+          "es": "En general, los jóvenes ",
+          "zh": "总的来说，年轻人 (zǒng de lái shuō, niánqīng rén)"
+        },
+        {
+          "es": "constituyen un grupo de elevada accidentalidad ",
+          "zh": "构成了一个高事故率的群体 (gòuchéng le yīgè gāo shìgù lǜ de qúntǐ)"
+        },
+        {
+          "es": "porque...",
+          "zh": "因为... (yīnwèi...)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "son muy prudentes.",
+        "zh_completa": "他们非常谨慎。",
+        "segmentos": [
+          {
+            "es": "son muy ",
+            "zh": "非常 (fēicháng)"
+          },
+          {
+            "es": "prudentes.",
+            "zh": "谨慎的。 (jǐnshèn de)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "arriesgan menos que otros conductores.",
+        "zh_completa": "他们比其他司机冒的风险更少。",
+        "segmentos": [
+          {
+            "es": "arriesgan menos ",
+            "zh": "冒险较少 (màoxiǎn jiào shǎo)"
+          },
+          {
+            "es": "que otros conductores.",
+            "zh": "比其他司机。 (bǐ qítā sījī)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": true,
+        "es_completa": "creen que conducen mucho mejor que el resto de conductores.",
+        "zh_completa": "他们认为自己比其他所有司机开得都好得多。",
+        "segmentos": [
+          {
+            "es": "creen que conducen ",
+            "zh": "认为他们驾驶 (rènwèi tāmen jiàshǐ)"
+          },
+          {
+            "es": "mucho mejor ",
+            "zh": "好得多 (hǎo de duō)"
+          },
+          {
+            "es": "que el resto de conductores.",
+            "zh": "比其余司机。 (bǐ qíyú sījī)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Muchos jóvenes presentan una alta accidentalidad debido a factores como la atribución errónea de su comportamiento, creyendo que conducen mucho mejor que los demás y que los errores solo los cometen otros. (Ref: RP 5-2.2)",
+      "zh_completa": "许多年轻人事故率高是由于诸如对自己行为的错误归因等因素，他们认为自己比别人开得好得多，且错误总是别人犯的。(参考: RP 5-2.2)",
+      "segmentos": [
+        {
+          "es": "Los jóvenes tienen más accidentes ",
+          "zh": "年轻人发生更多事故 (niánqīng rén fāshēng gèng duō shìgù)"
+        },
+        {
+          "es": "porque atribuyen su comportamiento ",
+          "zh": "因为他们将自己的行为 (yīnwèi tāmen jiāng zìjǐ de xíngwéi)"
+        },
+        {
+          "es": "creyendo que conducen mejor que los demás.",
+          "zh": "归结为自认为比别人开得好。 (guījié wéi zì rènwèi bǐ biérén kāi de hǎo)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q21",
+    "tema": "seguridad_vial_grupos_vulnerables_peatones",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Entre las infracciones más comunes de los conductores, que se relacionan con muchos atropellos, encontramos:",
+      "zh_completa": "在与许多撞人事故相关的驾驶员最常见违章行为中，包括：",
+      "segmentos": [
+        {
+          "es": "Entre las infracciones más comunes ",
+          "zh": "在最常见的违章行为中 (zài zuì chángjiàn de wéizhāng xíngwéi zhōng)"
+        },
+        {
+          "es": "de los conductores, ",
+          "zh": "驾驶员的， (jiàshǐyuán de)"
+        },
+        {
+          "es": "que se relacionan con muchos atropellos, ",
+          "zh": "这与许多撞击事故有关， (zhè yǔ xǔduō zhuàngjī shìgù yǒuguān)"
+        },
+        {
+          "es": "encontramos:",
+          "zh": "我们发现： (wǒmen fāxiàn:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "Conducir escuchando música.",
+        "zh_completa": "听着音乐开车。",
+        "segmentos": [
+          {
+            "es": "Conducir ",
+            "zh": "驾驶 (jiàshǐ)"
+          },
+          {
+            "es": "escuchando música.",
+            "zh": "听音乐。 (tīng yīnyuè)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "La incorrecta señalización por parte del conductor en los adelantamientos.",
+        "zh_completa": "超车时驾驶员未正确发出信号。",
+        "segmentos": [
+          {
+            "es": "La incorrecta señalización ",
+            "zh": "错误的信号指示 (cuòwù de xìnhào zhǐshì)"
+          },
+          {
+            "es": "por parte del conductor ",
+            "zh": "由驾驶员 (yóu jiàshǐyuán)"
+          },
+          {
+            "es": "en los adelantamientos.",
+            "zh": "在超车时。 (zài chāochē shí)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": true,
+        "es_completa": "Incumplir las indicaciones de los semáforos en amarillo o en rojo.",
+        "zh_completa": "不遵守黄灯或红灯的指示。",
+        "segmentos": [
+          {
+            "es": "Incumplir ",
+            "zh": "不遵守 (bù zūnshǒu)"
+          },
+          {
+            "es": "las indicaciones ",
+            "zh": "指示 (zhǐshì)"
+          },
+          {
+            "es": "de los semáforos en amarillo o en rojo.",
+            "zh": "黄灯或红灯的交通信号灯。 (huáng dēng huò hóng dēng de jiāotōng xìnhàodēng)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Entre las infracciones graves que cometen los conductores y que ponen en riesgo a los peatones se encuentran incumplir las indicaciones de los semáforos en amarillo o rojo, no respetar la prioridad de paso y estacionar sobre la acera. (Ref: RP 5-4)",
+      "zh_completa": "驾驶员实施的危及行人安全的严重违章行为包括不遵守黄灯或红灯指示、不礼让优先通行权以及在人行道上停车等。(参考: RP 5-4)",
+      "segmentos": [
+        {
+          "es": "Entre las infracciones de los conductores ",
+          "zh": "在驾驶员的违章行为中 (zài jiàshǐyuán de wéizhāng xíngwéi zhōng)"
+        },
+        {
+          "es": "destaca incumplir los semáforos ",
+          "zh": "突出表现为不遵守交通信号灯 (tūchū biǎoxiàn wéi bù zūnshǒu jiāotōng xìnhàodēng)"
+        },
+        {
+          "es": "en amarillo o en rojo.",
+          "zh": "黄灯或红灯。 (huáng dēng huò hóng dēng)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q22",
+    "tema": "seguridad_pasiva_vuelco",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Durante un accidente, en caso de vuelco:",
+      "zh_completa": "在事故中，如果发生翻车：",
+      "segmentos": [
+        {
+          "es": "Durante un accidente, ",
+          "zh": "在事故中， (zài shìgù zhōng)"
+        },
+        {
+          "es": "en caso de vuelco:",
+          "zh": "如果发生翻车： (rúguǒ fāshēng fānchē:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "Se pueden producir graves lesiones en los ocupantes del vehículo, pero sólo si éstos permanecen en su interior durante el accidente.",
+        "zh_completa": "车内乘员可能会受到严重伤害，但前提是他们在事故中一直留在车内。",
+        "segmentos": [
+          {
+            "es": "Se pueden producir lesiones ",
+            "zh": "可能会产生伤害 (kěnéng huì chǎnshēng shānghài)"
+          },
+          {
+            "es": "pero sólo si permanecen en el interior.",
+            "zh": "但仅当他们呆在车内时。 (dàn jǐn dāng tāmen dāi zài chē nèi shí)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": true,
+        "es_completa": "Con cada vuelta, los ocupantes son proyectados contra la otra parte del vehículo, pudiendo golpearse contra los elementos del habitáculo o contra los otros ocupantes.",
+        "zh_completa": "随着每一次翻转，乘员会被甩向车辆的另一侧，可能会撞击到车厢内部的部件或其他乘员。",
+        "segmentos": [
+          {
+            "es": "Con cada vuelta, ",
+            "zh": "随着每一次翻转， (suízhe měi yīcì fānzhuǎn)"
+          },
+          {
+            "es": "los ocupantes son proyectados ",
+            "zh": "乘员被抛出 / 撞向 (chéngyuán bèi pāochū / zhuàng xiàng)"
+          },
+          {
+            "es": "contra los elementos del habitáculo.",
+            "zh": "撞击车厢内部部件。 (zhuàngjī chēxiāng nèibù bùjiàn)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Es más seguro salir expulsado del vehículo, lo que reduce la probabilidad de sufrir lesiones.",
+        "zh_completa": "被甩出车外更安全，这会降低受伤的几率。",
+        "segmentos": [
+          {
+            "es": "Es más seguro ",
+            "zh": "更安全 (gèng ānquán)"
+          },
+          {
+            "es": "salir expulsado del vehículo.",
+            "zh": "被甩出车外。 (bèi shuǎi chū chē wài)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "En caso de vuelco, con cada vuelta los ocupantes son proyectados contra los elementos del habitáculo o contra los demás pasajeros, siendo salir despedidos del vehículo un factor que agrava enormemente las lesiones o causa la muerte. (Ref: RP 2-3.4)",
+      "zh_completa": "在翻车情况下，随着每一次翻转，乘员会被抛向车厢内部部件或其他乘客，而被甩出车外则是极大地加重伤害或导致死亡的因素。(参考: RP 2-3.4)",
+      "segmentos": [
+        {
+          "es": "En caso de vuelco, ",
+          "zh": "在翻车情况下， (zài fānchē qíngkuàng xià)"
+        },
+        {
+          "es": "con cada vuelta son proyectados ",
+          "zh": "随着每次翻转被抛出 (suízhe měicì fānzhuǎn bèi pāochū)"
+        },
+        {
+          "es": "contra los elementos del habitáculo.",
+          "zh": "撞向车厢内部部件。 (zhuàng xiàng chēxiāng nèibù bùjiàn)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q23",
+    "tema": "seguridad_pasiva_efecto_submarino",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "En una colisión frontal, para que no se produzca el efecto submarino en el conductor:",
+      "zh_completa": "在正面碰撞中，为了避免驾驶员发生潜滑效应（安全带滑脱效应）：",
+      "segmentos": [
+        {
+          "es": "En una colisión frontal, ",
+          "zh": "在正面碰撞中， (zài zhèngmiàn pèngzhuàng zhōng)"
+        },
+        {
+          "es": "para que no se produzca el efecto submarino ",
+          "zh": "为了不产生潜滑效应 (wèile bù chǎnshēng qiánhuá xià yìng)"
+        },
+        {
+          "es": "en el conductor:",
+          "zh": "在驾驶员身上： (zài jiàshǐyuán shēnshang:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": false,
+        "es_completa": "Llevar la banda abdominal del cinturón de seguridad a la altura de la cintura.",
+        "zh_completa": "将安全带的腹带佩戴在腰部高度。",
+        "segmentos": [
+          {
+            "es": "Llevar la banda abdominal ",
+            "zh": "将腹带 (jiāng fùdài)"
+          },
+          {
+            "es": "a la altura de la cintura.",
+            "zh": "在腰部高度。 (zài yāobù gāodù)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": true,
+        "es_completa": "Es importante regular y utilizar adecuadamente el cinturón de seguridad y el respaldo del asiento.",
+        "zh_completa": "正确调节和使用安全带以及座椅靠背是非常重要的。",
+        "segmentos": [
+          {
+            "es": "Es importante regular y utilizar ",
+            "zh": "调节和使用很重要 (tiáojié hé shǐyòng hěn zhòngyào)"
+          },
+          {
+            "es": "adecuadamente el cinturón ",
+            "zh": "正确地使用安全带 (zhèngquè de shǐyòng ānquándài)"
+          },
+          {
+            "es": "y el respaldo del asiento.",
+            "zh": "和座椅靠背。 (hé zuòyǐ kàobèi)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Es importante llevar el respaldo muy inclinado hacia delante.",
+        "zh_completa": "将靠背大幅向前倾斜是很重要的。",
+        "segmentos": [
+          {
+            "es": "Es importante llevar el respaldo ",
+            "zh": "保持靠背很重要 (bǎochí kàobèi hěn zhòngyào)"
+          },
+          {
+            "es": "muy inclinado hacia delante.",
+            "zh": "向前大幅倾斜。 (xiàng qián dàfú qīngxié)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "El efecto submarino está estrechamente relacionado con una mala colocación del cinturón o una posición incorrecta del respaldo (como llevarlo demasiado inclinado), por lo que es vital regularlos y utilizarlos adecuadamente. (Ref: RP 2-3.1)",
+      "zh_completa": "潜滑效应与安全带放置不当或靠背位置不正确（例如倾斜过度）密切相关，因此正确调节和使用这些部件至关重要。(参考: RP 2-3.1)",
+      "segmentos": [
+        {
+          "es": "El efecto submarino ",
+          "zh": "潜滑效应 (qiánhuá xià yìng)"
+        },
+        {
+          "es": "se relaciona con una mala colocación, ",
+          "zh": "与放置不当有关， (yǔ fàngzhì bú dàng yǒuguān)"
+        },
+        {
+          "es": "por lo que es vital regular ",
+          "zh": "因此调节至关重要 (yīncǐ tiáojié zhìguān zhòngyào)"
+        },
+        {
+          "es": "el cinturón y el respaldo.",
+          "zh": "安全带和靠背。 (ānquándài hé kàobèi)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q24",
+    "tema": "seguridad_vial_jovenes",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Algunas de las causas que originan los siniestros de determinados grupos de jóvenes son:",
+      "zh_completa": "导致某些年轻群体发生事故的一些原因包括：",
+      "segmentos": [
+        {
+          "es": "Algunas de las causas ",
+          "zh": "一些原因 (yīxiē yuányīn)"
+        },
+        {
+          "es": "que originan los siniestros ",
+          "zh": "导致事故的 (dǎozhì shìgù de)"
+        },
+        {
+          "es": "de determinados grupos de jóvenes son:",
+          "zh": "特定青年群体的有： (tèdìng qīngnián qúntǐ de yǒu:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "El consumo de alcohol y otras drogas.",
+        "zh_completa": "酒精及其他药物的消耗。",
+        "segmentos": [
+          {
+            "es": "El consumo ",
+            "zh": "消耗 / 饮用 (xiāohāo / yǐnyòng)"
+          },
+          {
+            "es": "de alcohol ",
+            "zh": "酒精 (jiǔjīng)"
+          },
+          {
+            "es": "y otras drogas.",
+            "zh": "和其他药物。 (hé qítā yàowù)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "El miedo a conducir por falta de experiencia.",
+        "zh_completa": "因缺乏经验而对驾驶产生恐惧。",
+        "segmentos": [
+          {
+            "es": "El miedo a conducir ",
+            "zh": "对驾驶的恐惧 (duì jiàshǐ de kǒngjù)"
+          },
+          {
+            "es": "por falta de experiencia.",
+            "zh": "由于缺乏经验。 (yóuyú quēfá jīngyàn)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "El deterioro de las capacidades psicofísicas producido por la edad.",
+        "zh_completa": "年龄导致的身心机能退化。",
+        "segmentos": [
+          {
+            "es": "El deterioro ",
+            "zh": "退化 / 恶化 (tuìhuà / èhuà)"
+          },
+          {
+            "es": "de las capacidades psicofísicas ",
+            "zh": "身心机能 (shēnxīn jīnéng)"
+          },
+          {
+            "es": "producido por la edad.",
+            "zh": "由年龄产生的。 (yóu niánlíng chǎnshēng de)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Entre las principales causas de accidentalidad en determinados grupos de jóvenes se encuentran el consumo de alcohol o drogas, la velocidad excesiva y la falta de respeto a las normas de circulación. (Ref: RP 5-2.2)",
+      "zh_completa": "在某些年轻人群体中，事故的主要原因包括饮酒或吸毒、车速过快以及不遵守交通规则。(参考: RP 5-2.2)",
+      "segmentos": [
+        {
+          "es": "Entre las causas de accidentalidad en jóvenes ",
+          "zh": "年轻人事故率的原因中 (niánqīng rén shìgù lǜ de yuányīn zhōng)"
+        },
+        {
+          "es": "destaca el consumo de alcohol o drogas ",
+          "zh": "突出的有饮酒或吸毒 (tūchū de yǒu yǐnjiǔ huò xīdú)"
+        },
+        {
+          "es": "y la velocidad excesiva.",
+          "zh": "以及过快速度。 (yǐjí guò kuài sùdù)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q25",
+    "tema": "seguridad_vial_ciclistas",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Algunas recomendaciones para evitar el atropello a ciclistas serían:",
+      "zh_completa": "为避免撞到骑自行车者，一些建议包括：",
+      "segmentos": [
+        {
+          "es": "Algunas recomendaciones ",
+          "zh": "一些建议 (yīxiē jiànyì)"
+        },
+        {
+          "es": "para evitar el atropello ",
+          "zh": "以避免撞击 (yǐ bìmiǎn zhuàngjī)"
+        },
+        {
+          "es": "a ciclistas serían:",
+          "zh": "骑自行车者是： (qí zìxíngchē zhě shì:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "En urbanizaciones y zonas de ocio, especialmente en verano y días de fiesta, hay muchas posibilidades de que encuentres ciclistas en tu camino.",
+        "zh_completa": "在住宅区和休闲区，特别是夏季和节假日，你很有可能在路上遇到骑自行车的人。",
+        "segmentos": [
+          {
+            "es": "En urbanizaciones y zonas de ocio, ",
+            "zh": "在住宅区和休闲区， (zài zhùzhái qū hé xiūxián qū)"
+          },
+          {
+            "es": "especialmente en verano y fiestas, ",
+            "zh": "特别是在夏天和节日， (tèbié shì zài xiàtiān hé jiérì)"
+          },
+          {
+            "es": "hay muchas posibilidades de encontrar ciclistas.",
+            "zh": "很有可能遇到骑车人。 (hěn yǒu kěnéng yùdào qí chē rén)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Realiza señales acústicas cerca de los ciclistas para que te vean y extremen las precauciones.",
+        "zh_completa": "在骑自行车者附近鸣笛，让他们看到你并采取极度谨慎措施。",
+        "segmentos": [
+          {
+            "es": "Realiza señales acústicas ",
+            "zh": "鸣笛 / 发出声响信号 (míngdí / fāchū shēngxiǎng xìnhào)"
+          },
+          {
+            "es": "cerca de los ciclistas ",
+            "zh": "在骑车人附近 (zài qí chē rén fùjìn)"
+          },
+          {
+            "es": "para que te vean.",
+            "zh": "让他们看到你。 (ràng tāmen kàn dào nǐ)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Si observas ciclistas que circulan en sentido contrario, no hay problema en adelantar.",
+        "zh_completa": "如果你发现迎面骑来的自行车，超车是没有问题的。",
+        "segmentos": [
+          {
+            "es": "Si observas ciclistas en sentido contrario, ",
+            "zh": "如果你看到对向骑行的骑车人， (rúguǒ nǐ kàn dào duì xiàng qí háng de qí chē rén)"
+          },
+          {
+            "es": "no hay problema en adelantar.",
+            "zh": "超车没有问题。 (chāochē méiyǒu wèntí)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Para evitar atropellos a ciclistas, se debe tener en cuenta que en urbanizaciones y zonas de ocio, especialmente en verano y días festivos, es muy probable encontrarlos. Se deben evitar las señales acústicas cerca de ellos para no asustarlos y no se debe adelantar si circulan ciclistas en sentido contrario. (Ref: RP 5-5.1)",
+      "zh_completa": "为了避免撞击骑自行车者，必须考虑到在住宅区和休闲区（尤其是夏天和节假日）很可能会遇到他们。应避免在他们附近鸣笛以免惊吓他们，且如果有对向骑车人切勿超车。(参考: RP 5-5.1)",
+      "segmentos": [
+        {
+          "es": "En urbanizaciones y zonas de ocio ",
+          "zh": "在住宅区和休闲区 (zài zhùzhái qū hé xiūxián qū)"
+        },
+        {
+          "es": "es muy probable encontrar ciclistas, ",
+          "zh": "很可能遇到骑车人， (hěn kěnéng yùdào qí chē rén)"
+        },
+        {
+          "es": "evitando señales acústicas cercanas ",
+          "zh": "避免近距离鸣笛 (bìmiǎn jìn jùlí míngdí)"
+        },
+        {
+          "es": "y no adelantando en sentido contrario.",
+          "zh": "且不要在对向超车。 (qiě bú yào zài duì xiàng chāochē)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q26",
+    "tema": "seguridad_vial_grupos_vulnerables",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "¿A qué se debe en parte que la mitad de personas mayores muertas en accidente de tráfico fueran peatones?",
+      "zh_completa": "老年交通事故死者中有一半是行人，这部分原因是什么？",
+      "segmentos": [
+        {
+          "es": "¿A qué se debe en parte ",
+          "zh": "部分原因是什么 (bùfèn yuányīn shì shénme)"
+        },
+        {
+          "es": "que la mitad de personas mayores muertas ",
+          "zh": "死亡的一半老年人 (sǐwáng de yībān lǎonián rén)"
+        },
+        {
+          "es": "fueran peatones?",
+          "zh": "是行人？ (shì xíngrén?)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "Entre otras cosas, a los problemas de vista y oído que muchos de ellos sufren.",
+        "zh_completa": "除其他原因外，还由于他们当中许多人患有视力和听力问题。",
+        "segmentos": [
+          {
+            "es": "Entre otras cosas, ",
+            "zh": "除其他因素外， (chú qítā yīnsù wài)"
+          },
+          {
+            "es": "a los problemas de vista y oído ",
+            "zh": "视力和听力问题 (shìlì hé tīnglì wèntí)"
+          },
+          {
+            "es": "que muchos de ellos sufren.",
+            "zh": "他们中许多人经历的。 (tāmen zhōng xǔduō rén jīnglì de)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "A la mera casualidad.",
+        "zh_completa": "纯属偶然。",
+        "segmentos": [
+          {
+            "es": "A la mera ",
+            "zh": "纯粹的 (chúncuì de)"
+          },
+          {
+            "es": "casualidad.",
+            "zh": "巧合。 (qiǎohé)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "A su mayor presencia en las vías públicas.",
+        "zh_completa": "因为他们在公共道路上的出现频率更高。",
+        "segmentos": [
+          {
+            "es": "A su mayor presencia ",
+            "zh": "由于他们更多地出现 (yóuyú tāmen gèng duō de chūxiàn)"
+          },
+          {
+            "es": "en las vías públicas.",
+            "zh": "在公共道路上。 (zài gōnggòng dàolù shàng)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "La accidentalidad y mortalidad de las personas mayores como peatones se debe, entre otros factores, a los problemas de vista y oído, la menor capacidad de reacción, la menor concentración y el desconocimiento de la normativa. (Ref: RP 5-4.1)",
+      "zh_completa": "老年人作为行人的事故率和死亡率高，部分原因在于视力和听力问题、反应能力下降、注意力不集中以及对规则的不了解。(参考: RP 5-4.1)",
+      "segmentos": [
+        {
+          "es": "Se debe en parte ",
+          "zh": "部分原因在于 (bùfèn yuányīn zàiyú)"
+        },
+        {
+          "es": "a problemas de vista y oído, ",
+          "zh": "视力和听力问题， (shìlì hé tīnglì wèntí)"
+        },
+        {
+          "es": "menor reacción y distracciones.",
+          "zh": "较低的反应和分心。 (jiào dī de fǎnyìng hé fēnxīn)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q27",
+    "tema": "mecanismos_lesionales_efecto_latigo",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Respecto al llamado \"efecto látigo\" que puede producirse durante un accidente:",
+      "zh_completa": "关于在事故中可能产生的所谓“挥鞭效应”（鞭打效应）：",
+      "segmentos": [
+        {
+          "es": "Respecto al llamado \"efecto látigo\" ",
+          "zh": "关于所谓的“挥鞭效应” (guānyú suǒwèi de \"huībiān xià yìng\")"
+        },
+        {
+          "es": "que puede producirse durante un accidente:",
+          "zh": "在事故期间可能发生的： (zài shìgù qījiān kěnéng fāshēng de:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "Es una prueba del efecto que pueden llegar a tener las fuerzas de aceleración y deceleración sobre el cuerpo de los ocupantes del vehículo durante el accidente (mecanismos lesionales indirectos).",
+        "zh_completa": "它是加速度和减速度在事故期间对车内乘员身体可能产生的影响的证明（间接损伤机制）。",
+        "segmentos": [
+          {
+            "es": "Es una prueba del efecto ",
+            "zh": "它是影响的证明 (tā shì yǐngxiǎng de zhèngmíng)"
+          },
+          {
+            "es": "de las fuerzas de aceleración y deceleración ",
+            "zh": "加速和减速力的 (jiāsù hé jiǎnsù lì de)"
+          },
+          {
+            "es": "sobre el cuerpo de los ocupantes (mecanismos indirectos).",
+            "zh": "对乘员身体的影响（间接机制）。 (duì chéngyuán shēntǐ de yǐngxiǎng (jiànjiē jīzhì).)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Se trata de un falso mito, sin ningún tipo de base científica ni relevancia para la seguridad vial.",
+        "zh_completa": "这是一个虚假的误区，没有任何科学依据，也与道路安全无关。",
+        "segmentos": [
+          {
+            "es": "Se trata de un falso mito, ",
+            "zh": "这是一个虚假的误区， (zhè shì yīgè xūjiǎ de wùqū)"
+          },
+          {
+            "es": "sin base científica ni relevancia.",
+            "zh": "没有科学依据或相关性。 (méiyǒu kēxué yījù huò xiāngguān xìng)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Se produce como consecuencia de los golpes directos que recibe el conductor en el cuello durante el accidente (mecanismos lesionales directos).",
+        "zh_completa": "它是由于驾驶员在事故中颈部受到的直接撞击而产生的（直接损伤机制）。",
+        "segmentos": [
+          {
+            "es": "Se produce como consecuencia ",
+            "zh": "它产生于...的结果 (tā chǎnshēng yú...de jiéguǒ)"
+          },
+          {
+            "es": "de los golpes directos en el cuello ",
+            "zh": "颈部的直接打击 (jǐngbù de zhíjiē dǎjí)"
+          },
+          {
+            "es": "durante el accidente (mecanismos directos).",
+            "zh": "在事故期间（直接机制）。 (zài shìgù qījiān (zhíjiē jīzhì).)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "El efecto látigo (latigazo cervical) se engloba dentro de los mecanismos lesionales indirectos, ya que no se debe a un golpe directo, sino a las fuerzas de aceleración y deceleración que actúan sobre el cuerpo y el cuello de los ocupantes. (Ref: RP 2-1.1)",
+      "zh_completa": "挥鞭效应（颈部挥鞭样损伤）属于间接损伤机制，因为它不是由于直接撞击造成的，而是由于作用在乘员身体和颈部的加速度与减速度力引起的。(参考: RP 2-1.1)",
+      "segmentos": [
+        {
+          "es": "El efecto látigo ",
+          "zh": "挥鞭效应 (huībiān xià yìng)"
+        },
+        {
+          "es": "es un mecanismo lesional indirecto ",
+          "zh": "是一种间接损伤机制 (shì yīzhǒng jiànjiē sǔnshāng jīzhì)"
+        },
+        {
+          "es": "causado por las fuerzas de aceleración y deceleración.",
+          "zh": "由加速和减速力引起。 (yóu jiāsù hé jiǎnsù lì yǐnqǐ)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q28",
+    "tema": "seguridad_pasiva_bicicletas",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "Respecto a las principales lesiones en caso de accidente en bicicleta:",
+      "zh_completa": "关于骑自行车发生事故时的主要伤害：",
+      "segmentos": [
+        {
+          "es": "Respecto a las principales lesiones ",
+          "zh": "关于主要伤害 (guānyú zhǔyào shānghài)"
+        },
+        {
+          "es": "en caso de accidente ",
+          "zh": "在事故情况下 (zài shìgù qíngkuàng xià)"
+        },
+        {
+          "es": "en bicicleta:",
+          "zh": "骑自行车： (qí zìxíngchē:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "En el tórax se producen frecuentemente y son graves.",
+        "zh_completa": "胸部损伤经常发生且非常严重。",
+        "segmentos": [
+          {
+            "es": "En el tórax ",
+            "zh": "在胸部 (zài xiōngbù)"
+          },
+          {
+            "es": "se producen frecuentemente ",
+            "zh": "经常发生 (jīngcháng fāshēng)"
+          },
+          {
+            "es": "y son graves.",
+            "zh": "且很严重。 (qiě hěn yánzhòng)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Las lesiones en la cara son poco frecuentes.",
+        "zh_completa": "面部损伤并不常见。",
+        "segmentos": [
+          {
+            "es": "Las lesiones en la cara ",
+            "zh": "面部损伤 (miànbù sǔnshāng)"
+          },
+          {
+            "es": "son poco frecuentes.",
+            "zh": "并不常见。 (bìng bú chángjiàn)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Son leves las lesiones en el tórax.",
+        "zh_completa": "胸部损伤是轻微的。",
+        "segmentos": [
+          {
+            "es": "Son leves ",
+            "zh": "是轻微的 (shì qīngwēi de)"
+          },
+          {
+            "es": "las lesiones en el tórax.",
+            "zh": "胸部的损伤。 (xiōngbù de sǔnshāng)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "En los accidentes en bicicleta, las lesiones en el tórax se producen con frecuencia y suelen revestir una gran gravedad.",
+      "zh_completa": "在自行车事故中，胸部损伤经常发生，并且通常非常严重。",
+      "segmentos": [
+        {
+          "es": "En los accidentes de bicicleta, ",
+          "zh": "在自行车事故中， (zài zìxíngchē shìgù zhōng)"
+        },
+        {
+          "es": "las lesiones en el tórax ",
+          "zh": "胸部损伤 (xiōngbù sǔnshāng)"
+        },
+        {
+          "es": "son frecuentes y graves.",
+          "zh": "频繁发生且很严重。 (pínfán fāshēng qiě hěn yánzhòng)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q29",
+    "tema": "primeros_auxilios_emergencias",
+    "imagen_url": "assets/images/test_rec_02_q29.jpg",
+    "pregunta": {
+      "es_completa": "En un accidente de tráfico, ¿qué información debe dar el auxiliador al llamar al 112?",
+      "zh_completa": "在交通事故中，救援人员拨打112时应提供什么信息？",
+      "segmentos": [
+        {
+          "es": "En un accidente de tráfico, ",
+          "zh": "在交通事故中， (zài jiāotōng shìgù zhōng)"
+        },
+        {
+          "es": "¿qué información debe dar el auxiliador ",
+          "zh": "救援人员应该提供什么信息 (jiùyuán rényuán yīnggāi tígōng shénme xìnxī)"
+        },
+        {
+          "es": "al llamar al 112?",
+          "zh": "当拨打112时？ (dāng bōdǎ 112 shí?)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "El número de teléfono desde el que se hace la petición.",
+        "zh_completa": "拨打电话的号码。",
+        "segmentos": [
+          {
+            "es": "El número de teléfono ",
+            "zh": "电话号码 (diànhuà hàomǎ)"
+          },
+          {
+            "es": "desde el que se hace la petición.",
+            "zh": "发起呼叫的。 (fāqǐ hūjiào de)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "El nombre, apellidos y DNI de los accidentados.",
+        "zh_completa": "伤者的姓名和身份证号（DNI）。",
+        "segmentos": [
+          {
+            "es": "El nombre, apellidos y DNI ",
+            "zh": "姓名和身份证件 (xìngmíng hé shēnfèn zhìjiàn)"
+          },
+          {
+            "es": "de los accidentados.",
+            "zh": "伤者的。 (shāngzhě de)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "El aspecto y talla de los heridos.",
+        "zh_completa": "伤者的外貌和身材尺寸。",
+        "segmentos": [
+          {
+            "es": "El aspecto y talla ",
+            "zh": "外貌和身材 (wàimào hé shēncái)"
+          },
+          {
+            "es": "de los heridos.",
+            "zh": "伤者的。 (shāngzhě de)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Al llamar al 112 en caso de accidente, es obligatorio proporcionar datos vitales como el número de teléfono de contacto, el lugar exacto del siniestro, el número de afectados y sus posibles lesiones. (Ref: RP 15-3.2)",
+      "zh_completa": "在发生事故拨打112时，必须提供至关重要的数据，例如联系电话、事故确切地点、受影响人数及其可能的受伤情况。(参考: RP 15-3.2)",
+      "segmentos": [
+        {
+          "es": "Al llamar al 112, ",
+          "zh": "拨打112时， (bōdǎ 112 shí)"
+        },
+        {
+          "es": "debes facilitar el número de teléfono, ",
+          "zh": "你必须提供电话号码， (nǐ bìxū tígōng diànhuà hàomǎ)"
+        },
+        {
+          "es": "el lugar y los afectados.",
+          "zh": "地点和受影响人数。 (dìdiǎn hé shòu yǐngxiǎng rénshù)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "test_rec_02_q30",
+    "tema": "trafico_como_fenomeno_juridico",
+    "imagen_url": null,
+    "pregunta": {
+      "es_completa": "El tráfico, desde un punto de vista jurídico:",
+      "zh_completa": "从法律角度来看，交通：",
+      "segmentos": [
+        {
+          "es": "El tráfico, ",
+          "zh": "交通， (jiāotōng)"
+        },
+        {
+          "es": "desde un punto de vista jurídico:",
+          "zh": "从法律角度： (cóng fǎlǜ jiǎodù:)"
+        }
+      ]
+    },
+    "opciones": [
+      {
+        "id": "A",
+        "es_correcta": true,
+        "es_completa": "Ha de garantizar un equilibrio entre los derechos de todas las personas implicadas en la circulación.",
+        "zh_completa": "必须保证参与交通的所有人员权利之间的平衡。",
+        "segmentos": [
+          {
+            "es": "Ha de garantizar ",
+            "zh": "必须保证 (bìxū bǎozhèng)"
+          },
+          {
+            "es": "un equilibrio entre los derechos ",
+            "zh": "权利之间的平衡 (quánlì zhījiān de pínghéng)"
+          },
+          {
+            "es": "de todas las personas implicadas.",
+            "zh": "所有相关人员的。 (suǒyǒu xiāngguān rényuán de)"
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "es_correcta": false,
+        "es_completa": "Ha de encargarse únicamente de regular la tecnología aplicada a las vías y a los vehículos.",
+        "zh_completa": "仅负责规范应用于道路和车辆的技术。",
+        "segmentos": [
+          {
+            "es": "Ha de encargarse únicamente ",
+            "zh": "仅负责 (jǐn fùzé)"
+          },
+          {
+            "es": "de regular la tecnología ",
+            "zh": "规范技术 (guīfàn jìshù)"
+          },
+          {
+            "es": "en las vías y vehículos.",
+            "zh": "在道路和车辆中。 (zài dàolù hé chēliàng zhōng)"
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "es_correcta": false,
+        "es_completa": "Ha de encargarse únicamente de garantizar la seguridad en la construcción de las vías.",
+        "zh_completa": "仅负责确保道路建设的安全。",
+        "segmentos": [
+          {
+            "es": "Ha de encargarse únicamente ",
+            "zh": "仅负责 (jǐn fùzé)"
+          },
+          {
+            "es": "de garantizar la seguridad ",
+            "zh": "确保安全 (quèbǎo ānquán)"
+          },
+          {
+            "es": "en la construcción de las vías.",
+            "zh": "在道路建设中。 (zài dàolù jiànshè zhōng)"
+          }
+        ]
+      }
+    ],
+    "explicacion": {
+      "es_completa": "Desde el punto de vista jurídico, la normativa del tráfico debe garantizar un adecuado equilibrio entre los derechos de todas las personas implicadas, bajo el principio de que los derechos individuales terminan donde empiezan los de los demás. (Ref: RP 16-1)",
+      "zh_completa": "从法律角度来看，交通法规必须在所有相关人员的权利之间保证适当的平衡，其基本原则是个人权利的界限在于他人权利的起点。(参考: RP 16-1)",
+      "segmentos": [
+        {
+          "es": "Desde el punto de vista jurídico, ",
+          "zh": "从法律角度， (cóng fǎlǜ jiǎodù)"
+        },
+        {
+          "es": "garantiza un equilibrio ",
+          "zh": "保证平衡 (bǎozhèng pínghéng)"
+        },
+        {
+          "es": "entre los derechos de las personas implicadas.",
+          "zh": "在相关人员的权利之间。 (zài xiāngguān rényuán de quánlì zhījiān)"
+        }
+      ]
+    }
+  }
+]

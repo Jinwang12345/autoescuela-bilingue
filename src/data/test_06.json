@@ -1,0 +1,2468 @@
+[
+    {
+        "id": "test_rec_06_q01",
+        "tema": "delitos_decomiso_vehiculo",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "El vehículo utilizado en los hechos previstos como delitos contra la seguridad vial (Código Penal):",
+            "zh_completa": "在刑法规定的危害道路安全罪行为中使用的车辆：",
+            "segmentos": [
+                {
+                    "es": "El vehículo utilizado en delitos ",
+                    "zh": "在犯罪中使用的车辆"
+                },
+                {
+                    "es": "contra la seguridad vial (Código Penal):",
+                    "zh": "危害道路安全（刑法）："
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": true,
+                "es_completa": "Se considerará el vehículo como instrumento del delito y podrá ser decomisado.",
+                "zh_completa": "车辆将被视为犯罪工具，并可被没收。",
+                "segmentos": [
+                    {
+                        "es": "Se considerará instrumento del delito ",
+                        "zh": "将被视为犯罪工具"
+                    },
+                    {
+                        "es": "y podrá ser decomisado.",
+                        "zh": "并可被没收。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "Al vehículo no le pasará nada, sólo al conductor.",
+                "zh_completa": "车辆不会受到任何影响，只有驾驶员受罚。",
+                "segmentos": [
+                    {
+                        "es": "Al vehículo no le pasará nada, ",
+                        "zh": "车辆不会受到任何影响，"
+                    },
+                    {
+                        "es": "sólo al conductor.",
+                        "zh": "只有驾驶员受罚。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Será retirado para siempre como prueba del delito.",
+                "zh_completa": "将被永久扣押作为犯罪证据。",
+                "segmentos": [
+                    {
+                        "es": "Será retirado para siempre ",
+                        "zh": "将被永久扣押"
+                    },
+                    {
+                        "es": "como prueba del delito.",
+                        "zh": "作为犯罪证据。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Según el artículo 385 bis del Código Penal, el vehículo a motor o ciclomotor utilizado en los delitos contra la seguridad vial se considera instrumento del delito a efectos de su decomiso.",
+            "zh_completa": "根据《刑法》第385条之二规定，在危害道路安全罪中使用的机动车或轻便摩托车被视为犯罪工具，予以没收。",
+            "segmentos": [
+                {
+                    "es": "El artículo 385 bis del Código Penal ",
+                    "zh": "《刑法》第385条之二"
+                },
+                {
+                    "es": "considera el vehículo como instrumento del delito ",
+                    "zh": "将车辆视为犯罪工具"
+                },
+                {
+                    "es": "a efectos de su decomiso.",
+                    "zh": "予以没收。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q02",
+        "tema": "primeros_auxilios_hora_de_oro",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "¿Qué porcentaje de mortalidad tiene lugar durante la llamada hora de oro?",
+            "zh_completa": "在所谓的黄金一小时内发生的死亡率是多少？",
+            "segmentos": [
+                {
+                    "es": "¿Qué porcentaje de mortalidad ",
+                    "zh": "死亡率是多少"
+                },
+                {
+                    "es": "tiene lugar durante la hora de oro?",
+                    "zh": "在黄金一小时内？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": true,
+                "es_completa": "Cerca del 75%.",
+                "zh_completa": "接近75%。",
+                "segmentos": [
+                    {
+                        "es": "Cerca del 75%.",
+                        "zh": "接近75%。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "Entre el 15 y el 20%.",
+                "zh_completa": "在15%到20%之间。",
+                "segmentos": [
+                    {
+                        "es": "Entre el 15 ",
+                        "zh": "在15%"
+                    },
+                    {
+                        "es": "y el 20%.",
+                        "zh": "到20%之间。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Aproximadamente el 10%.",
+                "zh_completa": "大约10%。",
+                "segmentos": [
+                    {
+                        "es": "Aproximadamente ",
+                        "zh": "大约"
+                    },
+                    {
+                        "es": "el 10%.",
+                        "zh": "10%。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "En la hora de oro se producen cerca del 75% de las muertes, causadas principalmente por asfixia, hemorragias o traumatismos, por lo que una atención rápida es fundamental para salvar vidas.",
+            "zh_completa": "在黄金一小时内发生的死亡占近75%，主要是由于窒息、出血或创伤造成的，因此快速救护对拯救生命至关重要。",
+            "segmentos": [
+                {
+                    "es": "Durante la hora de oro ocurre el 75% de las muertes, ",
+                    "zh": "在黄金一小时内发生75%的死亡，"
+                },
+                {
+                    "es": "evitables con una adecuada asistencia sanitaria rápida.",
+                    "zh": "适当的快速医疗救护可以避免。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q03",
+        "tema": "seguridad_pasiva_efecto_submarino",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "Si tras un impacto frontal, el conductor se escurre por debajo del cinturón de seguridad y se desplaza por debajo del volante:",
+            "zh_completa": "如果在正面碰撞后，驾驶员滑到安全带下方并向方向盘下方移动：",
+            "segmentos": [
+                {
+                    "es": "Si tras un impacto frontal el conductor se escurre ",
+                    "zh": "如果在正面碰撞后驾驶员滑"
+                },
+                {
+                    "es": "por debajo del cinturón y del volante:",
+                    "zh": "到安全带和方向盘下方："
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "Hubiera sido mejor no llevar puesto el cinturón de seguridad.",
+                "zh_completa": "还不如不系安全带。",
+                "segmentos": [
+                    {
+                        "es": "Hubiera sido mejor ",
+                        "zh": "还不如"
+                    },
+                    {
+                        "es": "no llevar cinturón.",
+                        "zh": "不系安全带。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "Se produce el llamado efecto submarino.",
+                "zh_completa": "发生所谓的潜艇效应。",
+                "segmentos": [
+                    {
+                        "es": "Se produce ",
+                        "zh": "发生"
+                    },
+                    {
+                        "es": "el llamado efecto submarino.",
+                        "zh": "所谓的潜艇效应。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Quedará a salvo de cualquier tipo de lesión, al ocupar el espacio de seguridad que hay bajo el salpicadero.",
+                "zh_completa": "占据仪表板下方的安全空间，他将免于任何类型的伤害。",
+                "segmentos": [
+                    {
+                        "es": "Quedará a salvo de lesiones ",
+                        "zh": "将免于伤害"
+                    },
+                    {
+                        "es": "bajo el salpicadero.",
+                        "zh": "在仪表板下方。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Al deslizarse por debajo del cinturón de seguridad ocurre el efecto submarino, donde el cuerpo se hunde en el asiento impactando las piernas contra el salpicadero y provocando graves lesiones.",
+            "zh_completa": "通过滑到安全带下方，引发潜艇效应，此时身体下沉到座椅中，腿部撞击仪表板并造成严重损伤。",
+            "segmentos": [
+                {
+                    "es": "Al deslizarse bajo el cinturón ocurre el efecto submarino, ",
+                    "zh": "滑到安全带下方发生潜艇效应，"
+                },
+                {
+                    "es": "provocando impacto de las piernas contra el salpicadero.",
+                    "zh": "导致腿部撞击仪表板。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q04",
+        "tema": "factor_humano_prevencion_accidentes",
+        "imagen_url": "assets/images/test_rec_06_q04.jpg",
+        "pregunta": {
+            "es_completa": "El propio conductor, ¿puede influir para impedir un accidente de tráfico?",
+            "zh_completa": "驾驶员本人能够采取行动防止交通事故发生吗？",
+            "segmentos": [
+                {
+                    "es": "El propio conductor, ",
+                    "zh": "驾驶员本人，"
+                },
+                {
+                    "es": "¿puede influir para impedir un accidente de tráfico?",
+                    "zh": "能够采取行动防止交通事故发生吗？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "No, porque los accidentes no dependen del conductor y escapan de su control.",
+                "zh_completa": "不能，因为事故不取决于驾驶员，超出了其控制范围。",
+                "segmentos": [
+                    {
+                        "es": "No, porque los accidentes ",
+                        "zh": "不能，因为事故"
+                    },
+                    {
+                        "es": "escapan del control del conductor.",
+                        "zh": "超出了驾驶员的控制范围。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "No, porque los accidentes se deben al azar o el destino.",
+                "zh_completa": "不能，因为事故是由偶然或命运决定的。",
+                "segmentos": [
+                    {
+                        "es": "No, porque los accidentes ",
+                        "zh": "不能，因为事故"
+                    },
+                    {
+                        "es": "se deben al azar o destino.",
+                        "zh": "是由偶然或命运决定的。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": true,
+                "es_completa": "Sí, evitando comportamientos inadecuados.",
+                "zh_completa": "可以，通过避免不当行为。",
+                "segmentos": [
+                    {
+                        "es": "Sí, evitando ",
+                        "zh": "可以，通过避免"
+                    },
+                    {
+                        "es": "comportamientos inadecuados.",
+                        "zh": "不当行为。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "El factor humano es determinante en los accidentes de tráfico. El conductor puede prevenirlos evitando comportamientos de riesgo como distracciones, exceso de velocidad o consumo de alcohol.",
+            "zh_completa": "人为因素在交通事故中起决定性作用。驾驶员可以通过避免注意力分散、超速或饮酒等危险行为来预防事故。",
+            "segmentos": [
+                {
+                    "es": "El factor humano es determinante, ",
+                    "zh": "人为因素起决定性作用，"
+                },
+                {
+                    "es": "y el conductor puede prevenir accidentes evitando conductas de riesgo.",
+                    "zh": "驾驶员可以通过避免危险行为来预防事故。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q05",
+        "tema": "principios_circulacion_vial",
+        "imagen_url": "assets/images/test_rec_06_q05.jpg",
+        "pregunta": {
+            "es_completa": "Entre otros, ¿qué principios deben regir en la circulación vial?",
+            "zh_completa": "在其他原则中，哪些原则应当主导道路交通？",
+            "segmentos": [
+                {
+                    "es": "Entre otros, ",
+                    "zh": "在其他原则中，"
+                },
+                {
+                    "es": "¿qué principios deben regir en la circulación vial?",
+                    "zh": "哪些原则应当主导道路交通？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "El de la individualidad y el de la prioridad del tráfico rodado sobre los peatones.",
+                "zh_completa": "个人主义原则以及机动车交通优先于行人的原则。",
+                "segmentos": [
+                    {
+                        "es": "El de la individualidad ",
+                        "zh": "个人主义原则"
+                    },
+                    {
+                        "es": "y la prioridad sobre peatones.",
+                        "zh": "以及优先于行人的原则。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "El de confianza en la normalidad del tráfico y el de responsabilidad.",
+                "zh_completa": "对交通正常性的信任原则和责任原则。",
+                "segmentos": [
+                    {
+                        "es": "El de confianza en la normalidad del tráfico ",
+                        "zh": "对交通正常性的信任原则"
+                    },
+                    {
+                        "es": "y el de responsabilidad.",
+                        "zh": "和责任原则。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "El de la prioridad del tráfico rodado sobre los peatones y el de la antigüedad en la conducción.",
+                "zh_completa": "机动车交通优先于行人的原则以及驾龄原则。",
+                "segmentos": [
+                    {
+                        "es": "La prioridad sobre peatones ",
+                        "zh": "优先于行人的原则"
+                    },
+                    {
+                        "es": "y la antigüedad en la conducción.",
+                        "zh": "以及驾龄原则。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "La circulación vial se basa en principios como el de confianza en la normalidad del tráfico, el de responsabilidad, el de precaución o defensa, y el de seguridad en la conducción.",
+            "zh_completa": "道路交通基于若干原则，例如对交通正常性的信任原则、责任原则、预防或防范原则以及驾驶安全原则。",
+            "segmentos": [
+                {
+                    "es": "La circulación se basa en principios como el de confianza ",
+                    "zh": "道路交通基于对交通正常性的信任原则"
+                },
+                {
+                    "es": "en la normalidad del tráfico y el de responsabilidad.",
+                    "zh": "和责任原则等。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q06",
+        "tema": "permiso_por_puntos_recuperacion",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "Dentro del sistema de \"permiso y licencia para conducir por puntos\", ¿cuánto tiempo ha de transcurrir sin infracciones para recuperar el crédito inicial de 12 puntos?",
+            "zh_completa": "在“计分驾驶执照和许可证”制度中，需要经过多长时间无违法行为才能恢复初始的12分分值？",
+            "segmentos": [
+                {
+                    "es": "En el sistema de permiso por puntos, ",
+                    "zh": "在计分驾照制度中，"
+                },
+                {
+                    "es": "¿cuánto tiempo sin infracciones se necesita para recuperar los 12 puntos?",
+                    "zh": "需要多长时间无违法行为才能恢复12分？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "Tres años desde la última infracción que haya conllevado una pérdida de puntos.",
+                "zh_completa": "自上一次导致扣分的违法行为起满三年。",
+                "segmentos": [
+                    {
+                        "es": "Tres años ",
+                        "zh": "三年"
+                    },
+                    {
+                        "es": "desde la última infracción con pérdida de puntos.",
+                        "zh": "自上一次导致扣分的违法行为起。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "Dos años, sin sanciones firmes que conlleven pérdida de puntos.",
+                "zh_completa": "两年，且没有导致扣分的行政确定处罚。",
+                "segmentos": [
+                    {
+                        "es": "Dos años, ",
+                        "zh": "两年，"
+                    },
+                    {
+                        "es": "sin sanciones firmes que conlleven pérdida de puntos.",
+                        "zh": "且没有导致扣分的行政确定处罚。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Dos o tres años desde la última infracción que haya conllevado una pérdida de puntos.",
+                "zh_completa": "自上一次导致扣分的违法行为起两到三年。",
+                "segmentos": [
+                    {
+                        "es": "Dos o tres años ",
+                        "zh": "两到三年"
+                    },
+                    {
+                        "es": "desde la última infracción con pérdida de puntos.",
+                        "zh": "自上一次导致扣分的违法行为起。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Para recuperar el crédito de 12 puntos, deben transcurrir dos años sin haber cometido infracciones que lleven parejada la pérdida de puntos.",
+            "zh_completa": "要恢复12分的分值，必须在两年内没有发生导致扣分的违法行为。",
+            "segmentos": [
+                {
+                    "es": "Transcurridos dos años sin sanciones firmes con pérdida de puntos, ",
+                    "zh": "经过两年没有导致扣分的确定处罚后，"
+                },
+                {
+                    "es": "se recupera el crédito inicial de 12 puntos.",
+                    "zh": "即可恢复初始的12分分值。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q07",
+        "tema": "concepto_trafico_punto_de_vista_juridico",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "El tráfico, desde un punto de vista jurídico:",
+            "zh_completa": "从法律的角度来看，交通：",
+            "segmentos": [
+                {
+                    "es": "El tráfico, ",
+                    "zh": "交通，"
+                },
+                {
+                    "es": "desde un punto de vista jurídico:",
+                    "zh": "从法律的角度来看："
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "Ha de encargarse únicamente de garantizar la seguridad en la construcción de las vías.",
+                "zh_completa": "只需负责保证道路建设的安全。",
+                "segmentos": [
+                    {
+                        "es": "Ha de encargarse únicamente ",
+                        "zh": "只需负责"
+                    },
+                    {
+                        "es": "de garantizar la seguridad en la construcción de las vías.",
+                        "zh": "保证道路建设的安全。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "Ha de encargarse únicamente de regular la tecnología aplicada a las vías y vehículos.",
+                "zh_completa": "只需负责规范应用于道路和车辆的技术。",
+                "segmentos": [
+                    {
+                        "es": "Ha de encargarse únicamente ",
+                        "zh": "只需负责"
+                    },
+                    {
+                        "es": "de regular la tecnología en vías y vehículos.",
+                        "zh": "规范道路和车辆的技术。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": true,
+                "es_completa": "Necesita una regulación jurídica que arbitre y decida de forma objetiva cuándo nuestros derechos han entrado en conflicto con los de los demás.",
+                "zh_completa": "需要法律法规以客观的方式仲裁和裁决我们的权利何时与他人的权利发生冲突。",
+                "segmentos": [
+                    {
+                        "es": "Necesita una regulación jurídica ",
+                        "zh": "需要法律法规"
+                    },
+                    {
+                        "es": "que arbitre objetivamente los conflictos de derechos.",
+                        "zh": "客观地仲裁权利冲突。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Desde el punto de vista jurídico, la regulación del tráfico equilibra los derechos de los usuarios y decide objetivamente cuándo los derechos individuales entran en conflicto con los demás.",
+            "zh_completa": "从法律的角度来看，交通法规平衡了使用者的权利，并客观裁决个人权利何时与他人权利发生冲突。",
+            "segmentos": [
+                {
+                    "es": "El punto de vista jurídico ",
+                    "zh": "法律角度"
+                },
+                {
+                    "es": "regula y arbitra los conflictos de derechos entre los usuarios del tráfico.",
+                    "zh": "规范并仲裁交通使用者之间的权利冲突。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q08",
+        "tema": "costes_accidentes_trafico",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "¿Qué costes se derivan directa o indirectamente de un accidente de tráfico? (Señale la respuesta INCORRECTA)",
+            "zh_completa": "交通事故直接或间接带来哪些成本？（请指出错误选项）",
+            "segmentos": [
+                {
+                    "es": "¿Qué costes se derivan de un accidente de tráfico? ",
+                    "zh": "交通事故带来哪些成本？"
+                },
+                {
+                    "es": "(Señale la respuesta INCORRECTA):",
+                    "zh": "（请指出错误选项）："
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": true,
+                "es_completa": "Únicamente los daños materiales a los vehículos y las indemnizaciones a las víctimas.",
+                "zh_completa": "仅限于车辆的物质损失和给受害者的赔偿。",
+                "segmentos": [
+                    {
+                        "es": "Únicamente daños a vehículos ",
+                        "zh": "仅限于车辆损失"
+                    },
+                    {
+                        "es": "e indemnizaciones a las víctimas.",
+                        "zh": "和给受害者的赔偿。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "Los costes derivados de los daños al medio ambiente.",
+                "zh_completa": "因环境破坏而产生的成本。",
+                "segmentos": [
+                    {
+                        "es": "Los costes derivados ",
+                        "zh": "产生的成本"
+                    },
+                    {
+                        "es": "de los daños al medio ambiente.",
+                        "zh": "因环境破坏。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Los costes derivados de la actuación de la policía y los bomberos.",
+                "zh_completa": "因警察和消防员出动而产生的成本。",
+                "segmentos": [
+                    {
+                        "es": "Los costes derivados ",
+                        "zh": "产生的成本"
+                    },
+                    {
+                        "es": "de la actuación de policía y bomberos.",
+                        "zh": "因警察和消防员出动。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Los accidentes de tráfico generan costes materiales, sanitarios, administrativos (policía, bomberos, legales), humanos y medioambientales. Por tanto, afirmar que únicamente generan daños a vehículos e indemnizaciones es incorrecto.",
+            "zh_completa": "交通事故产生物质、医疗、行政（警察、消防、法律）、人力和环境成本。因此，声称仅产生车辆损失和赔偿是错误的。",
+            "segmentos": [
+                {
+                    "es": "Los costes de un accidente incluyen daños materiales, sanitarios, ",
+                    "zh": "交通事故成本包括物质、医疗、"
+                },
+                {
+                    "es": "administrativos, humanos y medioambientales, no solo a los vehículos.",
+                    "zh": "行政、人力和环境成本，不仅限于车辆。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q09",
+        "tema": "seguridad_pasiva_cinturon_ocupantes_traseros",
+        "imagen_url": "assets/images/test_rec_06_q09.jpg",
+        "pregunta": {
+            "es_completa": "¿Qué ocurrirá probablemente con los ocupantes de los asientos traseros si no llevan puesto el cinturón de seguridad y el vehículo sufre un accidente circulando a 80 km/h?",
+            "zh_completa": "如果后排乘客未系安全带，且车辆在以80 km/h行驶时发生事故，后排乘客很可能会怎样？",
+            "segmentos": [
+                {
+                    "es": "¿Qué ocurrirá con los ocupantes traseros ",
+                    "zh": "后排乘客会怎样"
+                },
+                {
+                    "es": "si no llevan cinturón a 80 km/h en un accidente?",
+                    "zh": "如果在以80 km/h发生事故时未系安全带？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "Que no sufrirán lesiones, ya que los asientos delanteros amortiguarán el golpe.",
+                "zh_completa": "不会受伤，因为前排座椅会缓冲撞击。",
+                "segmentos": [
+                    {
+                        "es": "No sufrirán lesiones ",
+                        "zh": "不会受伤"
+                    },
+                    {
+                        "es": "porque los asientos delanteros amortiguarán el golpe.",
+                        "zh": "因为前排座椅会缓冲撞击。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "Que serán proyectados contra los ocupantes de delante, pero es muy raro que sufran lesiones.",
+                "zh_completa": "会被抛向前方乘客，但极少会受伤。",
+                "segmentos": [
+                    {
+                        "es": "Serán proyectados contra los de delante, ",
+                        "zh": "会被抛向前方乘客，"
+                    },
+                    {
+                        "es": "pero es raro que sufran lesiones.",
+                        "zh": "但极少会受伤。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": true,
+                "es_completa": "Que serán proyectados con gran fuerza contra los ocupantes de los asientos delanteros.",
+                "zh_completa": "会被以巨大的力量抛向前排乘客。",
+                "segmentos": [
+                    {
+                        "es": "Serán proyectados con gran fuerza ",
+                        "zh": "会被以巨大的力量抛"
+                    },
+                    {
+                        "es": "contra los ocupantes de los asientos delanteros.",
+                        "zh": "向前排乘客。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "A 80 km/h y sin cinturón de seguridad, los pasajeros traseros son proyectados hacia adelante con una fuerza enorme contra los ocupantes delanteros, pudiendo causar lesiones mortales a ambos.",
+            "zh_completa": "在80 km/h的车速下未系安全带，后排乘客会被巨大的力量甩向前方撞击前排乘客，可能对双方造成致命伤害。",
+            "segmentos": [
+                {
+                    "es": "Sin cinturón a 80 km/h, los pasajeros traseros ",
+                    "zh": "在80 km/h未系安全带，后排乘客"
+                },
+                {
+                    "es": "son proyectados con gran fuerza contra los ocupantes delanteros.",
+                    "zh": "会被巨大力量抛向前排乘客。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q10",
+        "tema": "antiguedad_vehiculo_riesgo_accidente",
+        "imagen_url": "assets/images/test_rec_06_q10.jpg",
+        "pregunta": {
+            "es_completa": "A medida que aumenta la antigüedad del vehículo...",
+            "zh_completa": "随着车辆车龄的增加……",
+            "segmentos": [
+                {
+                    "es": "A medida que aumenta ",
+                    "zh": "随着……的增加"
+                },
+                {
+                    "es": "la antigüedad del vehículo...",
+                    "zh": "车辆车龄……"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "disminuye la probabilidad de sufrir un accidente.",
+                "zh_completa": "发生事故的概率降低。",
+                "segmentos": [
+                    {
+                        "es": "disminuye la probabilidad ",
+                        "zh": "降低概率"
+                    },
+                    {
+                        "es": "de sufrir un accidente.",
+                        "zh": "发生事故。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "aumenta la probabilidad de tener un accidente.",
+                "zh_completa": "发生事故的概率增加。",
+                "segmentos": [
+                    {
+                        "es": "aumenta la probabilidad ",
+                        "zh": "增加概率"
+                    },
+                    {
+                        "es": "de tener un accidente.",
+                        "zh": "发生事故。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "disminuye la probabilidad de que se produzca un fallo mecánico.",
+                "zh_completa": "发生机械故障的概率降低。",
+                "segmentos": [
+                    {
+                        "es": "disminuye la probabilidad ",
+                        "zh": "降低概率"
+                    },
+                    {
+                        "es": "de fallo mecánico.",
+                        "zh": "发生机械故障。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "A medida que aumenta la antigüedad del vehículo, se incrementa el riesgo de fallos mecánicos y la falta de sistemas de seguridad modernos, aumentando la probabilidad de sufrir un accidente grave.",
+            "zh_completa": "随着车辆车龄的增加，机械故障风险上升且缺乏现代安全系统，从而增加了发生严重事故的概率。",
+            "segmentos": [
+                {
+                    "es": "Con la antigüedad del vehículo ",
+                    "zh": "随着车辆车龄增加"
+                },
+                {
+                    "es": "aumenta la probabilidad de sufrir un accidente por fallos mecánicos y desgaste.",
+                    "zh": "因机械故障和磨损发生事故的概率增加。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q11",
+        "tema": "infracciones_obligacion_titular_vehiculo",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "En caso de infracción, ¿qué obligación tiene el titular del vehículo?",
+            "zh_completa": "在发生违法行为的情况下，车辆所有人有什么义务？",
+            "segmentos": [
+                {
+                    "es": "En caso de infracción, ",
+                    "zh": "在发生违法行为的情况下，"
+                },
+                {
+                    "es": "¿qué obligación tiene el titular del vehículo?",
+                    "zh": "车辆所有人有什么义务？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "La de pagar la multa impuesta en un plazo no superior a 15 días.",
+                "zh_completa": "在不超过15天的期限内缴纳所处的罚款。",
+                "segmentos": [
+                    {
+                        "es": "Pagar la multa impuesta ",
+                        "zh": "缴纳所处的罚款"
+                    },
+                    {
+                        "es": "en un plazo no superior a 15 días.",
+                        "zh": "在不超过15天的期限内。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "La de informar a la autoridad sobre quién ha sido el autor de la infracción.",
+                "zh_completa": "向主管机关告知谁是违法行为的实施者。",
+                "segmentos": [
+                    {
+                        "es": "Informar a la autoridad ",
+                        "zh": "向主管机关告知"
+                    },
+                    {
+                        "es": "sobre quién ha sido el autor de la infracción.",
+                        "zh": "谁是违法行为的实施者。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "La de presentar un recurso administrativo.",
+                "zh_completa": "提出行政复议。",
+                "segmentos": [
+                    {
+                        "es": "Presentar ",
+                        "zh": "提出"
+                    },
+                    {
+                        "es": "un recurso administrativo.",
+                        "zh": "行政复议。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "El titular del vehículo tiene la obligación legal de identificar e informar debidamente a las autoridades del autor de la infracción cometida.",
+            "zh_completa": "车辆所有人具有法定义务，向主管机关准确指认并告知违法行为的实施者。",
+            "segmentos": [
+                {
+                    "es": "El titular del vehículo tiene la obligación de informar ",
+                    "zh": "车辆所有人有义务告知"
+                },
+                {
+                    "es": "a la autoridad sobre el autor de la infracción.",
+                    "zh": "主管机关关于违法行为实施者的信息。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q12",
+        "tema": "grupos_de_riesgo_personas_mayores",
+        "imagen_url": "assets/images/test_rec_06_q12.jpg",
+        "pregunta": {
+            "es_completa": "Las personas mayores, ¿suelen presentar dificultades como conductores de vehículos?",
+            "zh_completa": "老年人作为车辆驾驶员通常会遇到困难吗？",
+            "segmentos": [
+                {
+                    "es": "Las personas mayores, ",
+                    "zh": "老年人，"
+                },
+                {
+                    "es": "¿suelen presentar dificultades como conductores de vehículos?",
+                    "zh": "作为车辆驾驶员通常会遇到困难吗？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": true,
+                "es_completa": "Sí, constituyen un grupo de riesgo tanto como conductores como peatones.",
+                "zh_completa": "是的，无论作为驾驶员还是行人，他们都构成高风险群体。",
+                "segmentos": [
+                    {
+                        "es": "Sí, constituyen un grupo de riesgo ",
+                        "zh": "是的，构成高风险群体"
+                    },
+                    {
+                        "es": "tanto como conductores como peatones.",
+                        "zh": "无论是作为驾驶员还是行人。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "No, solo presentan dificultades como peatones.",
+                "zh_completa": "不，他们仅作为行人时遇到困难。",
+                "segmentos": [
+                    {
+                        "es": "No, solo presentan dificultades ",
+                        "zh": "不，仅遇到困难"
+                    },
+                    {
+                        "es": "como peatones.",
+                        "zh": "作为行人。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "No, porque en general, son muy prudentes.",
+                "zh_completa": "不，因为总的来说，他们非常谨慎。",
+                "segmentos": [
+                    {
+                        "es": "No, porque en general ",
+                        "zh": "不，因为总的来说"
+                    },
+                    {
+                        "es": "son muy prudentes.",
+                        "zh": "非常谨慎。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Las personas mayores forman parte de los grupos de riesgo o vulnerables de la circulación, presentando mayores dificultades y riesgos tanto en el rol de conductores como en el de peatones.",
+            "zh_completa": "老年人属于交通中的高风险或弱势群体，无论担任驾驶员还是行人角色，都存在较大的困难和风险。",
+            "segmentos": [
+                {
+                    "es": "Las personas mayores constituyen un grupo de riesgo ",
+                    "zh": "老年人构成高风险群体"
+                },
+                {
+                    "es": "tanto en la conducción como al circular como peatones.",
+                    "zh": "无论是在驾驶中还是作为行人通行时。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q13",
+        "tema": "prevencion_atropellos_peatones",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "¿Qué puedes hacer para evitar el atropello de peatones?",
+            "zh_completa": "你可以采取什么措施来避免碾压撞击行人？",
+            "segmentos": [
+                {
+                    "es": "¿Qué puedes hacer ",
+                    "zh": "你可以采取什么措施"
+                },
+                {
+                    "es": "para evitar el atropello de peatones?",
+                    "zh": "来避免撞击行人？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": true,
+                "es_completa": "No hagas señales para que los peatones crucen la calzada.",
+                "zh_completa": "不要打手势示意行人过马路。",
+                "segmentos": [
+                    {
+                        "es": "No hagas señales ",
+                        "zh": "不要打手势"
+                    },
+                    {
+                        "es": "para que los peatones crucen la calzada.",
+                        "zh": "示意行人过马路。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "Procura que los pasajeros de tu vehículo se bajen siempre por el lado de la calzada.",
+                "zh_completa": "尽量让车上的乘客总是从车道一侧下车。",
+                "segmentos": [
+                    {
+                        "es": "Procura que los pasajeros bajen ",
+                        "zh": "尽量让乘客下车"
+                    },
+                    {
+                        "es": "por el lado de la calzada.",
+                        "zh": "从车道一侧。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Llama la atención mediante el claxon a los peatones que van hablando por el móvil por la acera.",
+                "zh_completa": "按喇叭提醒在人行道上边走边打手机的行人。",
+                "segmentos": [
+                    {
+                        "es": "Llama la atención con el claxon ",
+                        "zh": "按喇叭提醒"
+                    },
+                    {
+                        "es": "a los peatones que van por la acera.",
+                        "zh": "在人行道上的行人。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "No debes hacer señales a los peatones para que crucen, ya que otros vehículos podrían no verlo y atropellar al peatón confiado.",
+            "zh_completa": "不应示意行人过马路，因为其他车辆可能没有注意到，导致行人冒然过马路而被撞。",
+            "segmentos": [
+                {
+                    "es": "No se deben hacer señales a los peatones para cruzar, ",
+                    "zh": "不应示意行人过马路，"
+                },
+                {
+                    "es": "ya que otros vehículos podrían atropellarlos.",
+                    "zh": "因为其他车辆可能会撞到他们。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q14",
+        "tema": "caracter_infracciones_administrativas_delitos",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "Las acciones u omisiones contrarias a la ley de tráfico o a los reglamentos que la desarrollan tendrán el carácter de:",
+            "zh_completa": "违反交通法或其施行细则的行为或不作为具有以下性质：",
+            "segmentos": [
+                {
+                    "es": "Las acciones u omisiones contrarias a la ley de tráfico ",
+                    "zh": "违反交通法的行为或不作为"
+                },
+                {
+                    "es": "tendrán el carácter de:",
+                    "zh": "具有以下性质："
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": true,
+                "es_completa": "Infracciones administrativas o, si son contrarias a las leyes penales, constituirán delitos o faltas penales.",
+                "zh_completa": "行政违法行为；如果触犯刑法，则构成刑事犯罪或微罪。",
+                "segmentos": [
+                    {
+                        "es": "Infracciones administrativas o, ",
+                        "zh": "行政违法行为；"
+                    },
+                    {
+                        "es": "si son contrarias a leyes penales, delitos o faltas.",
+                        "zh": "如果触犯刑法，则构成犯罪或微罪。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "Delitos o faltas penales, especialmente cuando constituyan infracciones administrativas.",
+                "zh_completa": "刑事犯罪或微罪，特别是当它们构成行政违法行为时。",
+                "segmentos": [
+                    {
+                        "es": "Delitos o faltas penales, ",
+                        "zh": "刑事犯罪或微罪，"
+                    },
+                    {
+                        "es": "especialmente si son infracciones administrativas.",
+                        "zh": "特别是当构成行政违法行为时。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Infracciones administrativas en todas las circunstancias.",
+                "zh_completa": "在任何情况下均为行政违法行为。",
+                "segmentos": [
+                    {
+                        "es": "Infracciones administrativas ",
+                        "zh": "行政违法行为"
+                    },
+                    {
+                        "es": "en todas las circunstancias.",
+                        "zh": "在任何情况下。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Las infracciones a la ley de tráfico tienen carácter de infracciones administrativas, a menos que por su gravedad estén tipificadas en el Código Penal como delitos o faltas.",
+            "zh_completa": "违反交通法的行为属于行政违法行为，除非因其严重性在《刑法》中被定性为犯罪或微罪。",
+            "segmentos": [
+                {
+                    "es": "Tienen carácter de infracciones administrativas, ",
+                    "zh": "具有行政违法性质，"
+                },
+                {
+                    "es": "a no ser que constituyan delitos o faltas tipificadas en las leyes penales.",
+                    "zh": "除非构成刑法规定的犯罪或微罪。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q15",
+        "tema": "conduccion_ocio_alcohol_accidentes",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "La combinación de la conducción con situaciones de diversión:",
+            "zh_completa": "将驾驶与娱乐情境结合起来：",
+            "segmentos": [
+                {
+                    "es": "La combinación de la conducción ",
+                    "zh": "将驾驶"
+                },
+                {
+                    "es": "con situaciones de diversión:",
+                    "zh": "与娱乐情境结合起来："
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "No tiene una especial relación con la accidentalidad en el tráfico.",
+                "zh_completa": "与交通事故率没有特别的关系。",
+                "segmentos": [
+                    {
+                        "es": "No tiene relación especial ",
+                        "zh": "没有特别关系"
+                    },
+                    {
+                        "es": "con la accidentalidad en el tráfico.",
+                        "zh": "与交通事故率。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "Puede aumentar la posibilidad de tener un accidente de tráfico, especialmente si son varios los ocupantes del vehículo y se ha consumido alcohol.",
+                "zh_completa": "可能会增加发生交通事故的可能性，特别是在车内有多名乘客且饮用了酒精的情况下。",
+                "segmentos": [
+                    {
+                        "es": "Puede aumentar la posibilidad de un accidente, ",
+                        "zh": "可能会增加发生事故的可能性，"
+                    },
+                    {
+                        "es": "especialmente con varios ocupantes y consumo de alcohol.",
+                        "zh": "特别是在有多名乘客并饮酒的情况下。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Suele reducir la posibilidad de tener un accidente de tráfico.",
+                "zh_completa": "通常会降低发生交通事故的可能性。",
+                "segmentos": [
+                    {
+                        "es": "Suele reducir la posibilidad ",
+                        "zh": "通常会降低可能性"
+                    },
+                    {
+                        "es": "de tener un accidente.",
+                        "zh": "发生交通事故。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Combinar la conducción con actividades de ocio y diversión incrementa el riesgo de sufrir accidentes, sobre todo cuando viajan varios ocupantes en el vehículo y se consumen alcohol o drogas.",
+            "zh_completa": "将驾驶与休闲娱乐活动相结合会增加发生事故的风险，尤其是当车内有多名乘客且使用了酒精或毒品时。",
+            "segmentos": [
+                {
+                    "es": "Combinar conducción y diversión aumenta el riesgo de accidentes, ",
+                    "zh": "将驾驶与娱乐相结合会增加事故风险，"
+                },
+                {
+                    "es": "especialmente con varios ocupantes y tras consumir alcohol o drogas.",
+                    "zh": "特别是在有多名乘客以及饮酒或吸毒后。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q16",
+        "tema": "infracciones_peatones_atropellos",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "Entre las infracciones más comunes en los peatones, que se relacionan con muchos siniestros de tráfico, encontramos:",
+            "zh_completa": "在与许多交通事故相关的行人最常见违法行为中，包括：",
+            "segmentos": [
+                {
+                    "es": "Entre las infracciones más comunes en peatones ",
+                    "zh": "在行人最常见的违法行为中"
+                },
+                {
+                    "es": "relacionadas con siniestros de tráfico, encontramos:",
+                    "zh": "与交通事故相关的包括："
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "En los atropellos, los peatones rara vez estaban cometiendo una infracción.",
+                "zh_completa": "在撞人事故中，行人极少犯规。",
+                "segmentos": [
+                    {
+                        "es": "En los atropellos, ",
+                        "zh": "在撞人事故中，"
+                    },
+                    {
+                        "es": "los peatones rara vez cometían infracciones.",
+                        "zh": "行人极少犯规。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "Irrumpir o cruzar la vía de manera antirreglamentaria.",
+                "zh_completa": "违规闯入或穿越道路。",
+                "segmentos": [
+                    {
+                        "es": "Irrumpir o cruzar ",
+                        "zh": "违规闯入"
+                    },
+                    {
+                        "es": "la vía de manera antirreglamentaria.",
+                        "zh": "或穿越道路。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "En los atropellos, los peatones estaban respetando la norma casi siempre.",
+                "zh_completa": "在撞人事故中，行人几乎总是遵守规则。",
+                "segmentos": [
+                    {
+                        "es": "En los atropellos, los peatones ",
+                        "zh": "在撞人事故中，行人"
+                    },
+                    {
+                        "es": "respetaban la norma casi siempre.",
+                        "zh": "几乎总是遵守规则。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Entre las infracciones más comunes cometidas por peatones que causan atropellos destacan irrumpir o cruzar la vía de manera antirreglamentaria, no usar el paso de peatones o no respetar los semáforos.",
+            "zh_completa": "在导致被撞事故的行人最常见违法行为中，突出的是违规闯入或穿越道路、未使用人行横道或不遵守交通信号灯。",
+            "segmentos": [
+                {
+                    "es": "Una de las infracciones más frecuentes en los peatones es irrumpir ",
+                    "zh": "行人最频繁的违法行为之一是违规闯入"
+                },
+                {
+                    "es": "o cruzar la vía de manera antirreglamentaria.",
+                    "zh": "或穿越道路。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q17",
+        "tema": "grupos_de_riesgo_caracteristicas_adaptacion",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "Respecto a los grupos de riesgo en el tráfico, conocer sus características y sus problemas:",
+            "zh_completa": "关于交通中的高风险群体，了解其特点和问题：",
+            "segmentos": [
+                {
+                    "es": "Respecto a los grupos de riesgo en el tráfico, ",
+                    "zh": "关于交通中的高风险群体，"
+                },
+                {
+                    "es": "conocer sus características y sus problemas:",
+                    "zh": "了解其特点和问题："
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "Determina su retirada de las vías públicas cuanto antes.",
+                "zh_completa": "决定尽快将其从公共道路上撤离。",
+                "segmentos": [
+                    {
+                        "es": "Determina su retirada ",
+                        "zh": "决定将其撤离"
+                    },
+                    {
+                        "es": "de las vías públicas cuanto antes.",
+                        "zh": "尽快从公共道路上。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "Permitirá adaptar la forma de conducir ante ellos para evitar el accidente.",
+                "zh_completa": "允许在面对他们时调整驾驶方式，以避免发生事故。",
+                "segmentos": [
+                    {
+                        "es": "Permitirá adaptar la forma de conducir ",
+                        "zh": "允许调整驾驶方式"
+                    },
+                    {
+                        "es": "ante ellos para evitar el accidente.",
+                        "zh": "在面对他们时以避免事故。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Explica por qué son los culpables de la mayor parte de los siniestros.",
+                "zh_completa": "解释了为什么他们是大多数事故的罪魁祸首。",
+                "segmentos": [
+                    {
+                        "es": "Explica por qué son los culpables ",
+                        "zh": "解释了为什么他们是罪魁祸首"
+                    },
+                    {
+                        "es": "de la mayor parte de los siniestros.",
+                        "zh": "在大多数事故中。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Conocer las características y necesidades de los grupos vulnerables permite al conductor adaptar su comportamiento en la vía para prevenir accidentes y proteger a estos usuarios.",
+            "zh_completa": "了解弱势群体的特点和需求使驾驶员能够在道路上调整其行为，以预防事故并保护这些使用者。",
+            "segmentos": [
+                {
+                    "es": "Conocer sus características permite adaptar la conducción ",
+                    "zh": "了解其特点允许调整驾驶方式"
+                },
+                {
+                    "es": "a sus necesidades y evitar posibles siniestros.",
+                    "zh": "以适应其需求并避免潜在事故。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q18",
+        "tema": "permiso_por_puntos_filosofia_sistema",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "Respecto al \"sistema de permiso y licencia para conducir por puntos\":",
+            "zh_completa": "关于“计分驾驶执照和许可证制度”：",
+            "segmentos": [
+                {
+                    "es": "Respecto al sistema de permiso ",
+                    "zh": "关于计分驾照"
+                },
+                {
+                    "es": "y licencia de conducir por puntos:",
+                    "zh": "和许可证制度："
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "El Modelo Español de permiso por puntos no tiene nada que ver con el de otros países.",
+                "zh_completa": "西班牙计分驾照模式与其他国家的毫无关系。",
+                "segmentos": [
+                    {
+                        "es": "El Modelo Español ",
+                        "zh": "西班牙模式"
+                    },
+                    {
+                        "es": "no tiene nada que ver con otros países.",
+                        "zh": "与其他国家的毫无关系。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "España es el primer país del mundo en poner en marcha un \"sistema de permiso y licencia para conducir por puntos\".",
+                "zh_completa": "西班牙是世界上第一个实施“计分驾驶执照和许可证制度”的国家。",
+                "segmentos": [
+                    {
+                        "es": "España es el primer país del mundo ",
+                        "zh": "西班牙是世界上第一个国家"
+                    },
+                    {
+                        "es": "en aplicar el sistema por puntos.",
+                        "zh": "实施计分制度。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": true,
+                "es_completa": "Todos los países parten de una misma filosofía básica: los conductores disponen de una determinada cantidad de puntos y los pierden (o ganan) en función de las infracciones cometidas.",
+                "zh_completa": "所有国家都基于相同的基本理念：驾驶员拥有一定数量的分值，并根据所犯的违法行为扣除（或增加）分值。",
+                "segmentos": [
+                    {
+                        "es": "Todos los países parten de una misma filosofía: ",
+                        "zh": "所有国家都基于相同的理念："
+                    },
+                    {
+                        "es": "disponen de puntos que pierden o ganan según sus infracciones.",
+                        "zh": "拥有一定分值，并根据违法行为增减。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Aunque cada país ha adaptado el sistema por puntos a su propia normativa, todos comparten la filosofía básica de otorgar un crédito de puntos que varía según el comportamiento del conductor.",
+            "zh_completa": "尽管每个国家都将计分制度调整为适应自己的法规，但它们都拥有赋予积分信贷的基本理念，该积分根据驾驶员的行为而变化。",
+            "segmentos": [
+                {
+                    "es": "Todos los sistemas de puntos comparten la misma filosofía básica ",
+                    "zh": "所有计分制度都拥有相同的基本理念"
+                },
+                {
+                    "es": "de otorgar un crédito que varía según las infracciones.",
+                    "zh": "即赋予根据违法行为变化的分值。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q19",
+        "tema": "mecanismos_lesionales_accidentes",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "Durante un accidente de tráfico, ¿de qué formas puede resultar dañada una persona (mecanismos lesionales)?",
+            "zh_completa": "在交通事故中，人可以通过哪些方式受到伤害（致伤机制）？",
+            "segmentos": [
+                {
+                    "es": "Durante un accidente de tráfico, ",
+                    "zh": "在交通事故中，"
+                },
+                {
+                    "es": "¿de qué formas puede resultar dañada una persona (mecanismos lesionales)?",
+                    "zh": "人可以通过哪些方式受到伤害（致伤机制）？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "Únicamente como consecuencia de los impactos directos que recibe el cuerpo dentro del habitáculo del vehículo.",
+                "zh_completa": "仅作为身体在车辆客厢内遭受直接撞击的结果。",
+                "segmentos": [
+                    {
+                        "es": "Únicamente por impactos directos ",
+                        "zh": "仅由于直接撞击"
+                    },
+                    {
+                        "es": "dentro del habitáculo del vehículo.",
+                        "zh": "在车辆客厢内。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "Únicamente como consecuencia de los golpes del cuerpo contra los distintos elementos de la vía (por ejemplo, el asfalto).",
+                "zh_completa": "仅作为身体撞击道路不同元素（例如沥青地面）的结果。",
+                "segmentos": [
+                    {
+                        "es": "Únicamente por golpes del cuerpo ",
+                        "zh": "仅由于身体撞击"
+                    },
+                    {
+                        "es": "contra elementos de la vía.",
+                        "zh": "道路元素。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": true,
+                "es_completa": "Como consecuencia de los distintos impactos directos que recibe el cuerpo, y/o por los impactos internos o el efecto látigo (latigazo cervical), que no implica ningún tipo de golpe.",
+                "zh_completa": "作为身体遭受不同直接撞击的结果，和/或由于内部撞击或甩鞭效应（颈部挥鞭样损伤），这不涉及任何类型的撞击。",
+                "segmentos": [
+                    {
+                        "es": "Por impactos directos que recibe el cuerpo, ",
+                        "zh": "由于身体遭受的直接撞击，"
+                    },
+                    {
+                        "es": "y/o por impactos internos o el efecto látigo.",
+                        "zh": "和/或由于内部撞击或甩鞭效应。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Las personas pueden resultar lesionadas por mecanismos directos (impactos externos del cuerpo), mecanismos indirectos (fuerzas de aceleración/desaceleración, impactos internos o latigazo cervical sin golpe) o mixtos.",
+            "zh_completa": "人们可能通过直接机制（身体外部撞击）、间接机制（加/减速力、无撞击的内部撞击或颈部挥鞭样损伤）或混合机制受到伤害。",
+            "segmentos": [
+                {
+                    "es": "Las lesiones se deben a impactos directos, ",
+                    "zh": "损伤归因于直接撞击，"
+                },
+                {
+                    "es": "impactos internos y fenómenos como el latigazo cervical (mecanismos indirectos y mixtos).",
+                    "zh": "内部撞击以及颈部挥鞭样损伤等现象（间接和混合机制）。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q20",
+        "tema": "primeros_auxilios_transporte_sanitario",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "¿Qué porcentaje aproximado de las víctimas por accidente de tráfico fallece durante el transporte sanitario?",
+            "zh_completa": "大约百分之多少的交通事故受害者在医疗运输过程中死亡？",
+            "segmentos": [
+                {
+                    "es": "¿Qué porcentaje aproximado de víctimas de accidentes ",
+                    "zh": "大约百分之多少的交通事故受害者"
+                },
+                {
+                    "es": "fallece durante el transporte sanitario?",
+                    "zh": "在医疗运输过程中死亡？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": true,
+                "es_completa": "El 10%.",
+                "zh_completa": "10%。",
+                "segmentos": [
+                    {
+                        "es": "El 10%.",
+                        "zh": "10%。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "El 2%.",
+                "zh_completa": "2%。",
+                "segmentos": [
+                    {
+                        "es": "El 2%.",
+                        "zh": "2%。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "El 75%.",
+                "zh_completa": "75%。",
+                "segmentos": [
+                    {
+                        "es": "El 75%.",
+                        "zh": "75%。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Un 10% de los fallecidos por accidente de tráfico muere durante el traslado sanitario al hospital, estimándose que un transporte rápido y adecuado podría salvar vidas.",
+            "zh_completa": "10%的交通事故死亡者在向医院转运的医疗运输过程中死亡，估计快速且适当的转运可以挽救生命。",
+            "segmentos": [
+                {
+                    "es": "Un 10% de los fallecidos muere durante el transporte sanitario al hospital, ",
+                    "zh": "10%的死亡者在向医院的医疗转运过程中死亡，"
+                },
+                {
+                    "es": "pudiendo salvarse vidas con una asistencia rápida y adecuada.",
+                    "zh": "快速且适当的救护可以挽救生命。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q21",
+        "tema": "concepto_trafico_punto_de_vista_tecnico",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "¿Por qué el tráfico es considerado un fenómeno técnico?",
+            "zh_completa": "为什么交通被视为一种技术现象？",
+            "segmentos": [
+                {
+                    "es": "¿Por qué el tráfico ",
+                    "zh": "为什么交通"
+                },
+                {
+                    "es": "es considerado un fenómeno técnico?",
+                    "zh": "被视为一种技术现象？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "Porque los desplazamientos de las personas, animales o vehículos que circulan por las vías están sometidos a las leyes físicas del movimiento.",
+                "zh_completa": "因为在道路上通行的行人、动物或车辆的位移都受制于物理运动定律。",
+                "segmentos": [
+                    {
+                        "es": "Porque los desplazamientos ",
+                        "zh": "因为位移"
+                    },
+                    {
+                        "es": "están sometidos a las leyes físicas del movimiento.",
+                        "zh": "受制于物理运动定律。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "Porque la tecnología aplicada correctamente a las vías y vehículos va a permitirnos dirigir el desplazamiento a nuestra voluntad.",
+                "zh_completa": "因为正确应用于道路和车辆的技术将允许我们按自己的意志引导位移。",
+                "segmentos": [
+                    {
+                        "es": "Porque la tecnología aplicada a vías y vehículos ",
+                        "zh": "因为应用于道路和车辆的技术"
+                    },
+                    {
+                        "es": "permite dirigir el desplazamiento a nuestra voluntad.",
+                        "zh": "允许按我们的意志引导位移。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Porque la circulación implica compartir un espacio y convivir en él.",
+                "zh_completa": "因为通行意味着共享一个空间并在此共同生活。",
+                "segmentos": [
+                    {
+                        "es": "Porque la circulación implica ",
+                        "zh": "因为通行意味着"
+                    },
+                    {
+                        "es": "compartir un espacio y convivir en él.",
+                        "zh": "共享一个空间并在此共同生活。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Desde el punto de vista técnico, la tecnología aplicada a vías y vehículos nos permite dirigir y controlar nuestros desplazamientos de manera segura y compatible con los demás usuarios.",
+            "zh_completa": "从技术角度来看，应用于道路和车辆的技术允许我们安全地控制和引导位移，并与其他使用者保持兼容。",
+            "segmentos": [
+                {
+                    "es": "Técnicamente, la tecnología en vías y vehículos ",
+                    "zh": "技术上，应用于道路和车辆的技术"
+                },
+                {
+                    "es": "nos permite controlar el desplazamiento de forma segura y adecuada.",
+                    "zh": "允许我们安全适当地控制位移。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q22",
+        "tema": "concepto_trafico_punto_de_vista_tecnico",
+        "imagen_url": "assets/images/test_rec_06_q22.jpg",
+        "pregunta": {
+            "es_completa": "¿Por qué el tráfico es considerado un fenómeno técnico?",
+            "zh_completa": "为什么交通被视为一种技术现象？",
+            "segmentos": [
+                {
+                    "es": "¿Por qué el tráfico ",
+                    "zh": "为什么交通"
+                },
+                {
+                    "es": "es considerado un fenómeno técnico?",
+                    "zh": "被视为一种技术现象？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "Porque la circulación implica compartir un espacio y convivir en él.",
+                "zh_completa": "因为通行意味着共享一个空间并在此共同生活。",
+                "segmentos": [
+                    {
+                        "es": "Porque la circulación implica ",
+                        "zh": "因为通行意味着"
+                    },
+                    {
+                        "es": "compartir un espacio y convivir en él.",
+                        "zh": "共享一个空间并在此共同生活。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "Porque los desplazamientos de las personas están sometidos a las leyes físicas del movimiento.",
+                "zh_completa": "因为人员的位移受制于物理运动定律。",
+                "segmentos": [
+                    {
+                        "es": "Porque los desplazamientos ",
+                        "zh": "因为人员位移"
+                    },
+                    {
+                        "es": "están sometidos a leyes físicas del movimiento.",
+                        "zh": "受制于物理运动定律。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": true,
+                "es_completa": "Porque la tecnología aplicada correctamente nos permite dirigir los desplazamientos a voluntad.",
+                "zh_completa": "因为正确应用的技术使我们能够按意志引导位移。",
+                "segmentos": [
+                    {
+                        "es": "Porque la tecnología aplicada ",
+                        "zh": "因为正确应用的技术"
+                    },
+                    {
+                        "es": "nos permite dirigir los desplazamientos a voluntad.",
+                        "zh": "使我们能够按意志引导位移。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "El tráfico se considera un fenómeno técnico porque la tecnología aplicada a las vías y a los vehículos permite dirigir y controlar el movimiento a voluntad de forma segura.",
+            "zh_completa": "交通被视为一种技术现象，因为应用于道路和车辆的技术允许按意志安全地引导和控制运动。",
+            "segmentos": [
+                {
+                    "es": "Se considera un fenómeno técnico porque la tecnología ",
+                    "zh": "被视为一种技术现象是因为技术"
+                },
+                {
+                    "es": "nos permite dirigir los desplazamientos a voluntad de forma segura.",
+                    "zh": "使我们能够安全地按意志引导位移。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q23",
+        "tema": "seguridad_pasiva_latigazo_cervical_velocidad",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "El esguince cervical, provocado por el llamado latigazo cervical, puede producirse:",
+            "zh_completa": "由所谓的甩鞭效应引起的颈部扭伤可能在以下情况下发生：",
+            "segmentos": [
+                {
+                    "es": "El esguince cervical por latigazo cervical ",
+                    "zh": "由甩鞭效应引起的颈部扭伤"
+                },
+                {
+                    "es": "puede producirse:",
+                    "zh": "可能发生于："
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "A partir de los 80 km/h por lo que se trata de una lesión típica de los accidentes de carretera.",
+                "zh_completa": "从80 km/h起，因此这是公路事故中的典型伤害。",
+                "segmentos": [
+                    {
+                        "es": "A partir de los 80 km/h, ",
+                        "zh": "从80 km/h起，"
+                    },
+                    {
+                        "es": "siendo típica de accidentes en carretera.",
+                        "zh": "为公路事故典型伤害。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "Incluso a partir de tan sólo 10 km/h.",
+                "zh_completa": "甚至在仅10 km/h的时速下即可发生。",
+                "segmentos": [
+                    {
+                        "es": "Incluso a partir ",
+                        "zh": "甚至在仅"
+                    },
+                    {
+                        "es": "de tan sólo 10 km/h.",
+                        "zh": "10 km/h的时速下即可发生。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Únicamente a altas velocidades, ya que hace falta mucha energía para llegar a producir los movimientos de hiperextensión e hiperflexión del cuello.",
+                "zh_completa": "仅在高速时，因为需要巨大的能量才能产生颈部的过度伸展和过度屈曲运动。",
+                "segmentos": [
+                    {
+                        "es": "Únicamente a altas velocidades ",
+                        "zh": "仅在高速时"
+                    },
+                    {
+                        "es": "para producir hiperextensión e hiperflexión.",
+                        "zh": "才能产生过度伸展和屈曲。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "El esguince cervical originado por el latigazo cervical en colisiones traseras puede ocurrir incluso a velocidades muy bajas, a partir de tan solo 10 km/h.",
+            "zh_completa": "追尾碰撞中因甩鞭效应引起的颈部扭伤甚至会在极低车速下发生，仅从10 km/h起即可产生。",
+            "segmentos": [
+                {
+                    "es": "El latigazo cervical y esguince cervical ",
+                    "zh": "甩鞭效应和颈部扭伤"
+                },
+                {
+                    "es": "pueden producirse a velocidades muy bajas, desde tan solo 10 km/h.",
+                    "zh": "可在极低车速下发生，仅从10 km/h起。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q24",
+        "tema": "prevencion_accidentes_evitables",
+        "imagen_url": "assets/images/test_rec_06_q24.jpg",
+        "pregunta": {
+            "es_completa": "Actualmente se considera que la mayoría de accidentes de tráfico...",
+            "zh_completa": "目前认为绝大多数交通事故……",
+            "segmentos": [
+                {
+                    "es": "Actualmente se considera ",
+                    "zh": "目前认为"
+                },
+                {
+                    "es": "que la mayoría de accidentes de tráfico...",
+                    "zh": "绝大多数交通事故……"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": true,
+                "es_completa": "se pueden prevenir, por lo que podemos aprender a evitarlos y a minimizar sus consecuencias.",
+                "zh_completa": "是可以预防的，因此我们可以学习避免它们并尽量减少其后果。",
+                "segmentos": [
+                    {
+                        "es": "se pueden prevenir, ",
+                        "zh": "是可以预防的，"
+                    },
+                    {
+                        "es": "por lo que podemos aprender a evitarlos y minimizar sus consecuencias.",
+                        "zh": "因此我们可以学习避免它们并减少其后果。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "son fortuitos, debidos al azar y a la casualidad.",
+                "zh_completa": "是偶然的，由随机和巧合决定的。",
+                "segmentos": [
+                    {
+                        "es": "son fortuitos, ",
+                        "zh": "是偶然的，"
+                    },
+                    {
+                        "es": "debidos al azar y la casualidad.",
+                        "zh": "由随机和巧合决定的。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "son inevitables, por lo que no podemos hacer nada para prevenirlos.",
+                "zh_completa": "是不可避免的，因此我们无法采取任何措施来预防它们。",
+                "segmentos": [
+                    {
+                        "es": "son inevitables, ",
+                        "zh": "是不可避免的，"
+                    },
+                    {
+                        "es": "por lo que no podemos hacer nada para prevenirlos.",
+                        "zh": "因此我们无法采取措施预防。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "La mayoría de accidentes de tráfico no son casuales sino evitables, ya que dependen de factores de riesgo conocidos (especialmente el factor humano). Por ello, se pueden aprender conductas para prevenirlos y minimizar sus consecuencias.",
+            "zh_completa": "绝大多数交通事故并非出于偶然而是可以避免的，因为它们取决于已知风险因素（尤其是人为因素）。因此，可以学习预防它们并减少其后果的行为。",
+            "segmentos": [
+                {
+                    "es": "Los accidentes se pueden prevenir ",
+                    "zh": "事故是可以预防的"
+                },
+                {
+                    "es": "evitando factores de riesgo y aprendiendo conductas de conducción segura.",
+                    "zh": "通过避免风险因素和学习安全驾驶行为。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q25",
+        "tema": "accidentes_epocas_del_ano_verano",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "¿En qué estación del año se produce un mayor número de accidentes de circulación?",
+            "zh_completa": "一年中的哪个季节发生的交通事故数量最多？",
+            "segmentos": [
+                {
+                    "es": "¿En qué estación del año ",
+                    "zh": "一年中的哪个季节"
+                },
+                {
+                    "es": "se produce un mayor número de accidentes de circulación?",
+                    "zh": "发生的交通事故数量最多？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": true,
+                "es_completa": "En verano.",
+                "zh_completa": "在夏季。",
+                "segmentos": [
+                    {
+                        "es": "En verano.",
+                        "zh": "在夏季。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "En otoño.",
+                "zh_completa": "在秋季。",
+                "segmentos": [
+                    {
+                        "es": "En otoño.",
+                        "zh": "在秋季。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "En primavera.",
+                "zh_completa": "在春季。",
+                "segmentos": [
+                    {
+                        "es": "En primavera.",
+                        "zh": "在春季。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Durante los meses de verano (de junio a septiembre) se concentra un mayor número de desplazamientos y aproximadamente el 40% de los fallecimientos por accidente.",
+            "zh_completa": "在夏季的月份（6月至9月）集中了较多的出行，大约40%的事故死亡发生在此时。",
+            "segmentos": [
+                {
+                    "es": "En verano (de junio a septiembre) se producen más desplazamientos ",
+                    "zh": "在夏季（6月至9月）发生的出行更多，"
+                },
+                {
+                    "es": "y se concentran cerca del 40% de los fallecimientos por accidente.",
+                    "zh": "且集中了近40%的事故死亡。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q26",
+        "tema": "principios_circulacion_vial",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "¿Qué principios deben regir en la circulación vial?",
+            "zh_completa": "哪些原则应当主导道路交通？",
+            "segmentos": [
+                {
+                    "es": "¿Qué principios ",
+                    "zh": "哪些原则"
+                },
+                {
+                    "es": "deben regir en la circulación vial?",
+                    "zh": "应当主导道路交通？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": true,
+                "es_completa": "El principio de confianza en la normalidad del tráfico y el de seguridad en la conducción, entre otros.",
+                "zh_completa": "对交通正常性的信任原则和驾驶安全原则等。",
+                "segmentos": [
+                    {
+                        "es": "El principio de confianza en la normalidad del tráfico ",
+                        "zh": "对交通正常性的信任原则"
+                    },
+                    {
+                        "es": "y el de seguridad en la conducción, entre otros.",
+                        "zh": "和驾驶安全原则等。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "El principio de la individualidad en la circulación vial y el de la igualdad en la conducción.",
+                "zh_completa": "道路交通中的个人主义原则和驾驶平等原则。",
+                "segmentos": [
+                    {
+                        "es": "El principio de la individualidad ",
+                        "zh": "个人主义原则"
+                    },
+                    {
+                        "es": "y el de la igualdad en la conducción.",
+                        "zh": "和驾驶平等原则。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "El principio de la prioridad de los peatones sobre el tráfico rodado y el de la igualdad en la conducción.",
+                "zh_completa": "行人优先于机动车交通的原则和驾驶平等原则。",
+                "segmentos": [
+                    {
+                        "es": "La prioridad de peatones sobre el tráfico rodado ",
+                        "zh": "行人优先于机动车交通"
+                    },
+                    {
+                        "es": "y la igualdad en la conducción.",
+                        "zh": "和驾驶平等原则。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "La circulación vial se basa en principios fundamentales como el de confianza en la normalidad del tráfico, el de responsabilidad, el de precaución o defensa, y el de seguridad en la conducción.",
+            "zh_completa": "道路交通基于基本原则，例如对交通正常性的信任原则、责任原则、预防或防范原则以及驾驶安全原则。",
+            "segmentos": [
+                {
+                    "es": "Los principios de la circulación incluyen la confianza en el tráfico, ",
+                    "zh": "交通原则包括对交通的信任、"
+                },
+                {
+                    "es": "la responsabilidad, la precaución y la seguridad en la conducción.",
+                    "zh": "责任、预防和驾驶安全。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q27",
+        "tema": "principios_circulacion_vial",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "¿Qué principios deben regir en la circulación vial?",
+            "zh_completa": "哪些原则应当主导道路交通？",
+            "segmentos": [
+                {
+                    "es": "¿Qué principios ",
+                    "zh": "哪些原则"
+                },
+                {
+                    "es": "deben regir en la circulación vial?",
+                    "zh": "应当主导道路交通？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "El principio de la individualidad en la circulación vial y el de la prioridad del tráfico rodado sobre los peatones.",
+                "zh_completa": "道路交通中的个人主义原则以及机动车交通优先于行人的原则。",
+                "segmentos": [
+                    {
+                        "es": "El principio de la individualidad ",
+                        "zh": "个人主义原则"
+                    },
+                    {
+                        "es": "y la prioridad del tráfico sobre peatones.",
+                        "zh": "以及机动车优先于行人的原则。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "El principio de confianza en la normalidad del tráfico y el de responsabilidad, entre otros.",
+                "zh_completa": "对交通正常性的信任原则和责任原则等。",
+                "segmentos": [
+                    {
+                        "es": "El principio de confianza en la normalidad del tráfico ",
+                        "zh": "对交通正常性的信任原则"
+                    },
+                    {
+                        "es": "y el de responsabilidad, entre otros.",
+                        "zh": "和责任原则等。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "El principio de la prioridad del tráfico rodado sobre los peatones y el de la antigüedad en la conducción.",
+                "zh_completa": "机动车交通优先于行人的原则以及驾龄原则。",
+                "segmentos": [
+                    {
+                        "es": "La prioridad del tráfico sobre peatones ",
+                        "zh": "机动车优先于行人的原则"
+                    },
+                    {
+                        "es": "y la antigüedad en la conducción.",
+                        "zh": "以及驾龄原则。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "La circulación vial se basa en principios como el de confianza en la normalidad del tráfico, el de responsabilidad, el de precaución o defensa, y el de seguridad en la conducción.",
+            "zh_completa": "道路交通基于若干原则，例如对交通正常性的信任原则、责任原则、预防或防范原则以及驾驶安全原则。",
+            "segmentos": [
+                {
+                    "es": "Los principios de la circulación incluyen la confianza en el tráfico ",
+                    "zh": "交通原则包括对交通的信任"
+                },
+                {
+                    "es": "y el principio de responsabilidad, entre otros.",
+                    "zh": "和责任原则等。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q28",
+        "tema": "seguridad_pasiva_cinturon_embarazadas",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "En el caso de las mujeres embarazadas, ¿por dónde debe ir colocada la banda abdominal del cinturón de seguridad?",
+            "zh_completa": "对于孕妇，安全带的腰带应当系在什么位置？",
+            "segmentos": [
+                {
+                    "es": "En el caso de mujeres embarazadas, ",
+                    "zh": "对于孕妇，"
+                },
+                {
+                    "es": "¿por dónde debe ir colocada la banda abdominal del cinturón?",
+                    "zh": "安全带的腰带应当系在什么位置？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "Sobre el abdomen al igual que el resto de conductores. Las mujeres embarazadas no tienen por qué tomar ninguna precaución especial.",
+                "zh_completa": "像其他驾驶员一样系在腹部上方。孕妇不需要采取任何特别的预防措施。",
+                "segmentos": [
+                    {
+                        "es": "Sobre el abdomen igual que el resto. ",
+                        "zh": "像其他人一样系在腹部上方。"
+                    },
+                    {
+                        "es": "No requieren precaución especial.",
+                        "zh": "不需要特别预防措施。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "Las embarazadas no deben utilizar nunca el cinturón de seguridad, ya que esto es muy peligroso para ella y para su futuro hijo.",
+                "zh_completa": "孕妇切勿使用安全带，因为这对她和未出生的孩子都非常危险。",
+                "segmentos": [
+                    {
+                        "es": "No deben utilizar nunca el cinturón ",
+                        "zh": "切勿使用安全带"
+                    },
+                    {
+                        "es": "por ser peligroso para la madre y el hijo.",
+                        "zh": "因为对母子危险。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": true,
+                "es_completa": "En la raíz de los muslos. Para ello existen dispositivos especiales que mantienen la banda abdominal en la posición adecuada.",
+                "zh_completa": "系在大腿根部。为此存在特殊装置，可以将腰带保持在合适的位置。",
+                "segmentos": [
+                    {
+                        "es": "En la raíz de los muslos, ",
+                        "zh": "系在大腿根部，"
+                    },
+                    {
+                        "es": "existiendo dispositivos especiales para mantener su posición adecuada.",
+                        "zh": "存在特殊装置以保持其合适的位置。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Las embarazadas están obligadas a usar el cinturón de seguridad. La banda abdominal debe colocarse por la raíz de los muslos (nunca sobre el vientre o feto), existiendo adaptadores especiales para mantener la posición correcta.",
+            "zh_completa": "孕妇必须使用安全带。腰带应当置于大腿根部（绝不可系在腹部或胎儿上方），且有专门的适配装置保持正确位置。",
+            "segmentos": [
+                {
+                    "es": "La banda abdominal debe pasar por la raíz de los muslos ",
+                    "zh": "腰带必须穿过大腿根部"
+                },
+                {
+                    "es": "y nunca sobre el abdomen o zona del feto.",
+                    "zh": "绝不可在腹部或胎儿部位上方。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q29",
+        "tema": "accidentes_ciclistas_causas_infracciones",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "Se ha comprobado que la mayoría de accidentes de ciclistas:",
+            "zh_completa": "经证实，大多数自行车事故：",
+            "segmentos": [
+                {
+                    "es": "Se ha comprobado ",
+                    "zh": "经证实"
+                },
+                {
+                    "es": "que la mayoría de accidentes de ciclistas:",
+                    "zh": "大多数自行车事故："
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": true,
+                "es_completa": "Se deben a infracciones cometidas tanto por el ciclista como por el conductor del vehículo.",
+                "zh_completa": "归因于自行车骑手和车辆驾驶员双方犯下的违法行为。",
+                "segmentos": [
+                    {
+                        "es": "Se deben a infracciones ",
+                        "zh": "归因于违法行为"
+                    },
+                    {
+                        "es": "cometidas tanto por el ciclista como por el conductor.",
+                        "zh": "由自行车骑手和驾驶员双方犯下的。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": false,
+                "es_completa": "Se deben a infracciones cometidas únicamente por el ciclista.",
+                "zh_completa": "归因于仅由自行车骑手犯下的违法行为。",
+                "segmentos": [
+                    {
+                        "es": "Se deben a infracciones ",
+                        "zh": "归因于违法行为"
+                    },
+                    {
+                        "es": "cometidas únicamente por el ciclista.",
+                        "zh": "仅由自行车骑手犯下的。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Se deben a infracciones cometidas únicamente por el conductor.",
+                "zh_completa": "归因于仅由驾驶员犯下的违法行为。",
+                "segmentos": [
+                    {
+                        "es": "Se deben a infracciones ",
+                        "zh": "归因于违法行为"
+                    },
+                    {
+                        "es": "cometidas únicamente por el conductor.",
+                        "zh": "仅由驾驶员犯下的。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Las investigaciones señalan que la mayoría de siniestros en los que intervienen ciclistas se deben a infracciones cometidas tanto por los propios ciclistas como por los conductores de los demás vehículos.",
+            "zh_completa": "研究指出，涉及自行车骑手的大多数事故均归因于自行车骑手本人以及其他车辆驾驶员所犯的违法行为。",
+            "segmentos": [
+                {
+                    "es": "La mayoría de accidentes de ciclistas se deben a infracciones ",
+                    "zh": "大多数自行车事故归因于违法行为"
+                },
+                {
+                    "es": "tanto del propio ciclista como del conductor del vehículo.",
+                    "zh": "由骑手本人和车辆驾驶员双方造成的。"
+                }
+            ]
+        }
+    },
+    {
+        "id": "test_rec_06_q30",
+        "tema": "primeros_auxilios_proteger_zona_accidente",
+        "imagen_url": null,
+        "pregunta": {
+            "es_completa": "Ante un siniestro de tráfico, ¿se puede fumar en la zona del accidente?",
+            "zh_completa": "面对交通事故，可以在事故区域吸烟吗？",
+            "segmentos": [
+                {
+                    "es": "Ante un siniestro de tráfico, ",
+                    "zh": "面对交通事故，"
+                },
+                {
+                    "es": "¿se puede fumar en la zona del accidente?",
+                    "zh": "可以在事故区域吸烟吗？"
+                }
+            ]
+        },
+        "opciones": [
+            {
+                "id": "A",
+                "es_correcta": false,
+                "es_completa": "Sí, porque ayudará a tranquilizar a víctimas y auxiliadores.",
+                "zh_completa": "可以，因为这有助于抚慰受害者和施救者。",
+                "segmentos": [
+                    {
+                        "es": "Sí, porque ayudará ",
+                        "zh": "可以，因为这有助于"
+                    },
+                    {
+                        "es": "a tranquilizar a víctimas y auxiliadores.",
+                        "zh": "抚慰受害者和施救者。"
+                    }
+                ]
+            },
+            {
+                "id": "B",
+                "es_correcta": true,
+                "es_completa": "En la zona de un accidente no debes fumar, ni debes permitir que se fume.",
+                "zh_completa": "在事故区域绝不应吸烟，也不应允许他人吸烟。",
+                "segmentos": [
+                    {
+                        "es": "En la zona de un accidente no debes fumar, ",
+                        "zh": "在事故区域绝不应吸烟，"
+                    },
+                    {
+                        "es": "ni debes permitir que se fume.",
+                        "zh": "也不应允许他人吸烟。"
+                    }
+                ]
+            },
+            {
+                "id": "C",
+                "es_correcta": false,
+                "es_completa": "Sí, pero únicamente si no huele a combustible.",
+                "zh_completa": "可以，但仅限在没有燃油味的情况下。",
+                "segmentos": [
+                    {
+                        "es": "Sí, pero únicamente ",
+                        "zh": "可以，但仅限"
+                    },
+                    {
+                        "es": "si no huele a combustible.",
+                        "zh": "在没有燃油味的情况下。"
+                    }
+                ]
+            }
+        ],
+        "explicacion": {
+            "es_completa": "Por seguridad, para prevenir explosiones o incendios por derrames inapreciables de combustible, nunca se debe fumar ni permitir que se fume en las proximidades del accidente.",
+            "zh_completa": "为了安全起见，防止因微小难以察觉的燃油泄漏引发爆炸或火灾，绝不应在事故附近吸烟或允许他人吸烟。",
+            "segmentos": [
+                {
+                    "es": "Nunca debes fumar ni permitir que se fume ",
+                    "zh": "绝不应吸烟或允许他人吸烟"
+                },
+                {
+                    "es": "en las proximidades del accidente.",
+                    "zh": "在事故附近。"
+                }
+            ]
+        }
+    }
+]

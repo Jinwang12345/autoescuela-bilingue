@@ -1,13 +1,219 @@
-<!-- Vista: Inicio -->
-<section id="view-inicio" class="space-y-4">
-  <div class="bg-gradient-to-r from-slate-900 to-blue-900 text-white p-5 rounded-2xl shadow-sm">
-    <h2 class="text-xl font-bold">¡Bienvenido! / 欢迎!</h2>
-    <p class="text-sm text-slate-300 mt-1">Prepara tu examen teórico de autoescuela bilingüe (Español / 中文).</p>
-  </div>
+<!-- Vista: Inicio (首页) -->
+<div class="min-h-full max-w-md mx-auto relative flex flex-col bg-surface">
+  <header class="sticky top-0 max-w-md w-full z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+    <div class="h-16 px-margin flex items-center justify-between">
+      <div class="flex items-center gap-space-sm">
+        <div class="w-9 h-9 rounded-xl bg-primary-container flex items-center justify-center shadow-[0_2px_8px_rgba(37,99,235,0.25)]">
+          <span class="material-symbols-outlined text-white text-[20px]">directions_car</span>
+        </div>
+        <div class="flex flex-col">
+          <h1 class="font-headline-md text-headline-md text-on-surface leading-tight">首页</h1>
+          <span class="font-label-sm text-label-sm text-on-surface-variant leading-none">西班牙驾照 · DGT官方题库</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-space-xs">
+        <button class="w-11 h-11 flex items-center justify-center rounded-full hover:bg-surface-container-high/60 transition-colors text-on-surface-variant">
+          <span class="material-symbols-outlined text-[22px]">translate</span>
+        </button>
+        <a href="#ajustes" data-path="ajustes" class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm">
+          <span class="material-symbols-outlined text-on-primary text-[18px]">person</span>
+        </a>
+      </div>
+    </div>
+  </header>
 
-  <div class="border-2 border-dashed border-slate-300 rounded-xl p-6 text-center text-slate-400">
-    <i data-lucide="code-2" class="w-8 h-8 mx-auto mb-2 text-slate-400"></i>
-    <p class="text-sm font-medium">Contenido de Inicio</p>
-    <p class="text-xs text-slate-400 mt-1">Pega aquí el código HTML / Tailwind final de la vista de Inicio.</p>
-  </div>
-</section>
+  <main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen">
+    <div class="flex flex-col w-full px-margin gap-space-lg">
+      <!-- Greeting & Profile Banner -->
+      <div class="flex items-center justify-between pt-space-sm">
+        <div class="flex flex-col">
+          <div class="flex items-center gap-1.5">
+            <span class="font-headline-lg text-headline-lg text-on-surface">你好，Alex！</span>
+            <span class="text-xl animate-bounce">👋</span>
+          </div>
+          <div class="flex flex-col mt-0.5">
+            <span class="font-body-md text-body-md text-on-surface font-semibold">西班牙 B 照备考冲刺中</span>
+            <span class="font-body-translation text-body-translation text-on-surface-variant font-normal">Preparando Permiso B (DGT)</span>
+          </div>
+        </div>
+        <div class="relative flex items-center justify-center">
+          <div class="w-12 h-12 rounded-full overflow-hidden shadow-sm bg-surface-container-high p-0.5">
+            <img class="w-full h-full object-cover rounded-full" data-alt="User avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVucwdHBIBTJrBU4i5cTowEybOLEwIAYAjrimydz2sLfK0YnSRHcpP5_VZaQd34ozF-ccXcBU8rgbMld__rJ88eK9zHT17YBRg_WZoLfN1in8fBXvXE_sgLga9Pmr2oA30eJpjcRWlFCtspinN8PpWms7mbWxgSoITwp_n6lqfSDaoMlb5yR2W3CLrWjjxbid1bAiXr4TE34wCnbngdcNfHVOkAedhYFrYc3pbHFf2DJmwxPT1hxSKXQ" />
+          </div>
+          <span class="absolute -bottom-1 -right-1 w-5 h-5 bg-secondary text-on-secondary rounded-full flex items-center justify-center font-label-sm text-[10px] shadow-sm font-bold">B</span>
+        </div>
+      </div>
+
+      <!-- Key Metrics (2 columns Bento Grid) -->
+      <div class="grid grid-cols-2 gap-space-sm">
+        <!-- Card 1: Study Streak -->
+        <div class="relative overflow-hidden bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between group active:scale-[0.98] transition-transform">
+          <div class="absolute -right-3 -top-3 w-16 h-16 rounded-full bg-tertiary-fixed/30 pointer-events-none"></div>
+          <div class="flex items-center justify-between mb-space-sm">
+            <span class="font-label-sm text-label-sm text-on-surface-variant">连续打卡 / Racha</span>
+            <div class="w-8 h-8 rounded-lg bg-tertiary-fixed flex items-center justify-center text-tertiary">
+              <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <div class="flex items-baseline gap-1">
+              <span class="font-display-lg-mobile text-display-lg-mobile text-on-surface">5</span>
+              <span class="font-headline-md text-headline-md text-tertiary">天</span>
+            </div>
+            <span class="font-body-translation text-body-translation text-on-surface-variant mt-0.5">已连续坚持 5 天 · 棒极了</span>
+          </div>
+          <div class="mt-space-sm w-full bg-surface-container rounded-full h-1.5 overflow-hidden">
+            <div class="bg-tertiary h-full rounded-full transition-all duration-700" style="width: 71%;"></div>
+          </div>
+        </div>
+        <!-- Card 2: Accuracy Rate -->
+        <div class="relative overflow-hidden bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between group active:scale-[0.98] transition-transform">
+          <div class="absolute -right-3 -top-3 w-16 h-16 rounded-full bg-secondary-fixed/30 pointer-events-none"></div>
+          <div class="flex items-center justify-between mb-space-sm">
+            <span class="font-label-sm text-label-sm text-on-surface-variant">正确率 / Aciertos</span>
+            <div class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary">
+              <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">crisis_alert</span>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <div class="flex items-baseline gap-1">
+              <span class="font-display-lg-mobile text-display-lg-mobile text-on-surface">82</span>
+              <span class="font-headline-md text-headline-md text-secondary">%</span>
+            </div>
+            <span class="font-body-translation text-body-translation text-secondary font-medium mt-0.5">合格线达标 · Buen ritmo</span>
+          </div>
+          <div class="mt-space-sm w-full bg-surface-container rounded-full h-1.5 overflow-hidden">
+            <div class="bg-secondary h-full rounded-full transition-all duration-700" style="width: 82%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Card: DGT Official Mock Exam -->
+      <div class="relative overflow-hidden bg-primary-container rounded-2xl p-space-lg text-on-primary shadow-lg flex flex-col justify-between">
+        <div class="absolute -right-12 -bottom-10 w-44 h-44 rounded-full bg-white/10 blur-xl pointer-events-none"></div>
+        <div class="absolute right-4 top-4 opacity-15 pointer-events-none">
+          <span class="material-symbols-outlined text-[100px] leading-none">traffic</span>
+        </div>
+        <div class="relative z-10 flex flex-col">
+          <div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/15 backdrop-blur-md self-start mb-space-sm">
+            <span class="material-symbols-outlined text-[14px] text-secondary-fixed">verified</span>
+            <span class="font-label-sm text-label-sm text-white font-medium tracking-wide">DGT 2025 官方标准</span>
+          </div>
+          <h2 class="font-headline-lg text-headline-lg text-white font-bold leading-tight">
+            DGT 官方全真模拟考试
+          </h2>
+          <span class="font-headline-md text-headline-md text-primary-fixed font-normal mt-0.5">
+            Simulacro de Examen Oficial DGT
+          </span>
+          <div class="flex items-center gap-space-md mt-space-md py-2.5 px-3 rounded-lg bg-white/10 backdrop-blur-sm text-white">
+            <div class="flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-[18px] text-primary-fixed">quiz</span>
+              <span class="font-label-sm text-label-sm">30 道题 (30 Preguntas)</span>
+            </div>
+            <div class="w-1 h-1 rounded-full bg-white/40"></div>
+            <div class="flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-[18px] text-primary-fixed">timer</span>
+              <span class="font-label-sm text-label-sm">30 分钟 (30 Min)</span>
+            </div>
+            <div class="w-1 h-1 rounded-full bg-white/40"></div>
+            <div class="flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-[18px] text-error-container">warning</span>
+              <span class="font-label-sm text-label-sm">最多错3题 (Máx 3)</span>
+            </div>
+          </div>
+        </div>
+        <a href="#temario" data-path="temario" class="relative z-10 mt-space-lg w-full h-14 bg-surface-container-lowest text-primary rounded-xl font-headline-md text-headline-md flex items-center justify-center gap-space-sm shadow-md active:scale-[0.98] transition-all group">
+          <span class="tracking-wide">选择题库 / Seleccionar Test</span>
+          <span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+        </a>
+      </div>
+
+      <!-- Quick Practice Actions (2 Columns) -->
+      <div class="flex flex-col gap-space-xs">
+        <div class="flex items-center justify-between px-1">
+          <span class="font-label-md text-label-md text-on-surface">快速刷题专区</span>
+          <span class="font-label-sm text-label-sm text-on-surface-variant">Entrenamiento Rápido</span>
+        </div>
+        <div class="grid grid-cols-2 gap-space-sm mt-1">
+          <!-- Random Test Card -->
+          <a href="#test?id=test_01" data-test-id="test_01" class="flex flex-col items-start p-space-md bg-surface-container-lowest rounded-xl shadow-sm text-left active:scale-[0.97] transition-all hover:bg-surface-container-low group">
+            <div class="w-11 h-11 rounded-full bg-surface-container-high flex items-center justify-center text-primary mb-space-sm group-hover:bg-primary group-hover:text-on-primary transition-colors">
+              <span class="material-symbols-outlined text-[22px]">shuffle</span>
+            </div>
+            <span class="font-headline-md text-headline-md text-on-surface leading-tight">全题库随机抽测</span>
+            <span class="font-body-translation text-body-translation text-on-surface-variant mt-0.5">Test 1 (Random)</span>
+            <div class="mt-space-sm flex items-center gap-1 text-primary">
+              <span class="font-label-sm text-label-sm font-semibold">开始</span>
+              <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+            </div>
+          </a>
+          <!-- Express Review Card -->
+          <a href="#test?id=test_02" data-test-id="test_02" class="flex flex-col items-start p-space-md bg-surface-container-lowest rounded-xl shadow-sm text-left active:scale-[0.97] transition-all hover:bg-surface-container-low group">
+            <div class="w-11 h-11 rounded-full bg-tertiary-fixed flex items-center justify-center text-tertiary mb-space-sm group-hover:bg-tertiary group-hover:text-on-tertiary transition-colors">
+              <span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">bolt</span>
+            </div>
+            <span class="font-headline-md text-headline-md text-on-surface leading-tight">10题高频考点</span>
+            <span class="font-body-translation text-body-translation text-on-surface-variant mt-0.5">Test 2 (Express)</span>
+            <div class="mt-space-sm flex items-center gap-1 text-tertiary">
+              <span class="font-label-sm text-label-sm font-semibold">开始</span>
+              <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Daily Bilingual Driving Flashcard of Delight -->
+      <div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-1.5">
+            <span class="material-symbols-outlined text-secondary text-[18px]">lightbulb</span>
+            <span class="font-label-md text-label-md text-on-surface">每日高频交通词汇 / Word of the Day</span>
+          </div>
+          <span class="font-label-sm text-label-sm text-on-surface-variant px-2 py-0.5 rounded-full bg-surface-container">DGT 考点</span>
+        </div>
+        <div class="flex items-center gap-space-md p-space-sm rounded-lg bg-surface-container-low">
+          <div class="w-14 h-14 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+            <img class="w-full h-full object-cover" data-alt="Priority traffic sign" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqSY10oAhXX_gtF1IEWMBuxxZ6EAY7ij8V2NnE4LcxD9Py_nFFhTP9KmccAjgeI2tAOs0_Rg8SI_mimlpPU91KA81dxhX53tkg-IUG3rxbvxsPkahcwA5Q81XRGqK-XgvRCigNhszUCLF_mpOEOizGnxw2xWwMvUEXS9K7VoAbH7thQUAJ9lGMD51z01sIIcpqsKkK_kb5sayGnIVcAI90jnMt_illQs36mmbA-TOd02SYytbtYxeBUQ" />
+          </div>
+          <div class="flex flex-col min-w-0">
+            <div class="flex items-baseline gap-2">
+              <span class="font-headline-md text-headline-md text-on-surface font-bold truncate">通行优先权</span>
+            </div>
+            <span class="font-body-translation text-body-translation text-on-surface-variant">Prioridad de paso</span>
+            <span class="font-label-sm text-label-sm text-on-surface-variant mt-1 italic">"Ceda el paso en la intersección." (路口减速让行)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Bottom Navigation Bar -->
+  <nav class="sticky bottom-0 max-w-md w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(15,23,42,0.05)]">
+    <div class="flex items-center justify-around h-16 px-space-xs">
+      <a href="#inicio" data-path="inicio" aria-current="page" class="flex flex-col items-center justify-center min-w-[64px] h-12 gap-0.5 transition-colors text-primary font-bold">
+        <span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">home</span>
+        <div class="flex items-center gap-0.5">
+          <span class="font-label-sm text-label-sm leading-none">首页</span>
+        </div>
+      </a>
+      <a href="#temario" data-path="temario" class="flex flex-col items-center justify-center min-w-[64px] h-12 gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors">
+        <span class="material-symbols-outlined text-[24px]">menu_book</span>
+        <div class="flex items-center gap-0.5">
+          <span class="font-label-sm text-label-sm leading-none">专题</span>
+        </div>
+      </a>
+      <a href="#fallos" data-path="fallos" class="flex flex-col items-center justify-center min-w-[64px] h-12 gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors">
+        <span class="material-symbols-outlined text-[24px]">error</span>
+        <div class="flex items-center gap-0.5">
+          <span class="font-label-sm text-label-sm leading-none">错题</span>
+        </div>
+      </a>
+      <a href="#ajustes" data-path="ajustes" class="flex flex-col items-center justify-center min-w-[64px] h-12 gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors">
+        <span class="material-symbols-outlined text-[24px]">settings</span>
+        <div class="flex items-center gap-0.5">
+          <span class="font-label-sm text-label-sm leading-none">设置</span>
+        </div>
+      </a>
+    </div>
+  </nav>
+</div>

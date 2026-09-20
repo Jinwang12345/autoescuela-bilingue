@@ -1,0 +1,6 @@
+{
+  "appId": "com.autoescuela.bilingue",
+  "appName": "Autoescuela Bilingüe",
+  "webDir": "src",
+  "bundledWebRuntime": false
+}

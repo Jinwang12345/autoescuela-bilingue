@@ -1,0 +1,62 @@
+{
+  "titulo_es": "Índice Maestro de Tests de Conducir",
+  "titulo_zh": "驾照测试主索引",
+  "descripcion_es": "Listado de todos los exámenes de test disponibles con información de preguntas y temas.",
+  "descripcion_zh": "所有可用驾驶考试测试的列表，包含题目数量和主题信息。",
+  "tests": [
+    {
+      "id": "test_01",
+      "titulo_es": "Test de Reciclaje 1",
+      "titulo_zh": "复习测试 1",
+      "archivo": "test_01.json",
+      "total_preguntas": 30,
+      "descripcion_es": "Seguridad vial, peatones, seguridad pasiva, primeros auxilios y normativa.",
+      "descripcion_zh": "道路安全、行人、被动安全、急救与法规。"
+    },
+    {
+      "id": "test_02",
+      "titulo_es": "Test de Reciclaje 2",
+      "titulo_zh": "复习测试 2",
+      "archivo": "test_02.json",
+      "total_preguntas": 30,
+      "descripcion_es": "Grupos vulnerables, ciclistas, motocicletas, RCP y tipos de colisiones.",
+      "descripcion_zh": "弱势群体、骑行者、摩托车、心肺复苏及碰撞类型。"
+    },
+    {
+      "id": "test_03",
+      "titulo_es": "Test de Reciclaje 3",
+      "titulo_zh": "复习测试 3",
+      "archivo": "test_03.json",
+      "total_preguntas": 30,
+      "descripcion_es": "Accidentalidad, lesiones de columna, responsabilidades civiles, penales y administrativas.",
+      "descripcion_zh": "事故率、脊柱损伤、民事、刑事与行政责任。"
+    },
+    {
+      "id": "test_04",
+      "titulo_es": "Test de Reciclaje 4",
+      "titulo_zh": "复习测试 4",
+      "archivo": "test_04.json",
+      "total_preguntas": 30,
+      "descripcion_es": "Factor humano, consumo de sustancias, fatiga, velocidad y estado físico.",
+      "descripcion_zh": "人为因素、物质消耗、疲劳、速度与身体状况。"
+    },
+    {
+      "id": "test_05",
+      "titulo_es": "Test de Reciclaje 5",
+      "titulo_zh": "复习测试 5",
+      "archivo": "test_05.json",
+      "total_preguntas": 30,
+      "descripcion_es": "Mantenimiento del vehículo, mecanismos lesionales y colisiones.",
+      "descripcion_zh": "车辆维护、损伤机制与碰撞。"
+    },
+    {
+      "id": "test_06",
+      "titulo_es": "Test de Reciclaje 6",
+      "titulo_zh": "复习测试 6",
+      "archivo": "test_06.json",
+      "total_preguntas": 30,
+      "descripcion_es": "Delitos de tráfico, primeros auxilios, seguridad pasiva y normativa vial.",
+      "descripcion_zh": "交通犯罪、急救、被动安全与交通法规。"
+    }
+  ]
+}
