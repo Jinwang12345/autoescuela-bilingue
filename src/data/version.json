@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0",
-  "versionCode": 1,
+  "version": "1.0.1",
+  "versionCode": 2,
   "releaseDate": "2026-09-20",
-  "title_es": "Nueva versión disponible (v1.0.0)",
-  "title_zh": "发现新版本 (v1.0.0)",
+  "title_es": "Nueva versión disponible (v1.0.1)",
+  "title_zh": "发现新版本 (v1.0.1)",
   "releaseNotes_es": "• Nuevos tests 04, 05 y 06 añadidos.\n• 180 preguntas oficiales DGT bilingües (Español / 中文).\n• Sistema de actualización por Wi-Fi y notificaciones.",
   "releaseNotes_zh": "• 新增 Test 04、05、06 官方题库！\n• 共有 180 道 DGT 全真试题及中西双语对照解析。\n• 支持 Wi-Fi 智能检测与新版本提示下载功能。",
-  "downloadUrl": "apk/autoescuela-bilingue.apk",
+  "downloadUrl": "https://github.com/Jinwang12345/autoescuela-bilingue/releases/latest/download/autoescuela-bilingue.apk",
   "forceUpdate": false
 }

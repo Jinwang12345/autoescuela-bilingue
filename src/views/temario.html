@@ -1,6 +1,6 @@
 <!-- Vista: Temario (专题 - Pre-rendered Instant Test List) -->
-<div class="min-h-full max-w-md mx-auto relative flex flex-col bg-surface">
-  <header class="sticky top-0 max-w-md w-full z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+<div class="min-h-full w-full max-w-full md:max-w-md mx-auto relative flex flex-col bg-surface">
+  <header class="sticky top-0 max-w-full md:max-w-md w-full z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
     <div class="h-16 px-margin flex items-center justify-between">
       <div class="flex items-center gap-space-sm">
         <div class="w-9 h-9 rounded-xl bg-primary-container flex items-center justify-center shadow-[0_2px_8px_rgba(37,99,235,0.25)]">
@@ -362,6 +362,26 @@
     const clearBtn = document.getElementById('search-clear-btn');
     const topicCards = document.querySelectorAll('.topic-card');
     const noResults = document.getElementById('no-results-state');
+
+    // Update real progress badges on test cards from localStorage
+    topicCards.forEach(card => {
+      const testId = card.getAttribute('data-test-id');
+      if (testId && window.AppDB) {
+        const progress = window.AppDB.getTestProgress(testId);
+        if (progress) {
+          const bar = card.querySelector('.bg-primary.rounded-full');
+          const statusText = card.querySelector('.text-primary.font-bold');
+          if (progress.completed) {
+            if (bar) bar.style.width = '100%';
+            if (statusText) statusText.textContent = '已完成 100% / Completado';
+          } else if (typeof progress.currentIndex === 'number' && progress.currentIndex > 0) {
+            const pct = Math.round(((progress.currentIndex + 1) / (progress.totalQuestions || 30)) * 100);
+            if (bar) bar.style.width = `${pct}%`;
+            if (statusText) statusText.textContent = `继续练习 (${progress.currentIndex + 1}/${progress.totalQuestions || 30}) / Continuar`;
+          }
+        }
+      }
+    });
 
     if (searchInput) {
       searchInput.addEventListener('input', function(e) {

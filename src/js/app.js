@@ -40,6 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
       // Inject view content into main container
       appContent.innerHTML = htmlContent;
 
+      // Re-apply persistent user settings (font sizes, etc.)
+      if (window.AppDB) window.AppDB.applySettings();
+
       // Execute inline scripts inside newly loaded view
       const scriptElements = Array.from(appContent.querySelectorAll('script'));
       scriptElements.forEach(oldScript => {
@@ -183,11 +186,105 @@ window.AppDB = {
     }
   },
 
+  removeFailedQuestion(questionId) {
+    try {
+      let failed = JSON.parse(localStorage.getItem('failed_questions') || '[]');
+      failed = failed.filter(q => q.id !== questionId);
+      localStorage.setItem('failed_questions', JSON.stringify(failed));
+    } catch (e) {
+      console.error('Error al eliminar fallo:', e);
+    }
+  },
+
+  clearFailedQuestions() {
+    try {
+      localStorage.removeItem('failed_questions');
+    } catch (e) {
+      console.error('Error al limpiar fallos:', e);
+    }
+  },
+
   getFailedQuestions() {
     try {
       return JSON.parse(localStorage.getItem('failed_questions') || '[]');
     } catch (e) {
       return [];
     }
+  },
+
+  saveTestProgress(testId, progressData) {
+    try {
+      const key = `test_progress_${testId}`;
+      localStorage.setItem(key, JSON.stringify({
+        testId,
+        ...progressData,
+        updatedAt: Date.now()
+      }));
+    } catch (e) {
+      console.error('Error al guardar progreso:', e);
+    }
+  },
+
+  getTestProgress(testId) {
+    try {
+      const key = `test_progress_${testId}`;
+      const data = localStorage.getItem(key);
+      return data ? JSON.parse(data) : null;
+    } catch (e) {
+      console.error('Error al leer progreso:', e);
+      return null;
+    }
+  },
+
+  clearTestProgress(testId) {
+    try {
+      if (testId) {
+        localStorage.removeItem(`test_progress_${testId}`);
+      } else {
+        Object.keys(localStorage).forEach(k => {
+          if (k.startsWith('test_progress_')) localStorage.removeItem(k);
+        });
+      }
+    } catch (e) {
+      console.error('Error al borrar progreso:', e);
+    }
+  },
+
+  getSettings() {
+    try {
+      const defaultSettings = { esLevel: 2, zhLevel: 2, fontEs: '16px', fontZh: '16px' };
+      const saved = localStorage.getItem('app_settings');
+      return saved ? { ...defaultSettings, ...JSON.parse(saved) } : defaultSettings;
+    } catch (e) {
+      return { esLevel: 2, zhLevel: 2, fontEs: '16px', fontZh: '16px' };
+    }
+  },
+
+  saveSettings(settings) {
+    try {
+      const current = this.getSettings();
+      const updated = { ...current, ...settings };
+      localStorage.setItem('app_settings', JSON.stringify(updated));
+      this.applySettings(updated);
+    } catch (e) {
+      console.error('Error al guardar ajustes:', e);
+    }
+  },
+
+  applySettings(settings) {
+    const s = settings || this.getSettings();
+    const esSize = s.fontEs || '16px';
+    const zhSize = s.fontZh || '16px';
+    document.documentElement.style.setProperty('--user-font-es', esSize);
+    document.documentElement.style.setProperty('--user-font-zh', zhSize);
+    if (document.body) {
+      document.body.style.setProperty('--user-font-es', esSize);
+      document.body.style.setProperty('--user-font-zh', zhSize);
+    }
   }
 };
+
+// Initial settings application
+document.addEventListener('DOMContentLoaded', () => {
+  if (window.AppDB) window.AppDB.applySettings();
+});

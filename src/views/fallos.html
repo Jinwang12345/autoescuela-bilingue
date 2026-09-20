@@ -1,6 +1,6 @@
 <!-- Vista: Fallos (错题 - Dynamic Failed Questions Loader) -->
-<div class="min-h-full max-w-md mx-auto relative flex flex-col bg-surface">
-  <header class="fixed top-0 max-w-md w-full z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+<div class="min-h-full w-full max-w-full md:max-w-md mx-auto relative flex flex-col bg-surface">
+  <header class="fixed top-0 max-w-full md:max-w-md w-full z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
     <div class="h-16 px-margin flex items-center justify-between">
       <div class="flex items-center gap-space-sm">
         <div class="w-9 h-9 rounded-xl bg-primary-container flex items-center justify-center shadow-[0_2px_8px_rgba(37,99,235,0.25)]">
@@ -39,120 +39,24 @@
           <div class="inline-flex flex-col items-end bg-error-container/60 px-2.5 py-1 rounded-lg">
             <div class="flex items-center gap-1">
               <span class="w-1.5 h-1.5 rounded-full bg-error animate-pulse"></span>
-              <span id="failed-count-badge" class="font-label-md text-label-md text-on-error-container font-bold">12 道待复习</span>
+              <span id="failed-count-badge" class="font-label-md text-label-md text-on-error-container font-bold">0 道待复习</span>
             </div>
-            <span class="font-label-sm text-[10px] text-on-error-container leading-none">12 pendientes</span>
-          </div>
-        </div>
-        <!-- Quick summary chips -->
-        <div class="grid grid-cols-2 gap-space-xs mt-1">
-          <div class="bg-surface-container-low rounded-lg p-2 flex items-center gap-space-xs">
-            <div class="w-7 h-7 rounded-full bg-primary-fixed flex items-center justify-center">
-              <span class="material-symbols-outlined text-on-primary-fixed text-[16px]">timer_off</span>
-            </div>
-            <div class="flex flex-col leading-none">
-              <span class="font-label-sm text-label-sm text-on-surface font-semibold">本周失误率: 18%</span>
-              <span class="font-label-sm text-[10px] text-on-surface-variant mt-0.5">Tasa de fallo</span>
-            </div>
-          </div>
-          <div class="bg-surface-container-low rounded-lg p-2 flex items-center gap-space-xs">
-            <div class="w-7 h-7 rounded-full bg-secondary-fixed flex items-center justify-center">
-              <span class="material-symbols-outlined text-on-secondary-fixed text-[16px]">target</span>
-            </div>
-            <div class="flex flex-col leading-none">
-              <span class="font-label-sm text-label-sm text-on-surface font-semibold">优先掌握分类: 高</span>
-              <span class="font-label-sm text-[10px] text-on-surface-variant mt-0.5">Prioridad Alta</span>
-            </div>
+            <span class="font-label-sm text-[10px] text-on-error-container leading-none" id="failed-count-sub">0 pendientes</span>
           </div>
         </div>
       </div>
 
-      <!-- Primary Action: Start Comprehensive Review -->
-      <div class="w-full">
-        <a href="#test?id=test_01" class="w-full relative overflow-hidden bg-primary-container active:scale-[0.98] transition-transform rounded-xl p-4 flex items-center justify-between shadow-md group block">
-          <div class="flex items-center gap-3 z-10">
-            <div class="w-10 h-10 rounded-lg bg-on-primary/15 flex items-center justify-center backdrop-blur-sm">
-              <span class="material-symbols-outlined text-on-primary text-[24px] group-hover:rotate-180 transition-transform duration-500">replay</span>
-            </div>
-            <div class="flex flex-col text-left">
-              <span class="font-headline-md text-headline-md text-on-primary font-bold leading-tight">一键复习全部错题</span>
-              <span class="font-label-sm text-label-sm text-on-primary/80 mt-0.5">Repasar todos los fallos · 智能抽测</span>
-            </div>
-          </div>
-          <div class="w-8 h-8 rounded-full bg-on-primary/20 flex items-center justify-center z-10">
-            <span class="material-symbols-outlined text-on-primary text-[18px]">play_arrow</span>
-          </div>
-          <div class="absolute -right-6 -bottom-6 w-24 h-24 bg-white/10 rounded-full blur-xl pointer-events-none"></div>
-        </a>
-      </div>
-
-      <!-- Dev/Inspector Preview Toggle for Empty State -->
-      <div class="flex justify-end">
-        <button onclick="toggleEmptyStatePreview()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high transition-colors">
-          <span class="material-symbols-outlined text-[15px] text-on-surface-variant">visibility</span>
-          <span class="font-label-sm text-label-sm text-on-surface-variant" id="preview-toggle-label">预览清空状态 (Ver Estado Vacío)</span>
+      <!-- Clear All Failed Questions Button -->
+      <div class="flex justify-end" id="clear-failed-container">
+        <button onclick="clearAllFailed()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container hover:bg-rose-100 text-rose-700 transition-colors">
+          <span class="material-symbols-outlined text-[16px]">delete_sweep</span>
+          <span class="font-label-sm text-label-sm">清空错题本 / Limpiar fallos</span>
         </button>
       </div>
 
       <!-- MAIN ERROR LIST VIEW -->
       <div class="flex flex-col gap-space-md" id="error-list-view">
-        <!-- Question Card 1 -->
-        <article class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm relative transition-all" id="error-card-1">
-          <div class="flex items-center justify-between">
-            <div class="flex items-center gap-1.5 bg-surface-container px-2 py-0.5 rounded-md">
-              <span class="material-symbols-outlined text-primary text-[14px]">alt_route</span>
-              <span class="font-label-sm text-label-sm text-on-surface font-semibold">通行优先权</span>
-              <span class="font-label-sm text-[10px] text-on-surface-variant/75">Prioridad de paso</span>
-            </div>
-            <span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
-              <span class="material-symbols-outlined text-[13px]">history</span>
-              昨天 · Ayer
-            </span>
-          </div>
-          <div class="flex flex-col gap-1 mt-1">
-            <p class="font-headline-md text-headline-md text-on-surface font-semibold">在狭窄且未设立优先标志的路段，谁拥有先行权？</p>
-            <p class="font-body-translation text-body-translation text-on-surface-variant">¿Quién tiene prioridad en un estrechamiento sin señalizar?</p>
-          </div>
-          <div class="w-full h-32 rounded-lg overflow-hidden relative mt-1 bg-surface-container">
-            <img class="w-full h-full object-cover" data-alt="Narrow road" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAB2V0O9P-_lBboJSqOKVt96lXRiExvx9jwlG3j_ojvBvzVGev_en-QZdwZoBBE4pRJX6RAZwH4ZJyo2fD58JecDnlChRHaMkmSDYgKnPOlSZM9j8h1PaEftwRpM3VemRSz_s6fnUT7Khn_cLQuOepEjdopH1uold1WtdIC7HyW6IicjUqjgUK6EnafjtCnLl3RC3_6KEFf6o29Lz3Vg2SW9y1Xlj8sk6FmSI74NpkAnEc98DgJusSAUQ" />
-            <div class="absolute bottom-2 left-2 bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface px-2 py-0.5 rounded text-[10px] font-label-sm">
-              DGT 官方真题 · 案例分析
-            </div>
-          </div>
-          <div class="flex flex-col gap-2 pt-1">
-            <div class="bg-error-container/40 rounded-lg p-2.5 flex items-start gap-2.5">
-              <div class="w-5 h-5 rounded-full bg-error text-on-error flex items-center justify-center shrink-0 mt-0.5">
-                <span class="material-symbols-outlined text-[13px]">close</span>
-              </div>
-              <div class="flex flex-col">
-                <span class="font-label-sm text-[11px] text-on-error-container font-semibold uppercase tracking-wider">你的选择 · Tu respuesta:</span>
-                <span class="font-body-md text-body-md text-on-error-container font-medium">车速更快进入该狭窄路段的车辆。</span>
-                <span class="font-body-translation text-body-translation text-on-error-container/80">El vehículo que entra a mayor velocidad.</span>
-              </div>
-            </div>
-            <div class="bg-secondary-container/40 rounded-lg p-2.5 flex items-start gap-2.5">
-              <div class="w-5 h-5 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0 mt-0.5">
-                <span class="material-symbols-outlined text-[13px]">check</span>
-              </div>
-              <div class="flex flex-col">
-                <span class="font-label-sm text-[11px] text-on-secondary-container font-semibold uppercase tracking-wider">正确答案 · Respuesta correcta:</span>
-                <span class="font-body-md text-body-md text-on-secondary-container font-semibold">先进入该狭窄路段的车辆享有优先权。</span>
-                <span class="font-body-translation text-body-translation text-on-secondary-container/90">El vehículo que hubiera entrado primero.</span>
-              </div>
-            </div>
-          </div>
-          <div class="flex items-center justify-between pt-2 mt-1">
-            <span class="font-label-sm text-[11px] text-on-surface-variant flex items-center gap-1">
-              <span class="material-symbols-outlined text-[14px] text-tertiary">lightbulb</span>
-              法规条例: Art. 60 RGC
-            </span>
-            <a href="#test?id=test_01" class="bg-primary-container text-on-primary px-3 py-1.5 rounded-lg flex items-center gap-1.5 shadow-sm active:scale-95 transition-transform hover:opacity-95">
-              <span class="font-label-md text-label-md">重新练习</span>
-              <span class="font-label-sm text-[11px] opacity-80">Reintentar</span>
-              <span class="material-symbols-outlined text-[15px]">arrow_forward</span>
-            </a>
-          </div>
-        </article>
+        <!-- Dynamic failed question cards injected by initFallosView -->
       </div>
 
       <!-- ESTADO VACÍO (cuando no hay fallos) -->
@@ -175,16 +79,13 @@
             <span class="material-symbols-outlined text-[20px]">assignment</span>
             <span>参加全真模拟考试 · Test General</span>
           </a>
-          <button onclick="toggleEmptyStatePreview()" class="w-full bg-surface-container-low text-on-surface py-2.5 px-4 rounded-xl font-label-md text-label-md hover:bg-surface-container transition-colors">
-            返回错题列表 (Ver Lista)
-          </button>
         </div>
       </div>
     </div>
   </main>
 
   <!-- Bottom Navigation Bar -->
-  <nav class="fixed bottom-0 max-w-md w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(15,23,42,0.05)]">
+  <nav class="fixed bottom-0 max-w-full md:max-w-md w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(15,23,42,0.05)]">
     <div class="flex items-center justify-around h-16 px-space-xs">
       <a href="#inicio" data-path="inicio" class="flex flex-col items-center justify-center min-w-[64px] h-12 gap-0.5 text-on-surface-variant hover:text-on-surface transition-colors">
         <span class="material-symbols-outlined text-[24px]">home</span>
@@ -216,26 +117,86 @@
 
 <script>
   (function initFallosView() {
-    const failedList = window.AppDB.getFailedQuestions();
-    const badge = document.getElementById('failed-count-badge');
-    if (badge) badge.textContent = `${failedList.length > 0 ? failedList.length : 12} 道待复习`;
+    renderFailedQuestions();
   })();
 
-  function toggleEmptyStatePreview() {
+  function renderFailedQuestions() {
+    const failedList = window.AppDB.getFailedQuestions();
+    const badge = document.getElementById('failed-count-badge');
+    const badgeSub = document.getElementById('failed-count-sub');
     const listView = document.getElementById('error-list-view');
     const emptyView = document.getElementById('error-empty-view');
-    const toggleLabel = document.getElementById('preview-toggle-label');
-    
-    if (listView.classList.contains('hidden')) {
+    const clearBtnContainer = document.getElementById('clear-failed-container');
+
+    if (badge) badge.textContent = `${failedList.length} 道待复习`;
+    if (badgeSub) badgeSub.textContent = `${failedList.length} pendientes`;
+
+    if (failedList.length === 0) {
+      if (listView) listView.classList.add('hidden');
+      if (emptyView) {
+        emptyView.classList.remove('hidden');
+        emptyView.classList.add('flex');
+      }
+      if (clearBtnContainer) clearBtnContainer.classList.add('hidden');
+      return;
+    }
+
+    if (emptyView) emptyView.classList.add('hidden');
+    if (clearBtnContainer) clearBtnContainer.classList.remove('hidden');
+    if (listView) {
       listView.classList.remove('hidden');
-      emptyView.classList.add('hidden');
-      emptyView.classList.remove('flex');
-      toggleLabel.textContent = '预览清空状态 (Ver Estado Vacío)';
-    } else {
-      listView.classList.add('hidden');
-      emptyView.classList.remove('hidden');
-      emptyView.classList.add('flex');
-      toggleLabel.textContent = '查看错题列表 (Ver Lista)';
+      listView.innerHTML = '';
+
+      failedList.forEach((q, idx) => {
+        const correctOpt = q.opciones.find(o => o.es_correcta);
+        const card = document.createElement('article');
+        card.className = 'bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm relative transition-all';
+        card.innerHTML = `
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-1.5 bg-surface-container px-2 py-0.5 rounded-md">
+              <span class="material-symbols-outlined text-primary text-[14px]">school</span>
+              <span class="font-label-sm text-label-sm text-on-surface font-semibold">${q.tema ? q.tema.replace(/_/g, ' ') : 'General'}</span>
+            </div>
+            <button onclick="removeSingleFailed('${q.id}')" class="text-on-surface-variant hover:text-rose-600 p-1">
+              <span class="material-symbols-outlined text-[18px]">close</span>
+            </button>
+          </div>
+          <div class="flex flex-col gap-1 mt-1">
+            <p class="font-headline-md text-headline-md text-on-surface font-semibold">${q.pregunta ? q.pregunta.zh_completa : ''}</p>
+            <p class="font-body-translation text-body-translation text-on-surface-variant">${q.pregunta ? q.pregunta.es_completa : ''}</p>
+          </div>
+          ${q.imagen_url ? `
+            <div class="w-full h-32 rounded-lg overflow-hidden relative mt-1 bg-surface-container">
+              <img class="w-full h-full object-cover" src="${q.imagen_url}" alt="DGT Question image" />
+            </div>
+          ` : ''}
+          <div class="flex flex-col gap-2 pt-1">
+            <div class="bg-secondary-container/40 rounded-lg p-2.5 flex items-start gap-2.5">
+              <div class="w-5 h-5 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0 mt-0.5 font-bold text-xs">
+                ${correctOpt ? correctOpt.id : '✓'}
+              </div>
+              <div class="flex flex-col">
+                <span class="font-label-sm text-[11px] text-on-secondary-container font-semibold uppercase tracking-wider">正确答案 · Respuesta correcta:</span>
+                <span class="font-body-md text-body-md text-on-secondary-container font-semibold">${correctOpt ? correctOpt.zh_completa : ''}</span>
+                <span class="font-body-translation text-body-translation text-on-secondary-container/90">${correctOpt ? correctOpt.es_completa : ''}</span>
+              </div>
+            </div>
+          </div>
+        `;
+        listView.appendChild(card);
+      });
+    }
+  }
+
+  function removeSingleFailed(questionId) {
+    window.AppDB.removeFailedQuestion(questionId);
+    renderFailedQuestions();
+  }
+
+  function clearAllFailed() {
+    if (confirm('确认清空所有错题记录吗？\n¿Vaciar lista de fallos?')) {
+      window.AppDB.clearFailedQuestions();
+      renderFailedQuestions();
     }
   }
 </script>

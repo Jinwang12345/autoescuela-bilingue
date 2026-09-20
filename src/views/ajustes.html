@@ -363,12 +363,21 @@
   }
 
   (function initAjustesInteractions() {
+    const settings = window.AppDB ? window.AppDB.getSettings() : { esLevel: 2, zhLevel: 2 };
+    
     const sliderEs = document.getElementById('slider-es');
     const esBadge = document.getElementById('es-preview-badge');
     if (sliderEs && esBadge) {
-      const labels = { '1': '精简', '2': '标准', '3': '大字' };
+      const labels = { '1': '精简 (14px)', '2': '标准 (16px)', '3': '大字 (18px)' };
+      const sizes = { '1': '14px', '2': '16px', '3': '18px' };
+      sliderEs.value = settings.esLevel || 2;
+      esBadge.textContent = labels[sliderEs.value] || '标准 (16px)';
+
       sliderEs.addEventListener('input', (e) => {
-        esBadge.textContent = labels[e.target.value] || '标准';
+        const val = e.target.value;
+        const fontPx = sizes[val] || '16px';
+        esBadge.textContent = labels[val] || '标准 (16px)';
+        if (window.AppDB) window.AppDB.saveSettings({ esLevel: parseInt(val), fontEs: fontPx });
       });
     }
 
@@ -378,10 +387,17 @@
     if (sliderZh && zhBadge && zhSample) {
       const sizes = { '1': '14px', '2': '16px', '3': '18px', '4': '20px' };
       const desc = { '1': '14px (精炼)', '2': '16px (推荐)', '3': '18px (醒目)', '4': '20px (特大)' };
+      sliderZh.value = settings.zhLevel || 2;
+      const initialPx = sizes[sliderZh.value] || '16px';
+      zhBadge.textContent = desc[sliderZh.value] || '16px (推荐)';
+      zhSample.style.fontSize = initialPx;
+
       sliderZh.addEventListener('input', (e) => {
-        const px = sizes[e.target.value] || '16px';
-        zhBadge.textContent = desc[e.target.value] || '16px (推荐)';
+        const val = e.target.value;
+        const px = sizes[val] || '16px';
+        zhBadge.textContent = desc[val] || '16px (推荐)';
         zhSample.style.fontSize = px;
+        if (window.AppDB) window.AppDB.saveSettings({ zhLevel: parseInt(val), fontZh: px });
         showToast(`汉字字号已调整为 ${px}`);
       });
     }
@@ -402,6 +418,10 @@
 
   function executeReset() {
     confirmResetModal(false);
-    showToast('进度已成功清空！ / ¡Progreso reiniciado!');
+    if (window.AppDB) {
+      window.AppDB.clearTestProgress();
+      window.AppDB.clearFailedQuestions();
+    }
+    showToast('所有测试进度与错题本已成功重置！ / ¡Progreso e historial reiniciados!');
   }
 </script>

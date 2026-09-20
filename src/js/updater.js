@@ -4,13 +4,12 @@
  */
 
 window.AppUpdater = {
-  CURRENT_VERSION: '1.0.0',
-  CURRENT_VERSION_CODE: 1,
+  CURRENT_VERSION: '1.0.1',
+  CURRENT_VERSION_CODE: 2,
 
   // GitHub Repository Configuration
-  // Adjust GITHUB_USER and GITHUB_REPO to match your GitHub repository
-  GITHUB_USER: '',
-  GITHUB_REPO: '',
+  GITHUB_USER: 'Jinwang12345',
+  GITHUB_REPO: 'autoescuela-bilingue',
   GITHUB_BRANCH: 'main',
 
   /**

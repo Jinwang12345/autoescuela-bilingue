@@ -1,5 +1,5 @@
 <!-- Vista: Test (模拟考试 - Guaranteed Fallbacks & Instant Rendering) -->
-<div class="relative w-full max-w-[420px] min-h-screen bg-slate-50 flex flex-col" id="test-view">
+<div class="relative w-full max-w-full md:max-w-[420px] mx-auto min-h-screen bg-slate-50 flex flex-col" id="test-view">
   <!-- Top Header -->
   <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/80 px-4 py-3 flex items-center justify-between transition-colors">
     <!-- 左侧: 返回 & 计数 -->
@@ -109,7 +109,7 @@
   </main>
 
   <!-- 底部固定操作栏 -->
-  <footer class="fixed bottom-0 max-w-[420px] w-full bg-white/95 backdrop-blur-md border-t border-slate-200 px-4 py-3 z-30 shadow-[0_-8px_20px_-6px_rgba(0,0,0,0.06)]">
+  <footer class="fixed bottom-0 max-w-full md:max-w-[420px] left-0 right-0 mx-auto w-full bg-white/95 backdrop-blur-md border-t border-slate-200 px-4 py-3 z-30 shadow-[0_-8px_20px_-6px_rgba(0,0,0,0.06)]">
     <div class="flex items-center gap-3">
       <button id="btn-quick-help" class="p-3 bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-xl active:scale-95 transition shrink-0" title="重点词汇表">
         <i class="w-5 h-5" data-lucide="book-open"></i>
@@ -137,7 +137,7 @@
 
   <!-- 词汇对照 Modal -->
   <div id="dict-modal" class="image-zoom-overlay fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-end justify-center p-0">
-    <div class="w-full max-w-[420px] bg-white rounded-t-3xl shadow-2xl p-5 pb-8 space-y-4">
+    <div class="w-full max-w-full md:max-w-[420px] bg-white rounded-t-3xl shadow-2xl p-5 pb-8 space-y-4">
       <div class="flex items-center justify-between border-b border-slate-100 pb-3">
         <div class="flex items-center gap-2">
           <div class="p-2 bg-blue-50 text-blue-600 rounded-lg">
@@ -252,6 +252,14 @@
           }
         }
       ];
+    }
+
+    // Restore saved progress if available
+    const savedProgress = window.AppDB.getTestProgress(testId);
+    if (savedProgress && typeof savedProgress.currentIndex === 'number' && !savedProgress.completed) {
+      if (savedProgress.currentIndex >= 0 && savedProgress.currentIndex < questions.length) {
+        currentIndex = savedProgress.currentIndex;
+      }
     }
 
     function refreshIcons() {
@@ -372,8 +380,11 @@
         const button = document.createElement('button');
         button.type = 'button';
         button.className = `w-full text-left p-3.5 rounded-2xl border-2 flex items-center justify-between transition-all duration-200 active:scale-[0.99] select-none ${cardStyles}`;
-        button.onclick = () => handleSelectOption(op.id);
-        button.disabled = state.isAnswerChecked;
+        button.onclick = (e) => {
+          // If click was on interactive word tooltip, let tooltip handle it
+          if (e.target.closest('.word-interactive')) return;
+          handleSelectOption(op.id);
+        };
 
         const optionContentHtml = renderInteractiveText(op, 'text-sm sm:text-base font-semibold leading-snug break-words');
 
@@ -560,6 +571,13 @@
           window.AppDB.saveFailedQuestion(currentQuestion);
         }
 
+        // Save progress for current question
+        window.AppDB.saveTestProgress(testId, {
+          currentIndex: currentIndex,
+          completed: false,
+          totalQuestions: questions.length
+        });
+
         updateOptions(currentQuestion);
         updateExplanation(currentQuestion);
         updatePrimaryButton();
@@ -574,10 +592,23 @@
           currentIndex++;
           state.isAnswerChecked = false;
           state.selectedOption = null;
+
+          // Save next question progress
+          window.AppDB.saveTestProgress(testId, {
+            currentIndex: currentIndex,
+            completed: false,
+            totalQuestions: questions.length
+          });
+
           renderCurrentQuestion();
           const mainContent = document.getElementById('main-content');
           if (mainContent) mainContent.scrollTo({ top: 0, behavior: 'smooth' });
         } else {
+          window.AppDB.saveTestProgress(testId, {
+            currentIndex: questions.length - 1,
+            completed: true,
+            totalQuestions: questions.length
+          });
           alert('🎉 测试完成！恭喜完成本套测试。\n¡Test finalizado con éxito!');
           window.location.hash = '#temario';
         }
